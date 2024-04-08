@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FE4B5DF1-1F6E-453C-BC61-A7EC3B033931}" SchemaVersion="103">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{FE4B5DF1-1F6E-453C-BC61-A7EC3B033931}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{CEC3FE8A-70AF-485A-B113-6ACC56843348}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="famas_start" ID="{69F46832-A4A7-4EFA-82F5-F1E5A645A6AE}" WorkUnitID="{2B43A5A4-EEB5-4606-91E6-3AC116B6F961}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="famas_stop" ID="{2E311437-7A56-45A6-8747-B01B28EDBBCC}" WorkUnitID="{2B43A5A4-EEB5-4606-91E6-3AC116B6F961}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+				<SoundcasterSession Name="New Soundcaster Session_01" ID="{4DB6A6A6-7217-4208-97FB-DE891DCFF032}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="M16_Distance" ID="{E3127F88-8AEA-4720-8B57-BD737CBF5001}" WorkUnitID="{2B43A5A4-EEB5-4606-91E6-3AC116B6F961}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Low_Ammo" ID="{35FA5E85-5160-4A09-821D-8155D7A4D678}"/>
+							<Value>12.3529411764706</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Distance" ID="{85B7E46F-912E-4FE5-8E7E-274C3E558768}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{D410BC42-F4F3-491E-9FC9-76CB6E0CFF2A}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64e2f8ba039835148879d43620225e11, type: 3}
+  m_Name: C722BD93-A642-4F7D-8380-C02295C26D27
+  m_EditorClassIdentifier: 
+  objectName: Burning_Car
+  id: 3397163725
+  guid: C722BD93-A642-4F7D-8380-C02295C26D27

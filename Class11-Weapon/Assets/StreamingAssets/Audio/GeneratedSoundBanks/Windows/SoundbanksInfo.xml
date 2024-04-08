@@ -1,0 +1,3377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>D:\XSSR Academy\Занятие 1\UnityProject\XSSR Kursovaya\XSSR Kursovaya_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\XSSR Academy\Занятие 1\UnityProject\XSSR Kursovaya\XSSR Kursovaya_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\XSSR Academy\Занятие 1\UnityProject\XSSR Kursovaya\XSSR Kursovaya_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\XSSR Academy\Занятие 1\UnityProject\XSSR Kursovaya\XSSR Kursovaya_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="4016948820">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="4176706795" Name="MolitvaReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MolitvaReverb"/>
+			</IncludedAuxBusses>
+			<StateGroups>
+				<StateGroup Id="1021618141" Name="MusicState" ObjectPath="\States\Default Work Unit\MusicState" GUID="{EE95692F-2F7F-4138-A5BF-C7D9FD226F7D}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\MusicState\None" GUID="{D819BE8E-AFCD-4D1C-A791-395E63513EA9}"/>
+						<State Id="2582085496" Name="Exploration" ObjectPath="\States\Default Work Unit\MusicState\Exploration" GUID="{6BDB1A34-98A1-4F6A-8F03-590464A21E9B}"/>
+						<State Id="4223512837" Name="Intense" ObjectPath="\States\Default Work Unit\MusicState\Intense" GUID="{838D7EA7-CF7E-4E93-8DC8-DB7196F83F05}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3385411612" Name="HealthDamage" ObjectPath="\States\Default Work Unit\HealthDamage" GUID="{4DCABFF3-39BE-4081-87CE-6875538D9ACD}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\HealthDamage\None" GUID="{84401585-FF0D-40C6-8EB5-8CE75888C10A}"/>
+						<State Id="1786804762" Name="Damage" ObjectPath="\States\Default Work Unit\HealthDamage\Damage" GUID="{F14E720F-0DCA-450F-8988-59C6E424C044}"/>
+						<State Id="1160234136" Name="Normal" ObjectPath="\States\Default Work Unit\HealthDamage\Normal" GUID="{05DEFF53-F3CB-48F4-9BFF-0848CDEF3021}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="4071417932" Name="Player_State" ObjectPath="\States\Default Work Unit\Player_State" GUID="{4B755C19-A685-4F65-8113-183F55FAD456}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Player_State\None" GUID="{83FAB321-715B-4C79-9E0E-7C4334E0781D}"/>
+						<State Id="2655407367" Name="Crouch" ObjectPath="\States\Default Work Unit\Player_State\Crouch" GUID="{205D6E0C-CAF0-4B7C-BBD2-57EB8641B7CC}"/>
+						<State Id="2689084685" Name="Standing" ObjectPath="\States\Default Work Unit\Player_State\Standing" GUID="{2DF32C40-9D42-4A14-B998-3D1EF5FECCA6}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="4056684167" Language="SFX" Hash="3279609547">
+			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
+			<ShortName>Master</ShortName>
+			<Path>Master.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3230058219" Name="Airplane" ObjectPath="\Events\Default Work Unit\Ambient\Airplane" MaxAttenuation="90." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="606369803" Language="SFX">
+							<ShortName>Aircraft, Interior, Jet, Aircraft Ambience, Engine, Rumble, Static SND61139.wav</ShortName>
+							<Path>SFX\Aircraft, Interior, Jet, Aircraft Ambience, Engine, Rumble, Static SND61139_A7ED1937.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="649230949" Name="Amb_2d_Outdoor" ObjectPath="\Events\Default Work Unit\Ambient\Amb_2d_Outdoor" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="117772441" Language="SFX">
+							<ShortName>Ambience, Warfare, Battlefield, Modern, Distant, High Intensity 03 SND13375.wav</ShortName>
+							<Path>SFX\Ambience, Warfare, Battlefield, Modern, Distant, High Intensity 03 SND13375_C5B05F25.wem</Path>
+						</File>
+						<File Id="317469928" Language="SFX">
+							<ShortName>Wind, General, Rumbling, Mountain, Low End, Calm  SND0037 1.wav</ShortName>
+							<Path>SFX\Wind, General, Rumbling, Mountain, Low End, Calm  SND0037 1_0149C4AB.wem</Path>
+						</File>
+						<File Id="437986976" Language="SFX">
+							<ShortName>Ambience, Warfare, Battlefield, Modern, Distant, Low Intensity 02 SND13373.wav</ShortName>
+							<Path>SFX\Ambience, Warfare, Battlefield, Modern, Distant, Low Intensity 02 SND13373_4B11C9B9.wem</Path>
+						</File>
+						<File Id="581667014" Language="SFX">
+							<ShortName>Wind, General, Gusts, Snow, Rustling, Howling 02 SND11624.wav</ShortName>
+							<Path>SFX\Wind, General, Gusts, Snow, Rustling, Howling 02 SND11624_B07476E4.wem</Path>
+						</File>
+						<File Id="736840508" Language="SFX">
+							<ShortName>Wind, Gust, Bushes, Light Wind, Gusts, Plains Observatory 01 SND81306.wav</ShortName>
+							<Path>SFX\Wind, Gust, Bushes, Light Wind, Gusts, Plains Observatory 01 SND81306_9AA6B159.wem</Path>
+						</File>
+						<File Id="844759215" Language="SFX">
+							<ShortName>Ambience, Desert, Silent Breeze, Nearby Crickets, Evening, Sasabe Road 02 SND79790.wav</ShortName>
+							<Path>SFX\Ambience, Desert, Silent Breeze, Nearby Crickets, Evening, Sasabe Road 02 SND79790_1AD70BE9.wem</Path>
+						</File>
+						<File Id="851807539" Language="SFX">
+							<ShortName>Ambience, Desert, Bushes in Wind, Insects &amp; Crickets, Cicadas, Wind Gusts 03 SND80256.wav</ShortName>
+							<Path>SFX\Ambience, Desert, Bushes in Wind, Insects &amp; Crickets, Cicadas, Wind Gusts 03 SND80256_8F6AA9A6.wem</Path>
+						</File>
+						<File Id="911801016" Language="SFX">
+							<ShortName>Ambience, Town, Village, Quiet, Night, Distant Walla SND1314 2.wav</ShortName>
+							<Path>SFX\Ambience, Town, Village, Quiet, Night, Distant Walla SND1314 2_A8754CEC.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1970784946" Name="Arabian_shop" ObjectPath="\Events\Default Work Unit\AI\Arabian_shop" MaxAttenuation="20." DurationType="OneShot" DurationMin="4.780408" DurationMax="4.780408">
+					<IncludedMemoryFiles>
+						<File Id="694314493" Language="SFX">
+							<ShortName>Arabian-shop.wav</ShortName>
+							<Path>SFX\Arabian-shop_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2175675170" Name="Arabian_taxi" ObjectPath="\Events\Default Work Unit\AI\Arabian_taxi" MaxAttenuation="20." DurationType="OneShot" DurationMin="2.742857" DurationMax="3.474286">
+					<IncludedMemoryFiles>
+						<File Id="630229932" Language="SFX">
+							<ShortName>Arabian-taxi.wav</ShortName>
+							<Path>SFX\Arabian-taxi_3F75BDB9.wem</Path>
+						</File>
+						<File Id="961175009" Language="SFX">
+							<ShortName>Arabian-taxi-2.wav</ShortName>
+							<Path>SFX\Arabian-taxi-2_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3397163725" Name="Burning_Car" ObjectPath="\Events\Default Work Unit\Ambient\Burning_Car" MaxAttenuation="50." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="83182001" Language="SFX">
+							<ShortName>Fire, Burning, Fireplace, Glass Walls, Wood Burning Medium SND35586.wav</ShortName>
+							<Path>SFX\Fire, Burning, Fireplace, Glass Walls, Wood Burning Medium SND35586_F8656720.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="279275033" Name="Burning_trash" ObjectPath="\Events\Default Work Unit\Ambient\Burning_trash" MaxAttenuation="50." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="1002045523" Language="SFX">
+							<ShortName>Fire, Burning, Wood, Crispy, Medium Intensity SND8761.wav</ShortName>
+							<Path>SFX\Fire, Burning, Wood, Crispy, Medium Intensity SND8761_58E38ED5.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3538989977" Name="Car_music" ObjectPath="\Events\Default Work Unit\Ambient\Car_music" MaxAttenuation="15." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="654393841" Language="SFX">
+							<ShortName>Amr Diab - habibi ya nour el ein (Arabic remix).wav</ShortName>
+							<Path>SFX\Amr Diab - habibi ya nour el ein (Arabic remix)_18A59087.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="428622745" Name="Car_radio" ObjectPath="\Events\Default Work Unit\Ambient\Car_radio" MaxAttenuation="15." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="464182072" Language="SFX">
+							<ShortName>Arabic Radio Chatter and Shooting sounds.wav</ShortName>
+							<Path>SFX\Arabic Radio Chatter and Shooting sounds_050A2CC1.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="955259646" Name="Car_radio_2" ObjectPath="\Events\Default Work Unit\Ambient\Car_radio_2" MaxAttenuation="15." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="753908750" Language="SFX">
+							<ShortName>Military Radio Communication ｜ High Quality Sound Effect ｜ Non Copyrighted ｜ Download Link.wav</ShortName>
+							<Path>SFX\Military Radio Communication ｜ High Quality Sound Effect ｜ Non Copyrighted ｜ Download Link_CA9F9ADF.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2568407992" Name="Church" ObjectPath="\Events\Default Work Unit\Ambient\Church" MaxAttenuation="100." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="942985107" Language="SFX">
+							<ShortName>Самый Красивый Азан  أجمل أذان Amazing azan.wav</ShortName>
+							<Path>SFX\Самый Красивый Азан  أجمل أذان Amazing azan_7703CEE2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="779278001" Name="Death" ObjectPath="\Events\Default Work Unit\Character\Death" DurationType="OneShot" DurationMin="1.133777" DurationMax="2.036437">
+					<IncludedMemoryFiles>
+						<File Id="152041799" Language="SFX">
+							<ShortName>CC-CK VO Male 10 Deathscream OD.wav</ShortName>
+							<Path>SFX\CC-CK VO Male 10 Deathscream OD_9BBEFFC6.wem</Path>
+						</File>
+						<File Id="224652545" Language="SFX">
+							<ShortName>CC-CK VO Male 10 Deathscream OD 3.wav</ShortName>
+							<Path>SFX\CC-CK VO Male 10 Deathscream OD 3_0F3F8A09.wem</Path>
+						</File>
+						<File Id="360449319" Language="SFX">
+							<ShortName>CC-CK VO Male 10 Deathscream OD 2.wav</ShortName>
+							<Path>SFX\CC-CK VO Male 10 Deathscream OD 2_EB93E6BF.wem</Path>
+						</File>
+						<File Id="654850065" Language="SFX">
+							<ShortName>CC-CK VO Male 10 Deathscream OD 5.wav</ShortName>
+							<Path>SFX\CC-CK VO Male 10 Deathscream OD 5_D65DA840.wem</Path>
+						</File>
+						<File Id="948374825" Language="SFX">
+							<ShortName>CC-CK VO Male 10 Deathscream OD 4.wav</ShortName>
+							<Path>SFX\CC-CK VO Male 10 Deathscream OD 4_0C7466F7.wem</Path>
+						</File>
+						<File Id="953483911" Language="SFX">
+							<ShortName>CC-CK VO Male 10 Deathscream OD 1.wav</ShortName>
+							<Path>SFX\CC-CK VO Male 10 Deathscream OD 1_66FB5623.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="10840870" Name="Death_AI" ObjectPath="\Events\Default Work Unit\Character\Death_AI" MaxAttenuation="20." DurationType="OneShot" DurationMin="1.253896" DurationMax="1.978934">
+					<IncludedMemoryFiles>
+						<File Id="171092975" Language="SFX">
+							<ShortName>CC-CK VO Male 06 Deathscream OD 5.wav</ShortName>
+							<Path>SFX\CC-CK VO Male 06 Deathscream OD 5_4DBFB3ED.wem</Path>
+						</File>
+						<File Id="679892758" Language="SFX">
+							<ShortName>CC-CK VO Male 06 Deathscream OD 1.wav</ShortName>
+							<Path>SFX\CC-CK VO Male 06 Deathscream OD 1_59A90E0E.wem</Path>
+						</File>
+						<File Id="863518100" Language="SFX">
+							<ShortName>CC-CK VO Male 06 Deathscream OD 4.wav</ShortName>
+							<Path>SFX\CC-CK VO Male 06 Deathscream OD 4_D91DBFF7.wem</Path>
+						</File>
+						<File Id="873090001" Language="SFX">
+							<ShortName>CC-CK VO Male 06 Deathscream OD 2.wav</ShortName>
+							<Path>SFX\CC-CK VO Male 06 Deathscream OD 2_1CAAAE09.wem</Path>
+						</File>
+						<File Id="983530121" Language="SFX">
+							<ShortName>CC-CK VO Male 06 Deathscream OD 3.wav</ShortName>
+							<Path>SFX\CC-CK VO Male 06 Deathscream OD 3_E7067F8D.wem</Path>
+						</File>
+						<File Id="1037294263" Language="SFX">
+							<ShortName>CC-CK VO Male 06 Deathscream OD 6.wav</ShortName>
+							<Path>SFX\CC-CK VO Male 06 Deathscream OD 6_235F70FA.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="268529915" Name="engine" ObjectPath="\Events\Default Work Unit\Car\engine" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="177643470" Language="SFX">
+							<ShortName>1975_Cadillac_Fleetwood_Car_Start_ODV-1000-037.wav</ShortName>
+							<Path>SFX\1975_Cadillac_Fleetwood_Car_Start_ODV-1000-037_3F75BDB9.wem</Path>
+						</File>
+						<File Id="179010826" Language="SFX">
+							<ShortName>Landcruizer_engine_3000_onload.wav</ShortName>
+							<Path>SFX\Landcruizer_engine_3000_onload_ECF266A7.wem</Path>
+						</File>
+						<File Id="553430201" Language="SFX">
+							<ShortName>Landcruizer_accel_03.wav</ShortName>
+							<Path>SFX\Landcruizer_accel_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="583683252" Language="SFX">
+							<ShortName>Landcruizer_engine_3000_offload.wav</ShortName>
+							<Path>SFX\Landcruizer_engine_3000_offload_3656895E.wem</Path>
+						</File>
+						<File Id="678181111" Language="SFX">
+							<ShortName>Landcruizer_accel_01.wav</ShortName>
+							<Path>SFX\Landcruizer_accel_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="685257663" Language="SFX">
+							<ShortName>Landcruizer_engine_idle.wav</ShortName>
+							<Path>SFX\Landcruizer_engine_idle_B1BC13A6.wem</Path>
+						</File>
+						<File Id="740022766" Language="SFX">
+							<ShortName>Landcruizer_engine_1000_offload.wav</ShortName>
+							<Path>SFX\Landcruizer_engine_1000_offload_97C65387.wem</Path>
+						</File>
+						<File Id="846711136" Language="SFX">
+							<ShortName>Landcruizer_engine_1000_onload.wav</ShortName>
+							<Path>SFX\Landcruizer_engine_1000_onload_C28527CD.wem</Path>
+						</File>
+						<File Id="962672369" Language="SFX">
+							<ShortName>Landcruizer_accel_04.wav</ShortName>
+							<Path>SFX\Landcruizer_accel_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1002557235" Language="SFX">
+							<ShortName>Landcruizer_accel_02.wav</ShortName>
+							<Path>SFX\Landcruizer_accel_02_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{9FFCF771-825E-4107-BC95-66CDC6E64977}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{BD39FB8E-69F6-4D80-A8EA-0069F70BCB16}">
+							<Media>
+								<File Id="553430201"/>
+								<File Id="678181111"/>
+								<File Id="962672369"/>
+								<File Id="1002557235"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="142588198" Name="Female_soldier" ObjectPath="\Events\Default Work Unit\AI\Female_soldier" MaxAttenuation="20." DurationType="OneShot" DurationMin="2.533878" DurationMax="2.533878">
+					<IncludedMemoryFiles>
+						<File Id="1027308832" Language="SFX">
+							<ShortName>Female-Soldier-ElevenLabs.wav</ShortName>
+							<Path>SFX\Female-Soldier-ElevenLabs_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Character\Footsteps" DurationType="OneShot" DurationMin="0.943874" DurationMax="2.118926">
+					<IncludedMemoryFiles>
+						<File Id="572492" Language="SFX">
+							<ShortName>walk_sand_01.wav</ShortName>
+							<Path>SFX\walk_sand_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="4172481" Language="SFX">
+							<ShortName>walk_conrete_03.wav</ShortName>
+							<Path>SFX\walk_conrete_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="5777252" Language="SFX">
+							<ShortName>walk_water_06.wav</ShortName>
+							<Path>SFX\walk_water_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="6784804" Language="SFX">
+							<ShortName>walk_conrete_01.wav</ShortName>
+							<Path>SFX\walk_conrete_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="7281525" Language="SFX">
+							<ShortName>walk_asphalt_04.wav</ShortName>
+							<Path>SFX\walk_asphalt_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="9543102" Language="SFX">
+							<ShortName>run_asphalt_07.wav</ShortName>
+							<Path>SFX\run_asphalt_07_3F75BDB9.wem</Path>
+						</File>
+						<File Id="21655705" Language="SFX">
+							<ShortName>run_sand_02.wav</ShortName>
+							<Path>SFX\run_sand_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="22002508" Language="SFX">
+							<ShortName>run_tile_06.wav</ShortName>
+							<Path>SFX\run_tile_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="39800321" Language="SFX">
+							<ShortName>run_asphalt_03.wav</ShortName>
+							<Path>SFX\run_asphalt_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="45155660" Language="SFX">
+							<ShortName>walk_asphalt_03.wav</ShortName>
+							<Path>SFX\walk_asphalt_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="53748300" Language="SFX">
+							<ShortName>walk_metal_04.wav</ShortName>
+							<Path>SFX\walk_metal_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="63815377" Language="SFX">
+							<ShortName>br_idle_exh_st_01.wav</ShortName>
+							<Path>SFX\br_idle_exh_st_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="65324183" Language="SFX">
+							<ShortName>walk_dirt_02.wav</ShortName>
+							<Path>SFX\walk_dirt_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="71604472" Language="SFX">
+							<ShortName>walk_asphalt_08.wav</ShortName>
+							<Path>SFX\walk_asphalt_08_3F75BDB9.wem</Path>
+						</File>
+						<File Id="91933631" Language="SFX">
+							<ShortName>run_stairs_03.wav</ShortName>
+							<Path>SFX\run_stairs_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="99872482" Language="SFX">
+							<ShortName>walk_tile_03.wav</ShortName>
+							<Path>SFX\walk_tile_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="109718874" Language="SFX">
+							<ShortName>run_concrete_04.wav</ShortName>
+							<Path>SFX\run_concrete_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="110057127" Language="SFX">
+							<ShortName>run_water_04.wav</ShortName>
+							<Path>SFX\run_water_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="131379250" Language="SFX">
+							<ShortName>walk_sand_02.wav</ShortName>
+							<Path>SFX\walk_sand_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="147459680" Language="SFX">
+							<ShortName>run_sand_08.wav</ShortName>
+							<Path>SFX\run_sand_08_3F75BDB9.wem</Path>
+						</File>
+						<File Id="153228227" Language="SFX">
+							<ShortName>run_metal_08.wav</ShortName>
+							<Path>SFX\run_metal_08_3F75BDB9.wem</Path>
+						</File>
+						<File Id="154019227" Language="SFX">
+							<ShortName>run_water_07.wav</ShortName>
+							<Path>SFX\run_water_07_3F75BDB9.wem</Path>
+						</File>
+						<File Id="158257415" Language="SFX">
+							<ShortName>br_idle_ex_01.wav</ShortName>
+							<Path>SFX\br_idle_ex_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="166345206" Language="SFX">
+							<ShortName>run_metal_03.wav</ShortName>
+							<Path>SFX\run_metal_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="173890858" Language="SFX">
+							<ShortName>run_asphalt_02.wav</ShortName>
+							<Path>SFX\run_asphalt_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="203312392" Language="SFX">
+							<ShortName>walk_dirt_06.wav</ShortName>
+							<Path>SFX\walk_dirt_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="227600004" Language="SFX">
+							<ShortName>run_dirt_03.wav</ShortName>
+							<Path>SFX\run_dirt_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="236011146" Language="SFX">
+							<ShortName>br_idle_in_01.wav</ShortName>
+							<Path>SFX\br_idle_in_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="240086961" Language="SFX">
+							<ShortName>run_dirt_05.wav</ShortName>
+							<Path>SFX\run_dirt_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="240521805" Language="SFX">
+							<ShortName>walk_water_04.wav</ShortName>
+							<Path>SFX\walk_water_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="243154032" Language="SFX">
+							<ShortName>walk_conrete_02.wav</ShortName>
+							<Path>SFX\walk_conrete_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="243270223" Language="SFX">
+							<ShortName>walk_stairs_07.wav</ShortName>
+							<Path>SFX\walk_stairs_07_3F75BDB9.wem</Path>
+						</File>
+						<File Id="245714904" Language="SFX">
+							<ShortName>run_asphalt_06.wav</ShortName>
+							<Path>SFX\run_asphalt_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="251570515" Language="SFX">
+							<ShortName>walk_stairs_03.wav</ShortName>
+							<Path>SFX\walk_stairs_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="255326782" Language="SFX">
+							<ShortName>run_stairs_04.wav</ShortName>
+							<Path>SFX\run_stairs_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="270082199" Language="SFX">
+							<ShortName>run_stairs_07.wav</ShortName>
+							<Path>SFX\run_stairs_07_3F75BDB9.wem</Path>
+						</File>
+						<File Id="281325002" Language="SFX">
+							<ShortName>br_idle_in_st_01.wav</ShortName>
+							<Path>SFX\br_idle_in_st_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="333550203" Language="SFX">
+							<ShortName>br_idle_in_st_02.wav</ShortName>
+							<Path>SFX\br_idle_in_st_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="335230750" Language="SFX">
+							<ShortName>run_sand_06.wav</ShortName>
+							<Path>SFX\run_sand_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="336690095" Language="SFX">
+							<ShortName>walk_dirt_04.wav</ShortName>
+							<Path>SFX\walk_dirt_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="339937886" Language="SFX">
+							<ShortName>walk_metal_03.wav</ShortName>
+							<Path>SFX\walk_metal_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="357045909" Language="SFX">
+							<ShortName>run_tile_05.wav</ShortName>
+							<Path>SFX\run_tile_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="362788025" Language="SFX">
+							<ShortName>walk_asphalt_02.wav</ShortName>
+							<Path>SFX\walk_asphalt_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="388395184" Language="SFX">
+							<ShortName>walk_conrete_06.wav</ShortName>
+							<Path>SFX\walk_conrete_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="402649577" Language="SFX">
+							<ShortName>run_concrete_07.wav</ShortName>
+							<Path>SFX\run_concrete_07_3F75BDB9.wem</Path>
+						</File>
+						<File Id="412924152" Language="SFX">
+							<ShortName>walk_stairs_05.wav</ShortName>
+							<Path>SFX\walk_stairs_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="415254982" Language="SFX">
+							<ShortName>walk_sand_08.wav</ShortName>
+							<Path>SFX\walk_sand_08_3F75BDB9.wem</Path>
+						</File>
+						<File Id="423206644" Language="SFX">
+							<ShortName>run_metal_02.wav</ShortName>
+							<Path>SFX\run_metal_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="423268140" Language="SFX">
+							<ShortName>walk_sand_04.wav</ShortName>
+							<Path>SFX\walk_sand_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="434049940" Language="SFX">
+							<ShortName>walk_tile_01.wav</ShortName>
+							<Path>SFX\walk_tile_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="436962740" Language="SFX">
+							<ShortName>walk_water_03.wav</ShortName>
+							<Path>SFX\walk_water_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="439629893" Language="SFX">
+							<ShortName>walk_sand_03.wav</ShortName>
+							<Path>SFX\walk_sand_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="440375199" Language="SFX">
+							<ShortName>br_idle_exh_st_02.wav</ShortName>
+							<Path>SFX\br_idle_exh_st_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="442429633" Language="SFX">
+							<ShortName>walk_stairs_06.wav</ShortName>
+							<Path>SFX\walk_stairs_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="448000253" Language="SFX">
+							<ShortName>walk_asphalt_05.wav</ShortName>
+							<Path>SFX\walk_asphalt_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="453145659" Language="SFX">
+							<ShortName>walk_stairs_01.wav</ShortName>
+							<Path>SFX\walk_stairs_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="453636867" Language="SFX">
+							<ShortName>run_dirt_08.wav</ShortName>
+							<Path>SFX\run_dirt_08_3F75BDB9.wem</Path>
+						</File>
+						<File Id="461770661" Language="SFX">
+							<ShortName>run_metal_05.wav</ShortName>
+							<Path>SFX\run_metal_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="464564893" Language="SFX">
+							<ShortName>walk_sand_07.wav</ShortName>
+							<Path>SFX\walk_sand_07_3F75BDB9.wem</Path>
+						</File>
+						<File Id="477727749" Language="SFX">
+							<ShortName>walk_tile_04.wav</ShortName>
+							<Path>SFX\walk_tile_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="478907415" Language="SFX">
+							<ShortName>walk_water_08.wav</ShortName>
+							<Path>SFX\walk_water_08_3F75BDB9.wem</Path>
+						</File>
+						<File Id="481879951" Language="SFX">
+							<ShortName>walk_tile_06.wav</ShortName>
+							<Path>SFX\walk_tile_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="494762954" Language="SFX">
+							<ShortName>run_dirt_06.wav</ShortName>
+							<Path>SFX\run_dirt_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="501061865" Language="SFX">
+							<ShortName>walk_dirt_07.wav</ShortName>
+							<Path>SFX\walk_dirt_07_3F75BDB9.wem</Path>
+						</File>
+						<File Id="505040408" Language="SFX">
+							<ShortName>walk_stairs_08.wav</ShortName>
+							<Path>SFX\walk_stairs_08_3F75BDB9.wem</Path>
+						</File>
+						<File Id="505702308" Language="SFX">
+							<ShortName>run_water_06.wav</ShortName>
+							<Path>SFX\run_water_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="513366313" Language="SFX">
+							<ShortName>run_water_02.wav</ShortName>
+							<Path>SFX\run_water_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="518410148" Language="SFX">
+							<ShortName>walk_metal_08.wav</ShortName>
+							<Path>SFX\walk_metal_08_3F75BDB9.wem</Path>
+						</File>
+						<File Id="520507252" Language="SFX">
+							<ShortName>walk_dirt_08.wav</ShortName>
+							<Path>SFX\walk_dirt_08_3F75BDB9.wem</Path>
+						</File>
+						<File Id="524309823" Language="SFX">
+							<ShortName>walk_water_05.wav</ShortName>
+							<Path>SFX\walk_water_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="530196515" Language="SFX">
+							<ShortName>run_metal_07.wav</ShortName>
+							<Path>SFX\run_metal_07_3F75BDB9.wem</Path>
+						</File>
+						<File Id="535544816" Language="SFX">
+							<ShortName>run_concrete_01.wav</ShortName>
+							<Path>SFX\run_concrete_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="561269215" Language="SFX">
+							<ShortName>run_sand_03.wav</ShortName>
+							<Path>SFX\run_sand_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="561589775" Language="SFX">
+							<ShortName>walk_stairs_02.wav</ShortName>
+							<Path>SFX\walk_stairs_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="569061588" Language="SFX">
+							<ShortName>run_tile_04.wav</ShortName>
+							<Path>SFX\run_tile_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="574474662" Language="SFX">
+							<ShortName>run_stairs_01.wav</ShortName>
+							<Path>SFX\run_stairs_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="584144148" Language="SFX">
+							<ShortName>walk_sand_06.wav</ShortName>
+							<Path>SFX\walk_sand_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="590806747" Language="SFX">
+							<ShortName>br_idle_exh_st_03.wav</ShortName>
+							<Path>SFX\br_idle_exh_st_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="594858545" Language="SFX">
+							<ShortName>run_water_05.wav</ShortName>
+							<Path>SFX\run_water_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="608748939" Language="SFX">
+							<ShortName>walk_metal_05.wav</ShortName>
+							<Path>SFX\walk_metal_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="613603206" Language="SFX">
+							<ShortName>walk_asphalt_07.wav</ShortName>
+							<Path>SFX\walk_asphalt_07_3F75BDB9.wem</Path>
+						</File>
+						<File Id="614504368" Language="SFX">
+							<ShortName>run_metal_06.wav</ShortName>
+							<Path>SFX\run_metal_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="647728206" Language="SFX">
+							<ShortName>run_water_03.wav</ShortName>
+							<Path>SFX\run_water_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="648062257" Language="SFX">
+							<ShortName>run_metal_04.wav</ShortName>
+							<Path>SFX\run_metal_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="663520627" Language="SFX">
+							<ShortName>run_asphalt_08.wav</ShortName>
+							<Path>SFX\run_asphalt_08_3F75BDB9.wem</Path>
+						</File>
+						<File Id="665506395" Language="SFX">
+							<ShortName>br_idle_in_03.wav</ShortName>
+							<Path>SFX\br_idle_in_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="674339546" Language="SFX">
+							<ShortName>walk_metal_02.wav</ShortName>
+							<Path>SFX\walk_metal_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="676644296" Language="SFX">
+							<ShortName>run_tile_03.wav</ShortName>
+							<Path>SFX\run_tile_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="677570173" Language="SFX">
+							<ShortName>walk_water_02.wav</ShortName>
+							<Path>SFX\walk_water_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="694887041" Language="SFX">
+							<ShortName>walk_water_07.wav</ShortName>
+							<Path>SFX\walk_water_07_3F75BDB9.wem</Path>
+						</File>
+						<File Id="698372416" Language="SFX">
+							<ShortName>run_sand_04.wav</ShortName>
+							<Path>SFX\run_sand_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="708621088" Language="SFX">
+							<ShortName>run_concrete_05.wav</ShortName>
+							<Path>SFX\run_concrete_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="708978374" Language="SFX">
+							<ShortName>walk_tile_02.wav</ShortName>
+							<Path>SFX\walk_tile_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="732271156" Language="SFX">
+							<ShortName>walk_tile_05.wav</ShortName>
+							<Path>SFX\walk_tile_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="732646798" Language="SFX">
+							<ShortName>run_sand_07.wav</ShortName>
+							<Path>SFX\run_sand_07_3F75BDB9.wem</Path>
+						</File>
+						<File Id="741644430" Language="SFX">
+							<ShortName>br_idle_ex_02.wav</ShortName>
+							<Path>SFX\br_idle_ex_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="766335675" Language="SFX">
+							<ShortName>run_water_01.wav</ShortName>
+							<Path>SFX\run_water_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="766960004" Language="SFX">
+							<ShortName>walk_conrete_07.wav</ShortName>
+							<Path>SFX\walk_conrete_07_3F75BDB9.wem</Path>
+						</File>
+						<File Id="781412925" Language="SFX">
+							<ShortName>run_sand_05.wav</ShortName>
+							<Path>SFX\run_sand_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="783084789" Language="SFX">
+							<ShortName>walk_dirt_05.wav</ShortName>
+							<Path>SFX\walk_dirt_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="786110312" Language="SFX">
+							<ShortName>run_asphalt_01.wav</ShortName>
+							<Path>SFX\run_asphalt_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="788316017" Language="SFX">
+							<ShortName>walk_conrete_08.wav</ShortName>
+							<Path>SFX\walk_conrete_08_3F75BDB9.wem</Path>
+						</File>
+						<File Id="791616893" Language="SFX">
+							<ShortName>run_dirt_07.wav</ShortName>
+							<Path>SFX\run_dirt_07_3F75BDB9.wem</Path>
+						</File>
+						<File Id="804326711" Language="SFX">
+							<ShortName>run_sand_01.wav</ShortName>
+							<Path>SFX\run_sand_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="806551010" Language="SFX">
+							<ShortName>walk_water_01.wav</ShortName>
+							<Path>SFX\walk_water_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="806595770" Language="SFX">
+							<ShortName>run_concrete_03.wav</ShortName>
+							<Path>SFX\run_concrete_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="807276564" Language="SFX">
+							<ShortName>run_asphalt_05.wav</ShortName>
+							<Path>SFX\run_asphalt_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="815849921" Language="SFX">
+							<ShortName>run_tile_02.wav</ShortName>
+							<Path>SFX\run_tile_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="816822530" Language="SFX">
+							<ShortName>run_water_08.wav</ShortName>
+							<Path>SFX\run_water_08_3F75BDB9.wem</Path>
+						</File>
+						<File Id="818073608" Language="SFX">
+							<ShortName>run_concrete_06.wav</ShortName>
+							<Path>SFX\run_concrete_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="818327783" Language="SFX">
+							<ShortName>walk_metal_01.wav</ShortName>
+							<Path>SFX\walk_metal_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="818496557" Language="SFX">
+							<ShortName>run_stairs_02.wav</ShortName>
+							<Path>SFX\run_stairs_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="829045770" Language="SFX">
+							<ShortName>run_dirt_02.wav</ShortName>
+							<Path>SFX\run_dirt_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="831859524" Language="SFX">
+							<ShortName>walk_tile_08.wav</ShortName>
+							<Path>SFX\walk_tile_08_3F75BDB9.wem</Path>
+						</File>
+						<File Id="858257993" Language="SFX">
+							<ShortName>run_metal_01.wav</ShortName>
+							<Path>SFX\run_metal_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="863211622" Language="SFX">
+							<ShortName>run_tile_08.wav</ShortName>
+							<Path>SFX\run_tile_08_3F75BDB9.wem</Path>
+						</File>
+						<File Id="868729774" Language="SFX">
+							<ShortName>run_tile_07.wav</ShortName>
+							<Path>SFX\run_tile_07_3F75BDB9.wem</Path>
+						</File>
+						<File Id="877693221" Language="SFX">
+							<ShortName>walk_asphalt_01.wav</ShortName>
+							<Path>SFX\walk_asphalt_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="879845306" Language="SFX">
+							<ShortName>run_stairs_05.wav</ShortName>
+							<Path>SFX\run_stairs_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="899998273" Language="SFX">
+							<ShortName>run_tile_01.wav</ShortName>
+							<Path>SFX\run_tile_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="904825094" Language="SFX">
+							<ShortName>run_dirt_01.wav</ShortName>
+							<Path>SFX\run_dirt_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="906113243" Language="SFX">
+							<ShortName>walk_stairs_04.wav</ShortName>
+							<Path>SFX\walk_stairs_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="908357883" Language="SFX">
+							<ShortName>walk_conrete_04.wav</ShortName>
+							<Path>SFX\walk_conrete_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="913800372" Language="SFX">
+							<ShortName>walk_dirt_03.wav</ShortName>
+							<Path>SFX\walk_dirt_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="917391719" Language="SFX">
+							<ShortName>walk_dirt_01.wav</ShortName>
+							<Path>SFX\walk_dirt_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="924476219" Language="SFX">
+							<ShortName>run_dirt_04.wav</ShortName>
+							<Path>SFX\run_dirt_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="924687597" Language="SFX">
+							<ShortName>br_idle_ex_03.wav</ShortName>
+							<Path>SFX\br_idle_ex_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="932821934" Language="SFX">
+							<ShortName>walk_metal_07.wav</ShortName>
+							<Path>SFX\walk_metal_07_3F75BDB9.wem</Path>
+						</File>
+						<File Id="935243100" Language="SFX">
+							<ShortName>walk_metal_06.wav</ShortName>
+							<Path>SFX\walk_metal_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="938368348" Language="SFX">
+							<ShortName>br_idle_in_02.wav</ShortName>
+							<Path>SFX\br_idle_in_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="949668919" Language="SFX">
+							<ShortName>br_idle_in_st_03.wav</ShortName>
+							<Path>SFX\br_idle_in_st_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="975303375" Language="SFX">
+							<ShortName>walk_sand_05.wav</ShortName>
+							<Path>SFX\walk_sand_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="976635026" Language="SFX">
+							<ShortName>run_concrete_02.wav</ShortName>
+							<Path>SFX\run_concrete_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="982948301" Language="SFX">
+							<ShortName>run_stairs_08.wav</ShortName>
+							<Path>SFX\run_stairs_08_3F75BDB9.wem</Path>
+						</File>
+						<File Id="990948762" Language="SFX">
+							<ShortName>walk_tile_07.wav</ShortName>
+							<Path>SFX\walk_tile_07_3F75BDB9.wem</Path>
+						</File>
+						<File Id="992136607" Language="SFX">
+							<ShortName>walk_asphalt_06.wav</ShortName>
+							<Path>SFX\walk_asphalt_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1006054301" Language="SFX">
+							<ShortName>run_asphalt_04.wav</ShortName>
+							<Path>SFX\run_asphalt_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1043113213" Language="SFX">
+							<ShortName>run_concrete_08.wav</ShortName>
+							<Path>SFX\run_concrete_08_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1059736148" Language="SFX">
+							<ShortName>walk_conrete_05.wav</ShortName>
+							<Path>SFX\walk_conrete_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1070481845" Language="SFX">
+							<ShortName>run_stairs_06.wav</ShortName>
+							<Path>SFX\run_stairs_06_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{171054FC-F81E-4FF9-BC68-F5E699E31E32}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{879C8F42-43DD-4C6C-8980-767B65660D43}">
+							<DefaultSwitchValue>{30A86263-03E4-412D-99AF-8145171783AA}</DefaultSwitchValue>
+							<Children>
+								<SwitchContainer SwitchValue="{2F577849-B1CA-4494-A688-7282F5635AA9}">
+									<Media>
+										<File Id="227600004"/>
+										<File Id="240086961"/>
+										<File Id="453636867"/>
+										<File Id="494762954"/>
+										<File Id="791616893"/>
+										<File Id="829045770"/>
+										<File Id="904825094"/>
+										<File Id="924476219"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{7BEC284F-8642-4453-B2D8-17011BE75F13}">
+									<Media>
+										<File Id="9543102"/>
+										<File Id="39800321"/>
+										<File Id="173890858"/>
+										<File Id="245714904"/>
+										<File Id="663520627"/>
+										<File Id="786110312"/>
+										<File Id="807276564"/>
+										<File Id="1006054301"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{30A86263-03E4-412D-99AF-8145171783AA}">
+									<Media>
+										<File Id="21655705"/>
+										<File Id="147459680"/>
+										<File Id="335230750"/>
+										<File Id="561269215"/>
+										<File Id="698372416"/>
+										<File Id="732646798"/>
+										<File Id="781412925"/>
+										<File Id="804326711"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{7177126F-F1CE-4AC5-AEBB-C685A99A6FA0}">
+									<Media>
+										<File Id="91933631"/>
+										<File Id="255326782"/>
+										<File Id="270082199"/>
+										<File Id="574474662"/>
+										<File Id="818496557"/>
+										<File Id="879845306"/>
+										<File Id="982948301"/>
+										<File Id="1070481845"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{DFFFA081-D2BF-4355-BEC8-3A9A94ED3446}">
+									<Media>
+										<File Id="109718874"/>
+										<File Id="402649577"/>
+										<File Id="535544816"/>
+										<File Id="708621088"/>
+										<File Id="806595770"/>
+										<File Id="818073608"/>
+										<File Id="976635026"/>
+										<File Id="1043113213"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{A0F1EFAB-272F-4A21-9E68-7E16EBD4974E}">
+									<Media>
+										<File Id="110057127"/>
+										<File Id="154019227"/>
+										<File Id="505702308"/>
+										<File Id="513366313"/>
+										<File Id="594858545"/>
+										<File Id="647728206"/>
+										<File Id="766335675"/>
+										<File Id="816822530"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{9BDC7FB0-8124-4278-BDB8-EA0351663A07}">
+									<Media>
+										<File Id="22002508"/>
+										<File Id="357045909"/>
+										<File Id="569061588"/>
+										<File Id="676644296"/>
+										<File Id="815849921"/>
+										<File Id="863211622"/>
+										<File Id="868729774"/>
+										<File Id="899998273"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{56F22BF3-89A1-4E78-9A88-E18179E31739}">
+									<Media>
+										<File Id="153228227"/>
+										<File Id="166345206"/>
+										<File Id="423206644"/>
+										<File Id="461770661"/>
+										<File Id="530196515"/>
+										<File Id="614504368"/>
+										<File Id="648062257"/>
+										<File Id="858257993"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{2931C777-6C80-48CF-92C3-5054D5D1B492}">
+							<DefaultSwitchValue>{30A86263-03E4-412D-99AF-8145171783AA}</DefaultSwitchValue>
+							<Children>
+								<SwitchContainer SwitchValue="{2F577849-B1CA-4494-A688-7282F5635AA9}">
+									<Media>
+										<File Id="227600004"/>
+										<File Id="240086961"/>
+										<File Id="453636867"/>
+										<File Id="494762954"/>
+										<File Id="791616893"/>
+										<File Id="829045770"/>
+										<File Id="904825094"/>
+										<File Id="924476219"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{7BEC284F-8642-4453-B2D8-17011BE75F13}">
+									<Media>
+										<File Id="9543102"/>
+										<File Id="39800321"/>
+										<File Id="173890858"/>
+										<File Id="245714904"/>
+										<File Id="663520627"/>
+										<File Id="786110312"/>
+										<File Id="807276564"/>
+										<File Id="1006054301"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{30A86263-03E4-412D-99AF-8145171783AA}">
+									<Media>
+										<File Id="21655705"/>
+										<File Id="147459680"/>
+										<File Id="335230750"/>
+										<File Id="561269215"/>
+										<File Id="698372416"/>
+										<File Id="732646798"/>
+										<File Id="781412925"/>
+										<File Id="804326711"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{7177126F-F1CE-4AC5-AEBB-C685A99A6FA0}">
+									<Media>
+										<File Id="91933631"/>
+										<File Id="255326782"/>
+										<File Id="270082199"/>
+										<File Id="574474662"/>
+										<File Id="818496557"/>
+										<File Id="879845306"/>
+										<File Id="982948301"/>
+										<File Id="1070481845"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{DFFFA081-D2BF-4355-BEC8-3A9A94ED3446}">
+									<Media>
+										<File Id="109718874"/>
+										<File Id="402649577"/>
+										<File Id="535544816"/>
+										<File Id="708621088"/>
+										<File Id="806595770"/>
+										<File Id="818073608"/>
+										<File Id="976635026"/>
+										<File Id="1043113213"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{A0F1EFAB-272F-4A21-9E68-7E16EBD4974E}">
+									<Media>
+										<File Id="110057127"/>
+										<File Id="154019227"/>
+										<File Id="505702308"/>
+										<File Id="513366313"/>
+										<File Id="594858545"/>
+										<File Id="647728206"/>
+										<File Id="766335675"/>
+										<File Id="816822530"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{9BDC7FB0-8124-4278-BDB8-EA0351663A07}">
+									<Media>
+										<File Id="22002508"/>
+										<File Id="357045909"/>
+										<File Id="569061588"/>
+										<File Id="676644296"/>
+										<File Id="815849921"/>
+										<File Id="863211622"/>
+										<File Id="868729774"/>
+										<File Id="899998273"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{56F22BF3-89A1-4E78-9A88-E18179E31739}">
+									<Media>
+										<File Id="153228227"/>
+										<File Id="166345206"/>
+										<File Id="423206644"/>
+										<File Id="461770661"/>
+										<File Id="530196515"/>
+										<File Id="614504368"/>
+										<File Id="648062257"/>
+										<File Id="858257993"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{5D2B587A-1A53-46CF-80EA-FD67A252EB3F}">
+							<DefaultSwitchValue>{30A86263-03E4-412D-99AF-8145171783AA}</DefaultSwitchValue>
+							<Children>
+								<SwitchContainer SwitchValue="{2F577849-B1CA-4494-A688-7282F5635AA9}">
+									<Media>
+										<File Id="65324183"/>
+										<File Id="203312392"/>
+										<File Id="336690095"/>
+										<File Id="501061865"/>
+										<File Id="520507252"/>
+										<File Id="783084789"/>
+										<File Id="913800372"/>
+										<File Id="917391719"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{7BEC284F-8642-4453-B2D8-17011BE75F13}">
+									<Media>
+										<File Id="7281525"/>
+										<File Id="45155660"/>
+										<File Id="71604472"/>
+										<File Id="362788025"/>
+										<File Id="448000253"/>
+										<File Id="613603206"/>
+										<File Id="877693221"/>
+										<File Id="992136607"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{30A86263-03E4-412D-99AF-8145171783AA}">
+									<Media>
+										<File Id="572492"/>
+										<File Id="131379250"/>
+										<File Id="415254982"/>
+										<File Id="423268140"/>
+										<File Id="439629893"/>
+										<File Id="464564893"/>
+										<File Id="584144148"/>
+										<File Id="975303375"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{7177126F-F1CE-4AC5-AEBB-C685A99A6FA0}">
+									<Media>
+										<File Id="243270223"/>
+										<File Id="251570515"/>
+										<File Id="412924152"/>
+										<File Id="442429633"/>
+										<File Id="453145659"/>
+										<File Id="505040408"/>
+										<File Id="561589775"/>
+										<File Id="906113243"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{DFFFA081-D2BF-4355-BEC8-3A9A94ED3446}">
+									<Media>
+										<File Id="4172481"/>
+										<File Id="6784804"/>
+										<File Id="243154032"/>
+										<File Id="388395184"/>
+										<File Id="766960004"/>
+										<File Id="788316017"/>
+										<File Id="908357883"/>
+										<File Id="1059736148"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{A0F1EFAB-272F-4A21-9E68-7E16EBD4974E}">
+									<Media>
+										<File Id="5777252"/>
+										<File Id="240521805"/>
+										<File Id="436962740"/>
+										<File Id="478907415"/>
+										<File Id="524309823"/>
+										<File Id="677570173"/>
+										<File Id="694887041"/>
+										<File Id="806551010"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{9BDC7FB0-8124-4278-BDB8-EA0351663A07}">
+									<Media>
+										<File Id="99872482"/>
+										<File Id="434049940"/>
+										<File Id="477727749"/>
+										<File Id="481879951"/>
+										<File Id="708978374"/>
+										<File Id="732271156"/>
+										<File Id="831859524"/>
+										<File Id="990948762"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{56F22BF3-89A1-4E78-9A88-E18179E31739}">
+									<Media>
+										<File Id="53748300"/>
+										<File Id="339937886"/>
+										<File Id="518410148"/>
+										<File Id="608748939"/>
+										<File Id="674339546"/>
+										<File Id="818327783"/>
+										<File Id="932821934"/>
+										<File Id="935243100"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{171054FC-F81E-4FF9-BC68-F5E699E31E32}">
+							<DefaultSwitchValue>{30A86263-03E4-412D-99AF-8145171783AA}</DefaultSwitchValue>
+							<Children>
+								<SwitchContainer SwitchValue="{2F577849-B1CA-4494-A688-7282F5635AA9}">
+									<Media>
+										<File Id="65324183"/>
+										<File Id="203312392"/>
+										<File Id="336690095"/>
+										<File Id="501061865"/>
+										<File Id="520507252"/>
+										<File Id="783084789"/>
+										<File Id="913800372"/>
+										<File Id="917391719"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{7BEC284F-8642-4453-B2D8-17011BE75F13}">
+									<Media>
+										<File Id="7281525"/>
+										<File Id="45155660"/>
+										<File Id="71604472"/>
+										<File Id="362788025"/>
+										<File Id="448000253"/>
+										<File Id="613603206"/>
+										<File Id="877693221"/>
+										<File Id="992136607"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{30A86263-03E4-412D-99AF-8145171783AA}">
+									<Media>
+										<File Id="572492"/>
+										<File Id="131379250"/>
+										<File Id="415254982"/>
+										<File Id="423268140"/>
+										<File Id="439629893"/>
+										<File Id="464564893"/>
+										<File Id="584144148"/>
+										<File Id="975303375"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{7177126F-F1CE-4AC5-AEBB-C685A99A6FA0}">
+									<Media>
+										<File Id="243270223"/>
+										<File Id="251570515"/>
+										<File Id="412924152"/>
+										<File Id="442429633"/>
+										<File Id="453145659"/>
+										<File Id="505040408"/>
+										<File Id="561589775"/>
+										<File Id="906113243"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{DFFFA081-D2BF-4355-BEC8-3A9A94ED3446}">
+									<Media>
+										<File Id="4172481"/>
+										<File Id="6784804"/>
+										<File Id="243154032"/>
+										<File Id="388395184"/>
+										<File Id="766960004"/>
+										<File Id="788316017"/>
+										<File Id="908357883"/>
+										<File Id="1059736148"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{A0F1EFAB-272F-4A21-9E68-7E16EBD4974E}">
+									<Media>
+										<File Id="5777252"/>
+										<File Id="240521805"/>
+										<File Id="436962740"/>
+										<File Id="478907415"/>
+										<File Id="524309823"/>
+										<File Id="677570173"/>
+										<File Id="694887041"/>
+										<File Id="806551010"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{9BDC7FB0-8124-4278-BDB8-EA0351663A07}">
+									<Media>
+										<File Id="99872482"/>
+										<File Id="434049940"/>
+										<File Id="477727749"/>
+										<File Id="481879951"/>
+										<File Id="708978374"/>
+										<File Id="732271156"/>
+										<File Id="831859524"/>
+										<File Id="990948762"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{56F22BF3-89A1-4E78-9A88-E18179E31739}">
+									<Media>
+										<File Id="53748300"/>
+										<File Id="339937886"/>
+										<File Id="518410148"/>
+										<File Id="608748939"/>
+										<File Id="674339546"/>
+										<File Id="818327783"/>
+										<File Id="932821934"/>
+										<File Id="935243100"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2026752587" Name="Footsteps_AI" ObjectPath="\Events\Default Work Unit\Character\Footsteps_AI" MaxAttenuation="20." DurationType="OneShot" DurationMin="0.290418" DurationMax="0.820063">
+					<IncludedMemoryFiles>
+						<File Id="572492" Language="SFX">
+							<ShortName>walk_sand_01.wav</ShortName>
+							<Path>SFX\walk_sand_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="4172481" Language="SFX">
+							<ShortName>walk_conrete_03.wav</ShortName>
+							<Path>SFX\walk_conrete_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="5777252" Language="SFX">
+							<ShortName>walk_water_06.wav</ShortName>
+							<Path>SFX\walk_water_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="6784804" Language="SFX">
+							<ShortName>walk_conrete_01.wav</ShortName>
+							<Path>SFX\walk_conrete_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="7281525" Language="SFX">
+							<ShortName>walk_asphalt_04.wav</ShortName>
+							<Path>SFX\walk_asphalt_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="45155660" Language="SFX">
+							<ShortName>walk_asphalt_03.wav</ShortName>
+							<Path>SFX\walk_asphalt_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="53748300" Language="SFX">
+							<ShortName>walk_metal_04.wav</ShortName>
+							<Path>SFX\walk_metal_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="65324183" Language="SFX">
+							<ShortName>walk_dirt_02.wav</ShortName>
+							<Path>SFX\walk_dirt_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="71604472" Language="SFX">
+							<ShortName>walk_asphalt_08.wav</ShortName>
+							<Path>SFX\walk_asphalt_08_3F75BDB9.wem</Path>
+						</File>
+						<File Id="99872482" Language="SFX">
+							<ShortName>walk_tile_03.wav</ShortName>
+							<Path>SFX\walk_tile_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="131379250" Language="SFX">
+							<ShortName>walk_sand_02.wav</ShortName>
+							<Path>SFX\walk_sand_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="203312392" Language="SFX">
+							<ShortName>walk_dirt_06.wav</ShortName>
+							<Path>SFX\walk_dirt_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="240521805" Language="SFX">
+							<ShortName>walk_water_04.wav</ShortName>
+							<Path>SFX\walk_water_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="243154032" Language="SFX">
+							<ShortName>walk_conrete_02.wav</ShortName>
+							<Path>SFX\walk_conrete_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="243270223" Language="SFX">
+							<ShortName>walk_stairs_07.wav</ShortName>
+							<Path>SFX\walk_stairs_07_3F75BDB9.wem</Path>
+						</File>
+						<File Id="251570515" Language="SFX">
+							<ShortName>walk_stairs_03.wav</ShortName>
+							<Path>SFX\walk_stairs_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="336690095" Language="SFX">
+							<ShortName>walk_dirt_04.wav</ShortName>
+							<Path>SFX\walk_dirt_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="339937886" Language="SFX">
+							<ShortName>walk_metal_03.wav</ShortName>
+							<Path>SFX\walk_metal_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="362788025" Language="SFX">
+							<ShortName>walk_asphalt_02.wav</ShortName>
+							<Path>SFX\walk_asphalt_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="388395184" Language="SFX">
+							<ShortName>walk_conrete_06.wav</ShortName>
+							<Path>SFX\walk_conrete_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="412924152" Language="SFX">
+							<ShortName>walk_stairs_05.wav</ShortName>
+							<Path>SFX\walk_stairs_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="415254982" Language="SFX">
+							<ShortName>walk_sand_08.wav</ShortName>
+							<Path>SFX\walk_sand_08_3F75BDB9.wem</Path>
+						</File>
+						<File Id="423268140" Language="SFX">
+							<ShortName>walk_sand_04.wav</ShortName>
+							<Path>SFX\walk_sand_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="434049940" Language="SFX">
+							<ShortName>walk_tile_01.wav</ShortName>
+							<Path>SFX\walk_tile_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="436962740" Language="SFX">
+							<ShortName>walk_water_03.wav</ShortName>
+							<Path>SFX\walk_water_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="439629893" Language="SFX">
+							<ShortName>walk_sand_03.wav</ShortName>
+							<Path>SFX\walk_sand_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="442429633" Language="SFX">
+							<ShortName>walk_stairs_06.wav</ShortName>
+							<Path>SFX\walk_stairs_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="448000253" Language="SFX">
+							<ShortName>walk_asphalt_05.wav</ShortName>
+							<Path>SFX\walk_asphalt_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="453145659" Language="SFX">
+							<ShortName>walk_stairs_01.wav</ShortName>
+							<Path>SFX\walk_stairs_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="464564893" Language="SFX">
+							<ShortName>walk_sand_07.wav</ShortName>
+							<Path>SFX\walk_sand_07_3F75BDB9.wem</Path>
+						</File>
+						<File Id="477727749" Language="SFX">
+							<ShortName>walk_tile_04.wav</ShortName>
+							<Path>SFX\walk_tile_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="478907415" Language="SFX">
+							<ShortName>walk_water_08.wav</ShortName>
+							<Path>SFX\walk_water_08_3F75BDB9.wem</Path>
+						</File>
+						<File Id="481879951" Language="SFX">
+							<ShortName>walk_tile_06.wav</ShortName>
+							<Path>SFX\walk_tile_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="501061865" Language="SFX">
+							<ShortName>walk_dirt_07.wav</ShortName>
+							<Path>SFX\walk_dirt_07_3F75BDB9.wem</Path>
+						</File>
+						<File Id="505040408" Language="SFX">
+							<ShortName>walk_stairs_08.wav</ShortName>
+							<Path>SFX\walk_stairs_08_3F75BDB9.wem</Path>
+						</File>
+						<File Id="518410148" Language="SFX">
+							<ShortName>walk_metal_08.wav</ShortName>
+							<Path>SFX\walk_metal_08_3F75BDB9.wem</Path>
+						</File>
+						<File Id="520507252" Language="SFX">
+							<ShortName>walk_dirt_08.wav</ShortName>
+							<Path>SFX\walk_dirt_08_3F75BDB9.wem</Path>
+						</File>
+						<File Id="524309823" Language="SFX">
+							<ShortName>walk_water_05.wav</ShortName>
+							<Path>SFX\walk_water_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="561589775" Language="SFX">
+							<ShortName>walk_stairs_02.wav</ShortName>
+							<Path>SFX\walk_stairs_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="584144148" Language="SFX">
+							<ShortName>walk_sand_06.wav</ShortName>
+							<Path>SFX\walk_sand_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="608748939" Language="SFX">
+							<ShortName>walk_metal_05.wav</ShortName>
+							<Path>SFX\walk_metal_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="613603206" Language="SFX">
+							<ShortName>walk_asphalt_07.wav</ShortName>
+							<Path>SFX\walk_asphalt_07_3F75BDB9.wem</Path>
+						</File>
+						<File Id="674339546" Language="SFX">
+							<ShortName>walk_metal_02.wav</ShortName>
+							<Path>SFX\walk_metal_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="677570173" Language="SFX">
+							<ShortName>walk_water_02.wav</ShortName>
+							<Path>SFX\walk_water_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="694887041" Language="SFX">
+							<ShortName>walk_water_07.wav</ShortName>
+							<Path>SFX\walk_water_07_3F75BDB9.wem</Path>
+						</File>
+						<File Id="708978374" Language="SFX">
+							<ShortName>walk_tile_02.wav</ShortName>
+							<Path>SFX\walk_tile_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="732271156" Language="SFX">
+							<ShortName>walk_tile_05.wav</ShortName>
+							<Path>SFX\walk_tile_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="766960004" Language="SFX">
+							<ShortName>walk_conrete_07.wav</ShortName>
+							<Path>SFX\walk_conrete_07_3F75BDB9.wem</Path>
+						</File>
+						<File Id="783084789" Language="SFX">
+							<ShortName>walk_dirt_05.wav</ShortName>
+							<Path>SFX\walk_dirt_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="788316017" Language="SFX">
+							<ShortName>walk_conrete_08.wav</ShortName>
+							<Path>SFX\walk_conrete_08_3F75BDB9.wem</Path>
+						</File>
+						<File Id="806551010" Language="SFX">
+							<ShortName>walk_water_01.wav</ShortName>
+							<Path>SFX\walk_water_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="818327783" Language="SFX">
+							<ShortName>walk_metal_01.wav</ShortName>
+							<Path>SFX\walk_metal_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="831859524" Language="SFX">
+							<ShortName>walk_tile_08.wav</ShortName>
+							<Path>SFX\walk_tile_08_3F75BDB9.wem</Path>
+						</File>
+						<File Id="877693221" Language="SFX">
+							<ShortName>walk_asphalt_01.wav</ShortName>
+							<Path>SFX\walk_asphalt_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="906113243" Language="SFX">
+							<ShortName>walk_stairs_04.wav</ShortName>
+							<Path>SFX\walk_stairs_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="908357883" Language="SFX">
+							<ShortName>walk_conrete_04.wav</ShortName>
+							<Path>SFX\walk_conrete_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="913800372" Language="SFX">
+							<ShortName>walk_dirt_03.wav</ShortName>
+							<Path>SFX\walk_dirt_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="917391719" Language="SFX">
+							<ShortName>walk_dirt_01.wav</ShortName>
+							<Path>SFX\walk_dirt_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="932821934" Language="SFX">
+							<ShortName>walk_metal_07.wav</ShortName>
+							<Path>SFX\walk_metal_07_3F75BDB9.wem</Path>
+						</File>
+						<File Id="935243100" Language="SFX">
+							<ShortName>walk_metal_06.wav</ShortName>
+							<Path>SFX\walk_metal_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="975303375" Language="SFX">
+							<ShortName>walk_sand_05.wav</ShortName>
+							<Path>SFX\walk_sand_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="990948762" Language="SFX">
+							<ShortName>walk_tile_07.wav</ShortName>
+							<Path>SFX\walk_tile_07_3F75BDB9.wem</Path>
+						</File>
+						<File Id="992136607" Language="SFX">
+							<ShortName>walk_asphalt_06.wav</ShortName>
+							<Path>SFX\walk_asphalt_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1059736148" Language="SFX">
+							<ShortName>walk_conrete_05.wav</ShortName>
+							<Path>SFX\walk_conrete_05_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{30A86263-03E4-412D-99AF-8145171783AA}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{2F577849-B1CA-4494-A688-7282F5635AA9}">
+							<Media>
+								<File Id="65324183"/>
+								<File Id="203312392"/>
+								<File Id="336690095"/>
+								<File Id="501061865"/>
+								<File Id="520507252"/>
+								<File Id="783084789"/>
+								<File Id="913800372"/>
+								<File Id="917391719"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{7BEC284F-8642-4453-B2D8-17011BE75F13}">
+							<Media>
+								<File Id="7281525"/>
+								<File Id="45155660"/>
+								<File Id="71604472"/>
+								<File Id="362788025"/>
+								<File Id="448000253"/>
+								<File Id="613603206"/>
+								<File Id="877693221"/>
+								<File Id="992136607"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{30A86263-03E4-412D-99AF-8145171783AA}">
+							<Media>
+								<File Id="572492"/>
+								<File Id="131379250"/>
+								<File Id="415254982"/>
+								<File Id="423268140"/>
+								<File Id="439629893"/>
+								<File Id="464564893"/>
+								<File Id="584144148"/>
+								<File Id="975303375"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{7177126F-F1CE-4AC5-AEBB-C685A99A6FA0}">
+							<Media>
+								<File Id="243270223"/>
+								<File Id="251570515"/>
+								<File Id="412924152"/>
+								<File Id="442429633"/>
+								<File Id="453145659"/>
+								<File Id="505040408"/>
+								<File Id="561589775"/>
+								<File Id="906113243"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{DFFFA081-D2BF-4355-BEC8-3A9A94ED3446}">
+							<Media>
+								<File Id="4172481"/>
+								<File Id="6784804"/>
+								<File Id="243154032"/>
+								<File Id="388395184"/>
+								<File Id="766960004"/>
+								<File Id="788316017"/>
+								<File Id="908357883"/>
+								<File Id="1059736148"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A0F1EFAB-272F-4A21-9E68-7E16EBD4974E}">
+							<Media>
+								<File Id="5777252"/>
+								<File Id="240521805"/>
+								<File Id="436962740"/>
+								<File Id="478907415"/>
+								<File Id="524309823"/>
+								<File Id="677570173"/>
+								<File Id="694887041"/>
+								<File Id="806551010"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{9BDC7FB0-8124-4278-BDB8-EA0351663A07}">
+							<Media>
+								<File Id="99872482"/>
+								<File Id="434049940"/>
+								<File Id="477727749"/>
+								<File Id="481879951"/>
+								<File Id="708978374"/>
+								<File Id="732271156"/>
+								<File Id="831859524"/>
+								<File Id="990948762"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{56F22BF3-89A1-4E78-9A88-E18179E31739}">
+							<Media>
+								<File Id="53748300"/>
+								<File Id="339937886"/>
+								<File Id="518410148"/>
+								<File Id="608748939"/>
+								<File Id="674339546"/>
+								<File Id="818327783"/>
+								<File Id="932821934"/>
+								<File Id="935243100"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2179486487" Name="HeartBeat" ObjectPath="\Events\Default Work Unit\Character\HeartBeat" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="647297821" Language="SFX">
+							<ShortName>heartbeat_cinematic_100.wav</ShortName>
+							<Path>SFX\heartbeat_cinematic_100_76317D10.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2167849898" Name="Helicopter" ObjectPath="\Events\Default Work Unit\Ambient\Helicopter" MaxAttenuation="200." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="73988154" Language="SFX">
+							<ShortName>Aircraft, Helicopter, Helicopter Fly By SND66044.wav</ShortName>
+							<Path>SFX\Aircraft, Helicopter, Helicopter Fly By SND66044_47EE969F.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2538267186" Name="HitPoint" ObjectPath="\Events\Default Work Unit\Character\HitPoint" DurationType="OneShot" DurationMin="0.353183" DurationMax="0.437937">
+					<IncludedMemoryFiles>
+						<File Id="167004752" Language="SFX">
+							<ShortName>CC-CK VO Male 03 Pain Medium 2.wav</ShortName>
+							<Path>SFX\CC-CK VO Male 03 Pain Medium 2_292F2FC2.wem</Path>
+						</File>
+						<File Id="251828852" Language="SFX">
+							<ShortName>CC-CK VO Male 03 Pain Medium 3.wav</ShortName>
+							<Path>SFX\CC-CK VO Male 03 Pain Medium 3_FCD8C8A3.wem</Path>
+						</File>
+						<File Id="538989478" Language="SFX">
+							<ShortName>CC-DS Punch Knuckle Blunt Soft 01 - Pitch 150 3.wav</ShortName>
+							<Path>SFX\CC-DS Punch Knuckle Blunt Soft 01 - Pitch 150 3_3F75BDB9.wem</Path>
+						</File>
+						<File Id="610165020" Language="SFX">
+							<ShortName>CC-CK VO Male 03 Pain Medium 4.wav</ShortName>
+							<Path>SFX\CC-CK VO Male 03 Pain Medium 4_CE538AA6.wem</Path>
+						</File>
+						<File Id="729092214" Language="SFX">
+							<ShortName>CC-CK VO Male 03 Pain Medium 5.wav</ShortName>
+							<Path>SFX\CC-CK VO Male 03 Pain Medium 5_BBFBAA69.wem</Path>
+						</File>
+						<File Id="817714859" Language="SFX">
+							<ShortName>CC-CK VO Male 03 Pain Medium 1.wav</ShortName>
+							<Path>SFX\CC-CK VO Male 03 Pain Medium 1_33F7FB4F.wem</Path>
+						</File>
+						<File Id="892360309" Language="SFX">
+							<ShortName>CC-DS Punch Knuckle Blunt Soft 01 - Pitch 150 2.wav</ShortName>
+							<Path>SFX\CC-DS Punch Knuckle Blunt Soft 01 - Pitch 150 2_3F75BDB9.wem</Path>
+						</File>
+						<File Id="992929578" Language="SFX">
+							<ShortName>CC-DS Punch Knuckle Blunt Soft 01 - Pitch 150.wav</ShortName>
+							<Path>SFX\CC-DS Punch Knuckle Blunt Soft 01 - Pitch 150_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1004465532" Language="SFX">
+							<ShortName>CC-DS Punch Knuckle Blunt Soft 01 - Pitch 150 1.wav</ShortName>
+							<Path>SFX\CC-DS Punch Knuckle Blunt Soft 01 - Pitch 150 1_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1043529308" Language="SFX">
+							<ShortName>CC-CK VO Male 03 Pain Medium.wav</ShortName>
+							<Path>SFX\CC-CK VO Male 03 Pain Medium_DCCA0F00.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1971546615" Name="HitPoint_AI" ObjectPath="\Events\Default Work Unit\Character\HitPoint_AI" DurationType="OneShot" DurationMin="0.355371" DurationMax="0.592428">
+					<IncludedMemoryFiles>
+						<File Id="32945802" Language="SFX">
+							<ShortName>CC-CK VO Male 03 Pain Hard 4.wav</ShortName>
+							<Path>SFX\CC-CK VO Male 03 Pain Hard 4_86B70472.wem</Path>
+						</File>
+						<File Id="359623901" Language="SFX">
+							<ShortName>CC-CK VO Male 03 Pain Hard 2.wav</ShortName>
+							<Path>SFX\CC-CK VO Male 03 Pain Hard 2_D0BA7E59.wem</Path>
+						</File>
+						<File Id="402496901" Language="SFX">
+							<ShortName>CC-CK VO Male 03 Pain Hard.wav</ShortName>
+							<Path>SFX\CC-CK VO Male 03 Pain Hard_DA990CF2.wem</Path>
+						</File>
+						<File Id="521736317" Language="SFX">
+							<ShortName>CC-CK VO Male 03 Pain Hard 5.wav</ShortName>
+							<Path>SFX\CC-CK VO Male 03 Pain Hard 5_14D39F46.wem</Path>
+						</File>
+						<File Id="538989478" Language="SFX">
+							<ShortName>CC-DS Punch Knuckle Blunt Soft 01 - Pitch 150 3.wav</ShortName>
+							<Path>SFX\CC-DS Punch Knuckle Blunt Soft 01 - Pitch 150 3_3F75BDB9.wem</Path>
+						</File>
+						<File Id="758683430" Language="SFX">
+							<ShortName>CC-CK VO Male 03 Pain Hard 1.wav</ShortName>
+							<Path>SFX\CC-CK VO Male 03 Pain Hard 1_57CDDA49.wem</Path>
+						</File>
+						<File Id="892360309" Language="SFX">
+							<ShortName>CC-DS Punch Knuckle Blunt Soft 01 - Pitch 150 2.wav</ShortName>
+							<Path>SFX\CC-DS Punch Knuckle Blunt Soft 01 - Pitch 150 2_3F75BDB9.wem</Path>
+						</File>
+						<File Id="992929578" Language="SFX">
+							<ShortName>CC-DS Punch Knuckle Blunt Soft 01 - Pitch 150.wav</ShortName>
+							<Path>SFX\CC-DS Punch Knuckle Blunt Soft 01 - Pitch 150_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1004465532" Language="SFX">
+							<ShortName>CC-DS Punch Knuckle Blunt Soft 01 - Pitch 150 1.wav</ShortName>
+							<Path>SFX\CC-DS Punch Knuckle Blunt Soft 01 - Pitch 150 1_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1050203966" Language="SFX">
+							<ShortName>CC-CK VO Male 03 Pain Hard 3.wav</ShortName>
+							<Path>SFX\CC-CK VO Male 03 Pain Hard 3_B34D674C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3833651337" Name="Jump" ObjectPath="\Events\Default Work Unit\Character\Jump" DurationType="OneShot" DurationMin="0.430204" DurationMax="0.779919">
+					<IncludedMemoryFiles>
+						<File Id="191341375" Language="SFX">
+							<ShortName>pc_breathing_jump_07.wav</ShortName>
+							<Path>SFX\pc_breathing_jump_07_3F75BDB9.wem</Path>
+						</File>
+						<File Id="262288691" Language="SFX">
+							<ShortName>pc_breathing_jump_01.wav</ShortName>
+							<Path>SFX\pc_breathing_jump_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="607889908" Language="SFX">
+							<ShortName>pc_breathing_jump_06.wav</ShortName>
+							<Path>SFX\pc_breathing_jump_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="718674685" Language="SFX">
+							<ShortName>pc_breathing_jump_02.wav</ShortName>
+							<Path>SFX\pc_breathing_jump_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="837714190" Language="SFX">
+							<ShortName>pc_breathing_jump_03.wav</ShortName>
+							<Path>SFX\pc_breathing_jump_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="959703191" Language="SFX">
+							<ShortName>pc_breathing_jump_04.wav</ShortName>
+							<Path>SFX\pc_breathing_jump_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1049419177" Language="SFX">
+							<ShortName>pc_breathing_jump_05.wav</ShortName>
+							<Path>SFX\pc_breathing_jump_05_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4196110630" Name="JumpMove" ObjectPath="\Events\Default Work Unit\Character\JumpMove" DurationType="OneShot" DurationMin="0.319976" DurationMax="0.671498">
+					<IncludedMemoryFiles>
+						<File Id="153440109" Language="SFX">
+							<ShortName>pc_breathing_jump_move_06.wav</ShortName>
+							<Path>SFX\pc_breathing_jump_move_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="156863866" Language="SFX">
+							<ShortName>pc_breathing_jump_move_02.wav</ShortName>
+							<Path>SFX\pc_breathing_jump_move_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="419084073" Language="SFX">
+							<ShortName>pc_breathing_jump_move_01.wav</ShortName>
+							<Path>SFX\pc_breathing_jump_move_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="667967789" Language="SFX">
+							<ShortName>pc_breathing_jump_move_03.wav</ShortName>
+							<Path>SFX\pc_breathing_jump_move_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="724840301" Language="SFX">
+							<ShortName>pc_breathing_jump_move_04.wav</ShortName>
+							<Path>SFX\pc_breathing_jump_move_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="845090292" Language="SFX">
+							<ShortName>pc_breathing_jump_move_05.wav</ShortName>
+							<Path>SFX\pc_breathing_jump_move_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1052700035" Language="SFX">
+							<ShortName>pc_breathing_jump_move_07.wav</ShortName>
+							<Path>SFX\pc_breathing_jump_move_07_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2548270042" Name="Landing" ObjectPath="\Events\Default Work Unit\Character\Landing" DurationType="OneShot" DurationMin="0.551428" DurationMax="0.838585">
+					<IncludedMemoryFiles>
+						<File Id="699633" Language="SFX">
+							<ShortName>pc_breathing_land_low_05.wav</ShortName>
+							<Path>SFX\pc_breathing_land_low_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="59798932" Language="SFX">
+							<ShortName>pc_breathing_land_low_02.wav</ShortName>
+							<Path>SFX\pc_breathing_land_low_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="78939506" Language="SFX">
+							<ShortName>pc_breathing_land_low_06.wav</ShortName>
+							<Path>SFX\pc_breathing_land_low_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="89708979" Language="SFX">
+							<ShortName>pc_breathing_land_low_01.wav</ShortName>
+							<Path>SFX\pc_breathing_land_low_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="138988006" Language="SFX">
+							<ShortName>pc_breathing_land_low_03.wav</ShortName>
+							<Path>SFX\pc_breathing_land_low_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="313667970" Language="SFX">
+							<ShortName>pc_breathing_land_low_08.wav</ShortName>
+							<Path>SFX\pc_breathing_land_low_08_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1000849450" Language="SFX">
+							<ShortName>pc_breathing_land_low_04.wav</ShortName>
+							<Path>SFX\pc_breathing_land_low_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1031501659" Language="SFX">
+							<ShortName>pc_breathing_land_low_07.wav</ShortName>
+							<Path>SFX\pc_breathing_land_low_07_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3398497486" Name="M16_AI_Distance_Shoot" ObjectPath="\Events\Default Work Unit\Weapon\M16_AI_Distance_Shoot" DurationType="OneShot" DurationMin="2.772636" DurationMax="4.584208">
+					<IncludedMemoryFiles>
+						<File Id="13283798" Language="SFX">
+							<ShortName>M16_Attach_03.wav</ShortName>
+							<Path>SFX\M16_Attach_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="58370655" Language="SFX">
+							<ShortName>M16_Tail_02.wav</ShortName>
+							<Path>SFX\M16_Tail_02_2B1AAF11.wem</Path>
+						</File>
+						<File Id="65692804" Language="SFX">
+							<ShortName>M16_Close_01.wav</ShortName>
+							<Path>SFX\M16_Close_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="66389589" Language="SFX">
+							<ShortName>M16_Tail_04.wav</ShortName>
+							<Path>SFX\M16_Tail_04_C8408746.wem</Path>
+						</File>
+						<File Id="85016862" Language="SFX">
+							<ShortName>M16_Attach_04.wav</ShortName>
+							<Path>SFX\M16_Attach_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="85566595" Language="SFX">
+							<ShortName>M16_Medium_03.wav</ShortName>
+							<Path>SFX\M16_Medium_03_78D0A428.wem</Path>
+						</File>
+						<File Id="111686749" Language="SFX">
+							<ShortName>M16_Medium_04.wav</ShortName>
+							<Path>SFX\M16_Medium_04_A2650A80.wem</Path>
+						</File>
+						<File Id="127684232" Language="SFX">
+							<ShortName>M16_Attach_05.wav</ShortName>
+							<Path>SFX\M16_Attach_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="129110740" Language="SFX">
+							<ShortName>M16_Sweetener_06.wav</ShortName>
+							<Path>SFX\M16_Sweetener_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="205350553" Language="SFX">
+							<ShortName>M16_Sweetener_04.wav</ShortName>
+							<Path>SFX\M16_Sweetener_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="226380302" Language="SFX">
+							<ShortName>M16_Tail_01.wav</ShortName>
+							<Path>SFX\M16_Tail_01_47226544.wem</Path>
+						</File>
+						<File Id="275747933" Language="SFX">
+							<ShortName>M16_Close_04.wav</ShortName>
+							<Path>SFX\M16_Close_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="314667493" Language="SFX">
+							<ShortName>M16_Attach_02.wav</ShortName>
+							<Path>SFX\M16_Attach_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="328673736" Language="SFX">
+							<ShortName>M16_Mech_05.wav</ShortName>
+							<Path>SFX\M16_Mech_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="354362699" Language="SFX">
+							<ShortName>M16_Attach_01.wav</ShortName>
+							<Path>SFX\M16_Attach_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="356816554" Language="SFX">
+							<ShortName>M16_Tail_06.wav</ShortName>
+							<Path>SFX\M16_Tail_06_3765C332.wem</Path>
+						</File>
+						<File Id="358642035" Language="SFX">
+							<ShortName>M16_Mech_03.wav</ShortName>
+							<Path>SFX\M16_Mech_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="376460932" Language="SFX">
+							<ShortName>M16_Close_06.wav</ShortName>
+							<Path>SFX\M16_Close_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="377348996" Language="SFX">
+							<ShortName>M16_Medium_06.wav</ShortName>
+							<Path>SFX\M16_Medium_06_0323A5E8.wem</Path>
+						</File>
+						<File Id="429002945" Language="SFX">
+							<ShortName>M16_DIstant_02.wav</ShortName>
+							<Path>SFX\M16_DIstant_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="435999628" Language="SFX">
+							<ShortName>M16_DIstant_06.wav</ShortName>
+							<Path>SFX\M16_DIstant_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="439641459" Language="SFX">
+							<ShortName>M16_DIstant_05.wav</ShortName>
+							<Path>SFX\M16_DIstant_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="479818035" Language="SFX">
+							<ShortName>UMP45_shot_thump-1.wav</ShortName>
+							<Path>SFX\UMP45_shot_thump-1_3F75BDB9.wem</Path>
+						</File>
+						<File Id="496812302" Language="SFX">
+							<ShortName>M16_DIstant_01.wav</ShortName>
+							<Path>SFX\M16_DIstant_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="525684356" Language="SFX">
+							<ShortName>M16_Mech_06.wav</ShortName>
+							<Path>SFX\M16_Mech_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="562097623" Language="SFX">
+							<ShortName>M16_DIstant_04.wav</ShortName>
+							<Path>SFX\M16_DIstant_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="597782635" Language="SFX">
+							<ShortName>UMP45_shot_thump-2.wav</ShortName>
+							<Path>SFX\UMP45_shot_thump-2_3F75BDB9.wem</Path>
+						</File>
+						<File Id="608686361" Language="SFX">
+							<ShortName>M16_Close_02.wav</ShortName>
+							<Path>SFX\M16_Close_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="659001966" Language="SFX">
+							<ShortName>M16_Sweetener_05.wav</ShortName>
+							<Path>SFX\M16_Sweetener_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="687205055" Language="SFX">
+							<ShortName>M16_Medium_01.wav</ShortName>
+							<Path>SFX\M16_Medium_01_736E990B.wem</Path>
+						</File>
+						<File Id="714826245" Language="SFX">
+							<ShortName>M16_Sweetener_01.wav</ShortName>
+							<Path>SFX\M16_Sweetener_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="776723908" Language="SFX">
+							<ShortName>M16_Attach_06.wav</ShortName>
+							<Path>SFX\M16_Attach_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="783219317" Language="SFX">
+							<ShortName>M16_Mech_02.wav</ShortName>
+							<Path>SFX\M16_Mech_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="793117704" Language="SFX">
+							<ShortName>M16_Tail_05.wav</ShortName>
+							<Path>SFX\M16_Tail_05_383AFE8D.wem</Path>
+						</File>
+						<File Id="804159416" Language="SFX">
+							<ShortName>M16_Close_05.wav</ShortName>
+							<Path>SFX\M16_Close_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="841518298" Language="SFX">
+							<ShortName>M16_Mech_01.wav</ShortName>
+							<Path>SFX\M16_Mech_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="862344164" Language="SFX">
+							<ShortName>M16_DIstant_03.wav</ShortName>
+							<Path>SFX\M16_DIstant_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="862627500" Language="SFX">
+							<ShortName>M16_Punch.wav</ShortName>
+							<Path>SFX\M16_Punch_3F75BDB9.wem</Path>
+						</File>
+						<File Id="869399142" Language="SFX">
+							<ShortName>M16_Close_03.wav</ShortName>
+							<Path>SFX\M16_Close_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="872296824" Language="SFX">
+							<ShortName>M16_Mech_04.wav</ShortName>
+							<Path>SFX\M16_Mech_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="900904533" Language="SFX">
+							<ShortName>M16_Sweetener_02.wav</ShortName>
+							<Path>SFX\M16_Sweetener_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="960465875" Language="SFX">
+							<ShortName>M16_Tail_03.wav</ShortName>
+							<Path>SFX\M16_Tail_03_03AA578C.wem</Path>
+						</File>
+						<File Id="962656775" Language="SFX">
+							<ShortName>M16_Medium_05.wav</ShortName>
+							<Path>SFX\M16_Medium_05_18C79D4C.wem</Path>
+						</File>
+						<File Id="1007915469" Language="SFX">
+							<ShortName>M16_Medium_02.wav</ShortName>
+							<Path>SFX\M16_Medium_02_E7D59F9B.wem</Path>
+						</File>
+						<File Id="1013035557" Language="SFX">
+							<ShortName>M16_Sweetener_03.wav</ShortName>
+							<Path>SFX\M16_Sweetener_03_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3208561357" Name="M16_AI_Oneshot" ObjectPath="\Events\Default Work Unit\Weapon\M16_AI_Oneshot" MaxAttenuation="100." DurationType="OneShot" DurationMin="2.772636" DurationMax="4.584208">
+					<IncludedMemoryFiles>
+						<File Id="13283798" Language="SFX">
+							<ShortName>M16_Attach_03.wav</ShortName>
+							<Path>SFX\M16_Attach_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="58370655" Language="SFX">
+							<ShortName>M16_Tail_02.wav</ShortName>
+							<Path>SFX\M16_Tail_02_2B1AAF11.wem</Path>
+						</File>
+						<File Id="65692804" Language="SFX">
+							<ShortName>M16_Close_01.wav</ShortName>
+							<Path>SFX\M16_Close_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="66389589" Language="SFX">
+							<ShortName>M16_Tail_04.wav</ShortName>
+							<Path>SFX\M16_Tail_04_C8408746.wem</Path>
+						</File>
+						<File Id="85016862" Language="SFX">
+							<ShortName>M16_Attach_04.wav</ShortName>
+							<Path>SFX\M16_Attach_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="85566595" Language="SFX">
+							<ShortName>M16_Medium_03.wav</ShortName>
+							<Path>SFX\M16_Medium_03_78D0A428.wem</Path>
+						</File>
+						<File Id="111686749" Language="SFX">
+							<ShortName>M16_Medium_04.wav</ShortName>
+							<Path>SFX\M16_Medium_04_A2650A80.wem</Path>
+						</File>
+						<File Id="127684232" Language="SFX">
+							<ShortName>M16_Attach_05.wav</ShortName>
+							<Path>SFX\M16_Attach_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="129110740" Language="SFX">
+							<ShortName>M16_Sweetener_06.wav</ShortName>
+							<Path>SFX\M16_Sweetener_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="205350553" Language="SFX">
+							<ShortName>M16_Sweetener_04.wav</ShortName>
+							<Path>SFX\M16_Sweetener_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="226380302" Language="SFX">
+							<ShortName>M16_Tail_01.wav</ShortName>
+							<Path>SFX\M16_Tail_01_47226544.wem</Path>
+						</File>
+						<File Id="275747933" Language="SFX">
+							<ShortName>M16_Close_04.wav</ShortName>
+							<Path>SFX\M16_Close_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="314667493" Language="SFX">
+							<ShortName>M16_Attach_02.wav</ShortName>
+							<Path>SFX\M16_Attach_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="328673736" Language="SFX">
+							<ShortName>M16_Mech_05.wav</ShortName>
+							<Path>SFX\M16_Mech_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="354362699" Language="SFX">
+							<ShortName>M16_Attach_01.wav</ShortName>
+							<Path>SFX\M16_Attach_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="356816554" Language="SFX">
+							<ShortName>M16_Tail_06.wav</ShortName>
+							<Path>SFX\M16_Tail_06_3765C332.wem</Path>
+						</File>
+						<File Id="358642035" Language="SFX">
+							<ShortName>M16_Mech_03.wav</ShortName>
+							<Path>SFX\M16_Mech_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="376460932" Language="SFX">
+							<ShortName>M16_Close_06.wav</ShortName>
+							<Path>SFX\M16_Close_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="377348996" Language="SFX">
+							<ShortName>M16_Medium_06.wav</ShortName>
+							<Path>SFX\M16_Medium_06_0323A5E8.wem</Path>
+						</File>
+						<File Id="429002945" Language="SFX">
+							<ShortName>M16_DIstant_02.wav</ShortName>
+							<Path>SFX\M16_DIstant_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="435999628" Language="SFX">
+							<ShortName>M16_DIstant_06.wav</ShortName>
+							<Path>SFX\M16_DIstant_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="439641459" Language="SFX">
+							<ShortName>M16_DIstant_05.wav</ShortName>
+							<Path>SFX\M16_DIstant_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="479818035" Language="SFX">
+							<ShortName>UMP45_shot_thump-1.wav</ShortName>
+							<Path>SFX\UMP45_shot_thump-1_3F75BDB9.wem</Path>
+						</File>
+						<File Id="496812302" Language="SFX">
+							<ShortName>M16_DIstant_01.wav</ShortName>
+							<Path>SFX\M16_DIstant_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="525684356" Language="SFX">
+							<ShortName>M16_Mech_06.wav</ShortName>
+							<Path>SFX\M16_Mech_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="562097623" Language="SFX">
+							<ShortName>M16_DIstant_04.wav</ShortName>
+							<Path>SFX\M16_DIstant_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="597782635" Language="SFX">
+							<ShortName>UMP45_shot_thump-2.wav</ShortName>
+							<Path>SFX\UMP45_shot_thump-2_3F75BDB9.wem</Path>
+						</File>
+						<File Id="608686361" Language="SFX">
+							<ShortName>M16_Close_02.wav</ShortName>
+							<Path>SFX\M16_Close_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="659001966" Language="SFX">
+							<ShortName>M16_Sweetener_05.wav</ShortName>
+							<Path>SFX\M16_Sweetener_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="687205055" Language="SFX">
+							<ShortName>M16_Medium_01.wav</ShortName>
+							<Path>SFX\M16_Medium_01_736E990B.wem</Path>
+						</File>
+						<File Id="714826245" Language="SFX">
+							<ShortName>M16_Sweetener_01.wav</ShortName>
+							<Path>SFX\M16_Sweetener_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="776723908" Language="SFX">
+							<ShortName>M16_Attach_06.wav</ShortName>
+							<Path>SFX\M16_Attach_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="783219317" Language="SFX">
+							<ShortName>M16_Mech_02.wav</ShortName>
+							<Path>SFX\M16_Mech_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="793117704" Language="SFX">
+							<ShortName>M16_Tail_05.wav</ShortName>
+							<Path>SFX\M16_Tail_05_383AFE8D.wem</Path>
+						</File>
+						<File Id="804159416" Language="SFX">
+							<ShortName>M16_Close_05.wav</ShortName>
+							<Path>SFX\M16_Close_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="841518298" Language="SFX">
+							<ShortName>M16_Mech_01.wav</ShortName>
+							<Path>SFX\M16_Mech_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="862344164" Language="SFX">
+							<ShortName>M16_DIstant_03.wav</ShortName>
+							<Path>SFX\M16_DIstant_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="869399142" Language="SFX">
+							<ShortName>M16_Close_03.wav</ShortName>
+							<Path>SFX\M16_Close_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="872296824" Language="SFX">
+							<ShortName>M16_Mech_04.wav</ShortName>
+							<Path>SFX\M16_Mech_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="900904533" Language="SFX">
+							<ShortName>M16_Sweetener_02.wav</ShortName>
+							<Path>SFX\M16_Sweetener_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="960465875" Language="SFX">
+							<ShortName>M16_Tail_03.wav</ShortName>
+							<Path>SFX\M16_Tail_03_03AA578C.wem</Path>
+						</File>
+						<File Id="962656775" Language="SFX">
+							<ShortName>M16_Medium_05.wav</ShortName>
+							<Path>SFX\M16_Medium_05_18C79D4C.wem</Path>
+						</File>
+						<File Id="1007915469" Language="SFX">
+							<ShortName>M16_Medium_02.wav</ShortName>
+							<Path>SFX\M16_Medium_02_E7D59F9B.wem</Path>
+						</File>
+						<File Id="1013035557" Language="SFX">
+							<ShortName>M16_Sweetener_03.wav</ShortName>
+							<Path>SFX\M16_Sweetener_03_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3597485964" Name="M16_AI_Reload" ObjectPath="\Events\Default Work Unit\Weapon\M16_AI_Reload" MaxAttenuation="10." DurationType="OneShot" DurationMin="3.567302" DurationMax="3.567302">
+					<IncludedMemoryFiles>
+						<File Id="412774187" Language="SFX">
+							<ShortName>M16_Reload 4.wav</ShortName>
+							<Path>SFX\M16_Reload 4_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="123548382" Name="M16_Distance_Start" ObjectPath="\Events\Default Work Unit\Weapon\M16_Distance_Start" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="2594881" Language="SFX">
+							<ShortName>M16_Medium_03.wav</ShortName>
+							<Path>SFX\M16_Medium_03_7C845AF8.wem</Path>
+						</File>
+						<File Id="11006620" Language="SFX">
+							<ShortName>UMP45_shot_thump-1.wav</ShortName>
+							<Path>SFX\UMP45_shot_thump-1_10C4C929.wem</Path>
+						</File>
+						<File Id="53949276" Language="SFX">
+							<ShortName>M16_Mech_02.wav</ShortName>
+							<Path>SFX\M16_Mech_02_10C4C929.wem</Path>
+						</File>
+						<File Id="73703629" Language="SFX">
+							<ShortName>M16_Tail_01.wav</ShortName>
+							<Path>SFX\M16_Tail_01_71DC8674.wem</Path>
+						</File>
+						<File Id="85177404" Language="SFX">
+							<ShortName>M16_Mech_06.wav</ShortName>
+							<Path>SFX\M16_Mech_06_10C4C929.wem</Path>
+						</File>
+						<File Id="97366059" Language="SFX">
+							<ShortName>M16_Close_05.wav</ShortName>
+							<Path>SFX\M16_Close_05_10C4C929.wem</Path>
+						</File>
+						<File Id="102540487" Language="SFX">
+							<ShortName>M16_Tail_06.wav</ShortName>
+							<Path>SFX\M16_Tail_06_62D34FC2.wem</Path>
+						</File>
+						<File Id="130316699" Language="SFX">
+							<ShortName>M16_Close_01.wav</ShortName>
+							<Path>SFX\M16_Close_01_10C4C929.wem</Path>
+						</File>
+						<File Id="146784090" Language="SFX">
+							<ShortName>M16_Sweetener_01.wav</ShortName>
+							<Path>SFX\M16_Sweetener_01_10C4C929.wem</Path>
+						</File>
+						<File Id="165205145" Language="SFX">
+							<ShortName>M16_Attach_01.wav</ShortName>
+							<Path>SFX\M16_Attach_01_10C4C929.wem</Path>
+						</File>
+						<File Id="223542777" Language="SFX">
+							<ShortName>M16_DIstant_06.wav</ShortName>
+							<Path>SFX\M16_DIstant_06_10C4C929.wem</Path>
+						</File>
+						<File Id="270481296" Language="SFX">
+							<ShortName>M16_Close_03.wav</ShortName>
+							<Path>SFX\M16_Close_03_10C4C929.wem</Path>
+						</File>
+						<File Id="330447636" Language="SFX">
+							<ShortName>M16_Medium_06.wav</ShortName>
+							<Path>SFX\M16_Medium_06_5B1C0678.wem</Path>
+						</File>
+						<File Id="335860618" Language="SFX">
+							<ShortName>M16_DIstant_03.wav</ShortName>
+							<Path>SFX\M16_DIstant_03_10C4C929.wem</Path>
+						</File>
+						<File Id="392155743" Language="SFX">
+							<ShortName>M16_Attach_05.wav</ShortName>
+							<Path>SFX\M16_Attach_05_10C4C929.wem</Path>
+						</File>
+						<File Id="393442974" Language="SFX">
+							<ShortName>M16_Sweetener_02.wav</ShortName>
+							<Path>SFX\M16_Sweetener_02_10C4C929.wem</Path>
+						</File>
+						<File Id="399487878" Language="SFX">
+							<ShortName>M16_Sweetener_03.wav</ShortName>
+							<Path>SFX\M16_Sweetener_03_10C4C929.wem</Path>
+						</File>
+						<File Id="429321937" Language="SFX">
+							<ShortName>M16_Sweetener_04.wav</ShortName>
+							<Path>SFX\M16_Sweetener_04_10C4C929.wem</Path>
+						</File>
+						<File Id="448183986" Language="SFX">
+							<ShortName>M16_DIstant_05.wav</ShortName>
+							<Path>SFX\M16_DIstant_05_10C4C929.wem</Path>
+						</File>
+						<File Id="466010562" Language="SFX">
+							<ShortName>M16_Mech_04.wav</ShortName>
+							<Path>SFX\M16_Mech_04_10C4C929.wem</Path>
+						</File>
+						<File Id="483241474" Language="SFX">
+							<ShortName>M16_Mech_05.wav</ShortName>
+							<Path>SFX\M16_Mech_05_10C4C929.wem</Path>
+						</File>
+						<File Id="490655731" Language="SFX">
+							<ShortName>M16_Medium_01.wav</ShortName>
+							<Path>SFX\M16_Medium_01_FA53581B.wem</Path>
+						</File>
+						<File Id="492334691" Language="SFX">
+							<ShortName>M16_Punch.wav</ShortName>
+							<Path>SFX\M16_Punch_10C4C929.wem</Path>
+						</File>
+						<File Id="511144705" Language="SFX">
+							<ShortName>M16_DIstant_04.wav</ShortName>
+							<Path>SFX\M16_DIstant_04_10C4C929.wem</Path>
+						</File>
+						<File Id="511261075" Language="SFX">
+							<ShortName>M16_Medium_04.wav</ShortName>
+							<Path>SFX\M16_Medium_04_CB8A5670.wem</Path>
+						</File>
+						<File Id="551612770" Language="SFX">
+							<ShortName>M16_Sweetener_05.wav</ShortName>
+							<Path>SFX\M16_Sweetener_05_10C4C929.wem</Path>
+						</File>
+						<File Id="566087486" Language="SFX">
+							<ShortName>M16_Tail_05.wav</ShortName>
+							<Path>SFX\M16_Tail_05_E0B2333D.wem</Path>
+						</File>
+						<File Id="575725556" Language="SFX">
+							<ShortName>M16_Tail_02.wav</ShortName>
+							<Path>SFX\M16_Tail_02_112DEC61.wem</Path>
+						</File>
+						<File Id="580190170" Language="SFX">
+							<ShortName>UMP45_shot_thump-2.wav</ShortName>
+							<Path>SFX\UMP45_shot_thump-2_10C4C929.wem</Path>
+						</File>
+						<File Id="593333862" Language="SFX">
+							<ShortName>M16_Attach_04.wav</ShortName>
+							<Path>SFX\M16_Attach_04_10C4C929.wem</Path>
+						</File>
+						<File Id="594070029" Language="SFX">
+							<ShortName>M16_Mech_03.wav</ShortName>
+							<Path>SFX\M16_Mech_03_10C4C929.wem</Path>
+						</File>
+						<File Id="636732758" Language="SFX">
+							<ShortName>M16_Sweetener_06.wav</ShortName>
+							<Path>SFX\M16_Sweetener_06_10C4C929.wem</Path>
+						</File>
+						<File Id="682552912" Language="SFX">
+							<ShortName>M16_Mech_01.wav</ShortName>
+							<Path>SFX\M16_Mech_01_10C4C929.wem</Path>
+						</File>
+						<File Id="720232100" Language="SFX">
+							<ShortName>M16_Medium_02.wav</ShortName>
+							<Path>SFX\M16_Medium_02_EB17D4AB.wem</Path>
+						</File>
+						<File Id="735941702" Language="SFX">
+							<ShortName>M16_Attach_02.wav</ShortName>
+							<Path>SFX\M16_Attach_02_10C4C929.wem</Path>
+						</File>
+						<File Id="770238686" Language="SFX">
+							<ShortName>M16_Close_02.wav</ShortName>
+							<Path>SFX\M16_Close_02_10C4C929.wem</Path>
+						</File>
+						<File Id="827659356" Language="SFX">
+							<ShortName>M16_Attach_06.wav</ShortName>
+							<Path>SFX\M16_Attach_06_10C4C929.wem</Path>
+						</File>
+						<File Id="846605389" Language="SFX">
+							<ShortName>M16_Tail_04.wav</ShortName>
+							<Path>SFX\M16_Tail_04_5A5F2F36.wem</Path>
+						</File>
+						<File Id="867020835" Language="SFX">
+							<ShortName>M16_Close_04.wav</ShortName>
+							<Path>SFX\M16_Close_04_10C4C929.wem</Path>
+						</File>
+						<File Id="877204810" Language="SFX">
+							<ShortName>M16_DIstant_01.wav</ShortName>
+							<Path>SFX\M16_DIstant_01_10C4C929.wem</Path>
+						</File>
+						<File Id="926487239" Language="SFX">
+							<ShortName>M16_Medium_05.wav</ShortName>
+							<Path>SFX\M16_Medium_05_E3A5A37C.wem</Path>
+						</File>
+						<File Id="985096519" Language="SFX">
+							<ShortName>M16_DIstant_02.wav</ShortName>
+							<Path>SFX\M16_DIstant_02_10C4C929.wem</Path>
+						</File>
+						<File Id="995181543" Language="SFX">
+							<ShortName>M16_Tail_03.wav</ShortName>
+							<Path>SFX\M16_Tail_03_4645679C.wem</Path>
+						</File>
+						<File Id="1012171492" Language="SFX">
+							<ShortName>M16_Attach_03.wav</ShortName>
+							<Path>SFX\M16_Attach_03_10C4C929.wem</Path>
+						</File>
+						<File Id="1014458569" Language="SFX">
+							<ShortName>M16_Close_06.wav</ShortName>
+							<Path>SFX\M16_Close_06_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1316675198" Name="M16_Distance_Stop" ObjectPath="\Events\Default Work Unit\Weapon\M16_Distance_Stop" DurationType="OneShot" DurationMin="2.772636" DurationMax="4.584208">
+					<IncludedMemoryFiles>
+						<File Id="2594881" Language="SFX">
+							<ShortName>M16_Medium_03.wav</ShortName>
+							<Path>SFX\M16_Medium_03_7C845AF8.wem</Path>
+						</File>
+						<File Id="11006620" Language="SFX">
+							<ShortName>UMP45_shot_thump-1.wav</ShortName>
+							<Path>SFX\UMP45_shot_thump-1_10C4C929.wem</Path>
+						</File>
+						<File Id="53949276" Language="SFX">
+							<ShortName>M16_Mech_02.wav</ShortName>
+							<Path>SFX\M16_Mech_02_10C4C929.wem</Path>
+						</File>
+						<File Id="73703629" Language="SFX">
+							<ShortName>M16_Tail_01.wav</ShortName>
+							<Path>SFX\M16_Tail_01_71DC8674.wem</Path>
+						</File>
+						<File Id="85177404" Language="SFX">
+							<ShortName>M16_Mech_06.wav</ShortName>
+							<Path>SFX\M16_Mech_06_10C4C929.wem</Path>
+						</File>
+						<File Id="97366059" Language="SFX">
+							<ShortName>M16_Close_05.wav</ShortName>
+							<Path>SFX\M16_Close_05_10C4C929.wem</Path>
+						</File>
+						<File Id="102540487" Language="SFX">
+							<ShortName>M16_Tail_06.wav</ShortName>
+							<Path>SFX\M16_Tail_06_62D34FC2.wem</Path>
+						</File>
+						<File Id="130316699" Language="SFX">
+							<ShortName>M16_Close_01.wav</ShortName>
+							<Path>SFX\M16_Close_01_10C4C929.wem</Path>
+						</File>
+						<File Id="146784090" Language="SFX">
+							<ShortName>M16_Sweetener_01.wav</ShortName>
+							<Path>SFX\M16_Sweetener_01_10C4C929.wem</Path>
+						</File>
+						<File Id="165205145" Language="SFX">
+							<ShortName>M16_Attach_01.wav</ShortName>
+							<Path>SFX\M16_Attach_01_10C4C929.wem</Path>
+						</File>
+						<File Id="223542777" Language="SFX">
+							<ShortName>M16_DIstant_06.wav</ShortName>
+							<Path>SFX\M16_DIstant_06_10C4C929.wem</Path>
+						</File>
+						<File Id="270481296" Language="SFX">
+							<ShortName>M16_Close_03.wav</ShortName>
+							<Path>SFX\M16_Close_03_10C4C929.wem</Path>
+						</File>
+						<File Id="330447636" Language="SFX">
+							<ShortName>M16_Medium_06.wav</ShortName>
+							<Path>SFX\M16_Medium_06_5B1C0678.wem</Path>
+						</File>
+						<File Id="335860618" Language="SFX">
+							<ShortName>M16_DIstant_03.wav</ShortName>
+							<Path>SFX\M16_DIstant_03_10C4C929.wem</Path>
+						</File>
+						<File Id="392155743" Language="SFX">
+							<ShortName>M16_Attach_05.wav</ShortName>
+							<Path>SFX\M16_Attach_05_10C4C929.wem</Path>
+						</File>
+						<File Id="393442974" Language="SFX">
+							<ShortName>M16_Sweetener_02.wav</ShortName>
+							<Path>SFX\M16_Sweetener_02_10C4C929.wem</Path>
+						</File>
+						<File Id="399487878" Language="SFX">
+							<ShortName>M16_Sweetener_03.wav</ShortName>
+							<Path>SFX\M16_Sweetener_03_10C4C929.wem</Path>
+						</File>
+						<File Id="429321937" Language="SFX">
+							<ShortName>M16_Sweetener_04.wav</ShortName>
+							<Path>SFX\M16_Sweetener_04_10C4C929.wem</Path>
+						</File>
+						<File Id="448183986" Language="SFX">
+							<ShortName>M16_DIstant_05.wav</ShortName>
+							<Path>SFX\M16_DIstant_05_10C4C929.wem</Path>
+						</File>
+						<File Id="466010562" Language="SFX">
+							<ShortName>M16_Mech_04.wav</ShortName>
+							<Path>SFX\M16_Mech_04_10C4C929.wem</Path>
+						</File>
+						<File Id="483241474" Language="SFX">
+							<ShortName>M16_Mech_05.wav</ShortName>
+							<Path>SFX\M16_Mech_05_10C4C929.wem</Path>
+						</File>
+						<File Id="490655731" Language="SFX">
+							<ShortName>M16_Medium_01.wav</ShortName>
+							<Path>SFX\M16_Medium_01_FA53581B.wem</Path>
+						</File>
+						<File Id="492334691" Language="SFX">
+							<ShortName>M16_Punch.wav</ShortName>
+							<Path>SFX\M16_Punch_10C4C929.wem</Path>
+						</File>
+						<File Id="511144705" Language="SFX">
+							<ShortName>M16_DIstant_04.wav</ShortName>
+							<Path>SFX\M16_DIstant_04_10C4C929.wem</Path>
+						</File>
+						<File Id="511261075" Language="SFX">
+							<ShortName>M16_Medium_04.wav</ShortName>
+							<Path>SFX\M16_Medium_04_CB8A5670.wem</Path>
+						</File>
+						<File Id="551612770" Language="SFX">
+							<ShortName>M16_Sweetener_05.wav</ShortName>
+							<Path>SFX\M16_Sweetener_05_10C4C929.wem</Path>
+						</File>
+						<File Id="566087486" Language="SFX">
+							<ShortName>M16_Tail_05.wav</ShortName>
+							<Path>SFX\M16_Tail_05_E0B2333D.wem</Path>
+						</File>
+						<File Id="575725556" Language="SFX">
+							<ShortName>M16_Tail_02.wav</ShortName>
+							<Path>SFX\M16_Tail_02_112DEC61.wem</Path>
+						</File>
+						<File Id="580190170" Language="SFX">
+							<ShortName>UMP45_shot_thump-2.wav</ShortName>
+							<Path>SFX\UMP45_shot_thump-2_10C4C929.wem</Path>
+						</File>
+						<File Id="593333862" Language="SFX">
+							<ShortName>M16_Attach_04.wav</ShortName>
+							<Path>SFX\M16_Attach_04_10C4C929.wem</Path>
+						</File>
+						<File Id="594070029" Language="SFX">
+							<ShortName>M16_Mech_03.wav</ShortName>
+							<Path>SFX\M16_Mech_03_10C4C929.wem</Path>
+						</File>
+						<File Id="636732758" Language="SFX">
+							<ShortName>M16_Sweetener_06.wav</ShortName>
+							<Path>SFX\M16_Sweetener_06_10C4C929.wem</Path>
+						</File>
+						<File Id="682552912" Language="SFX">
+							<ShortName>M16_Mech_01.wav</ShortName>
+							<Path>SFX\M16_Mech_01_10C4C929.wem</Path>
+						</File>
+						<File Id="720232100" Language="SFX">
+							<ShortName>M16_Medium_02.wav</ShortName>
+							<Path>SFX\M16_Medium_02_EB17D4AB.wem</Path>
+						</File>
+						<File Id="735941702" Language="SFX">
+							<ShortName>M16_Attach_02.wav</ShortName>
+							<Path>SFX\M16_Attach_02_10C4C929.wem</Path>
+						</File>
+						<File Id="770238686" Language="SFX">
+							<ShortName>M16_Close_02.wav</ShortName>
+							<Path>SFX\M16_Close_02_10C4C929.wem</Path>
+						</File>
+						<File Id="827659356" Language="SFX">
+							<ShortName>M16_Attach_06.wav</ShortName>
+							<Path>SFX\M16_Attach_06_10C4C929.wem</Path>
+						</File>
+						<File Id="846605389" Language="SFX">
+							<ShortName>M16_Tail_04.wav</ShortName>
+							<Path>SFX\M16_Tail_04_5A5F2F36.wem</Path>
+						</File>
+						<File Id="867020835" Language="SFX">
+							<ShortName>M16_Close_04.wav</ShortName>
+							<Path>SFX\M16_Close_04_10C4C929.wem</Path>
+						</File>
+						<File Id="877204810" Language="SFX">
+							<ShortName>M16_DIstant_01.wav</ShortName>
+							<Path>SFX\M16_DIstant_01_10C4C929.wem</Path>
+						</File>
+						<File Id="926487239" Language="SFX">
+							<ShortName>M16_Medium_05.wav</ShortName>
+							<Path>SFX\M16_Medium_05_E3A5A37C.wem</Path>
+						</File>
+						<File Id="985096519" Language="SFX">
+							<ShortName>M16_DIstant_02.wav</ShortName>
+							<Path>SFX\M16_DIstant_02_10C4C929.wem</Path>
+						</File>
+						<File Id="995181543" Language="SFX">
+							<ShortName>M16_Tail_03.wav</ShortName>
+							<Path>SFX\M16_Tail_03_4645679C.wem</Path>
+						</File>
+						<File Id="1012171492" Language="SFX">
+							<ShortName>M16_Attach_03.wav</ShortName>
+							<Path>SFX\M16_Attach_03_10C4C929.wem</Path>
+						</File>
+						<File Id="1014458569" Language="SFX">
+							<ShortName>M16_Close_06.wav</ShortName>
+							<Path>SFX\M16_Close_06_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="138649341" Name="M16_Reload" ObjectPath="\Events\Default Work Unit\Weapon\M16_Reload" DurationType="OneShot" DurationMin="3.567302" DurationMax="3.567302">
+					<IncludedMemoryFiles>
+						<File Id="762016546" Language="SFX">
+							<ShortName>M16_Reload 4.wav</ShortName>
+							<Path>SFX\M16_Reload 4_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="665452126" Name="M16_Start" ObjectPath="\Events\Default Work Unit\Weapon\M16_Start" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="2594881" Language="SFX">
+							<ShortName>M16_Medium_03.wav</ShortName>
+							<Path>SFX\M16_Medium_03_7C845AF8.wem</Path>
+						</File>
+						<File Id="11006620" Language="SFX">
+							<ShortName>UMP45_shot_thump-1.wav</ShortName>
+							<Path>SFX\UMP45_shot_thump-1_10C4C929.wem</Path>
+						</File>
+						<File Id="53949276" Language="SFX">
+							<ShortName>M16_Mech_02.wav</ShortName>
+							<Path>SFX\M16_Mech_02_10C4C929.wem</Path>
+						</File>
+						<File Id="73703629" Language="SFX">
+							<ShortName>M16_Tail_01.wav</ShortName>
+							<Path>SFX\M16_Tail_01_71DC8674.wem</Path>
+						</File>
+						<File Id="85177404" Language="SFX">
+							<ShortName>M16_Mech_06.wav</ShortName>
+							<Path>SFX\M16_Mech_06_10C4C929.wem</Path>
+						</File>
+						<File Id="97366059" Language="SFX">
+							<ShortName>M16_Close_05.wav</ShortName>
+							<Path>SFX\M16_Close_05_10C4C929.wem</Path>
+						</File>
+						<File Id="102540487" Language="SFX">
+							<ShortName>M16_Tail_06.wav</ShortName>
+							<Path>SFX\M16_Tail_06_62D34FC2.wem</Path>
+						</File>
+						<File Id="130316699" Language="SFX">
+							<ShortName>M16_Close_01.wav</ShortName>
+							<Path>SFX\M16_Close_01_10C4C929.wem</Path>
+						</File>
+						<File Id="146784090" Language="SFX">
+							<ShortName>M16_Sweetener_01.wav</ShortName>
+							<Path>SFX\M16_Sweetener_01_10C4C929.wem</Path>
+						</File>
+						<File Id="165205145" Language="SFX">
+							<ShortName>M16_Attach_01.wav</ShortName>
+							<Path>SFX\M16_Attach_01_10C4C929.wem</Path>
+						</File>
+						<File Id="223542777" Language="SFX">
+							<ShortName>M16_DIstant_06.wav</ShortName>
+							<Path>SFX\M16_DIstant_06_10C4C929.wem</Path>
+						</File>
+						<File Id="270481296" Language="SFX">
+							<ShortName>M16_Close_03.wav</ShortName>
+							<Path>SFX\M16_Close_03_10C4C929.wem</Path>
+						</File>
+						<File Id="330447636" Language="SFX">
+							<ShortName>M16_Medium_06.wav</ShortName>
+							<Path>SFX\M16_Medium_06_5B1C0678.wem</Path>
+						</File>
+						<File Id="335860618" Language="SFX">
+							<ShortName>M16_DIstant_03.wav</ShortName>
+							<Path>SFX\M16_DIstant_03_10C4C929.wem</Path>
+						</File>
+						<File Id="392155743" Language="SFX">
+							<ShortName>M16_Attach_05.wav</ShortName>
+							<Path>SFX\M16_Attach_05_10C4C929.wem</Path>
+						</File>
+						<File Id="393442974" Language="SFX">
+							<ShortName>M16_Sweetener_02.wav</ShortName>
+							<Path>SFX\M16_Sweetener_02_10C4C929.wem</Path>
+						</File>
+						<File Id="399487878" Language="SFX">
+							<ShortName>M16_Sweetener_03.wav</ShortName>
+							<Path>SFX\M16_Sweetener_03_10C4C929.wem</Path>
+						</File>
+						<File Id="429321937" Language="SFX">
+							<ShortName>M16_Sweetener_04.wav</ShortName>
+							<Path>SFX\M16_Sweetener_04_10C4C929.wem</Path>
+						</File>
+						<File Id="448183986" Language="SFX">
+							<ShortName>M16_DIstant_05.wav</ShortName>
+							<Path>SFX\M16_DIstant_05_10C4C929.wem</Path>
+						</File>
+						<File Id="466010562" Language="SFX">
+							<ShortName>M16_Mech_04.wav</ShortName>
+							<Path>SFX\M16_Mech_04_10C4C929.wem</Path>
+						</File>
+						<File Id="483241474" Language="SFX">
+							<ShortName>M16_Mech_05.wav</ShortName>
+							<Path>SFX\M16_Mech_05_10C4C929.wem</Path>
+						</File>
+						<File Id="490655731" Language="SFX">
+							<ShortName>M16_Medium_01.wav</ShortName>
+							<Path>SFX\M16_Medium_01_FA53581B.wem</Path>
+						</File>
+						<File Id="492334691" Language="SFX">
+							<ShortName>M16_Punch.wav</ShortName>
+							<Path>SFX\M16_Punch_10C4C929.wem</Path>
+						</File>
+						<File Id="511144705" Language="SFX">
+							<ShortName>M16_DIstant_04.wav</ShortName>
+							<Path>SFX\M16_DIstant_04_10C4C929.wem</Path>
+						</File>
+						<File Id="511261075" Language="SFX">
+							<ShortName>M16_Medium_04.wav</ShortName>
+							<Path>SFX\M16_Medium_04_CB8A5670.wem</Path>
+						</File>
+						<File Id="551612770" Language="SFX">
+							<ShortName>M16_Sweetener_05.wav</ShortName>
+							<Path>SFX\M16_Sweetener_05_10C4C929.wem</Path>
+						</File>
+						<File Id="566087486" Language="SFX">
+							<ShortName>M16_Tail_05.wav</ShortName>
+							<Path>SFX\M16_Tail_05_E0B2333D.wem</Path>
+						</File>
+						<File Id="575725556" Language="SFX">
+							<ShortName>M16_Tail_02.wav</ShortName>
+							<Path>SFX\M16_Tail_02_112DEC61.wem</Path>
+						</File>
+						<File Id="580190170" Language="SFX">
+							<ShortName>UMP45_shot_thump-2.wav</ShortName>
+							<Path>SFX\UMP45_shot_thump-2_10C4C929.wem</Path>
+						</File>
+						<File Id="593333862" Language="SFX">
+							<ShortName>M16_Attach_04.wav</ShortName>
+							<Path>SFX\M16_Attach_04_10C4C929.wem</Path>
+						</File>
+						<File Id="594070029" Language="SFX">
+							<ShortName>M16_Mech_03.wav</ShortName>
+							<Path>SFX\M16_Mech_03_10C4C929.wem</Path>
+						</File>
+						<File Id="636732758" Language="SFX">
+							<ShortName>M16_Sweetener_06.wav</ShortName>
+							<Path>SFX\M16_Sweetener_06_10C4C929.wem</Path>
+						</File>
+						<File Id="682552912" Language="SFX">
+							<ShortName>M16_Mech_01.wav</ShortName>
+							<Path>SFX\M16_Mech_01_10C4C929.wem</Path>
+						</File>
+						<File Id="720232100" Language="SFX">
+							<ShortName>M16_Medium_02.wav</ShortName>
+							<Path>SFX\M16_Medium_02_EB17D4AB.wem</Path>
+						</File>
+						<File Id="735941702" Language="SFX">
+							<ShortName>M16_Attach_02.wav</ShortName>
+							<Path>SFX\M16_Attach_02_10C4C929.wem</Path>
+						</File>
+						<File Id="770238686" Language="SFX">
+							<ShortName>M16_Close_02.wav</ShortName>
+							<Path>SFX\M16_Close_02_10C4C929.wem</Path>
+						</File>
+						<File Id="827659356" Language="SFX">
+							<ShortName>M16_Attach_06.wav</ShortName>
+							<Path>SFX\M16_Attach_06_10C4C929.wem</Path>
+						</File>
+						<File Id="846605389" Language="SFX">
+							<ShortName>M16_Tail_04.wav</ShortName>
+							<Path>SFX\M16_Tail_04_5A5F2F36.wem</Path>
+						</File>
+						<File Id="867020835" Language="SFX">
+							<ShortName>M16_Close_04.wav</ShortName>
+							<Path>SFX\M16_Close_04_10C4C929.wem</Path>
+						</File>
+						<File Id="877204810" Language="SFX">
+							<ShortName>M16_DIstant_01.wav</ShortName>
+							<Path>SFX\M16_DIstant_01_10C4C929.wem</Path>
+						</File>
+						<File Id="926487239" Language="SFX">
+							<ShortName>M16_Medium_05.wav</ShortName>
+							<Path>SFX\M16_Medium_05_E3A5A37C.wem</Path>
+						</File>
+						<File Id="985096519" Language="SFX">
+							<ShortName>M16_DIstant_02.wav</ShortName>
+							<Path>SFX\M16_DIstant_02_10C4C929.wem</Path>
+						</File>
+						<File Id="995181543" Language="SFX">
+							<ShortName>M16_Tail_03.wav</ShortName>
+							<Path>SFX\M16_Tail_03_4645679C.wem</Path>
+						</File>
+						<File Id="1012171492" Language="SFX">
+							<ShortName>M16_Attach_03.wav</ShortName>
+							<Path>SFX\M16_Attach_03_10C4C929.wem</Path>
+						</File>
+						<File Id="1014458569" Language="SFX">
+							<ShortName>M16_Close_06.wav</ShortName>
+							<Path>SFX\M16_Close_06_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3305641214" Name="M16_Stop" ObjectPath="\Events\Default Work Unit\Weapon\M16_Stop" DurationType="OneShot" DurationMin="2.772636" DurationMax="4.584208">
+					<IncludedMemoryFiles>
+						<File Id="2594881" Language="SFX">
+							<ShortName>M16_Medium_03.wav</ShortName>
+							<Path>SFX\M16_Medium_03_7C845AF8.wem</Path>
+						</File>
+						<File Id="11006620" Language="SFX">
+							<ShortName>UMP45_shot_thump-1.wav</ShortName>
+							<Path>SFX\UMP45_shot_thump-1_10C4C929.wem</Path>
+						</File>
+						<File Id="53949276" Language="SFX">
+							<ShortName>M16_Mech_02.wav</ShortName>
+							<Path>SFX\M16_Mech_02_10C4C929.wem</Path>
+						</File>
+						<File Id="73703629" Language="SFX">
+							<ShortName>M16_Tail_01.wav</ShortName>
+							<Path>SFX\M16_Tail_01_71DC8674.wem</Path>
+						</File>
+						<File Id="85177404" Language="SFX">
+							<ShortName>M16_Mech_06.wav</ShortName>
+							<Path>SFX\M16_Mech_06_10C4C929.wem</Path>
+						</File>
+						<File Id="97366059" Language="SFX">
+							<ShortName>M16_Close_05.wav</ShortName>
+							<Path>SFX\M16_Close_05_10C4C929.wem</Path>
+						</File>
+						<File Id="102540487" Language="SFX">
+							<ShortName>M16_Tail_06.wav</ShortName>
+							<Path>SFX\M16_Tail_06_62D34FC2.wem</Path>
+						</File>
+						<File Id="130316699" Language="SFX">
+							<ShortName>M16_Close_01.wav</ShortName>
+							<Path>SFX\M16_Close_01_10C4C929.wem</Path>
+						</File>
+						<File Id="146784090" Language="SFX">
+							<ShortName>M16_Sweetener_01.wav</ShortName>
+							<Path>SFX\M16_Sweetener_01_10C4C929.wem</Path>
+						</File>
+						<File Id="165205145" Language="SFX">
+							<ShortName>M16_Attach_01.wav</ShortName>
+							<Path>SFX\M16_Attach_01_10C4C929.wem</Path>
+						</File>
+						<File Id="223542777" Language="SFX">
+							<ShortName>M16_DIstant_06.wav</ShortName>
+							<Path>SFX\M16_DIstant_06_10C4C929.wem</Path>
+						</File>
+						<File Id="270481296" Language="SFX">
+							<ShortName>M16_Close_03.wav</ShortName>
+							<Path>SFX\M16_Close_03_10C4C929.wem</Path>
+						</File>
+						<File Id="330447636" Language="SFX">
+							<ShortName>M16_Medium_06.wav</ShortName>
+							<Path>SFX\M16_Medium_06_5B1C0678.wem</Path>
+						</File>
+						<File Id="335860618" Language="SFX">
+							<ShortName>M16_DIstant_03.wav</ShortName>
+							<Path>SFX\M16_DIstant_03_10C4C929.wem</Path>
+						</File>
+						<File Id="392155743" Language="SFX">
+							<ShortName>M16_Attach_05.wav</ShortName>
+							<Path>SFX\M16_Attach_05_10C4C929.wem</Path>
+						</File>
+						<File Id="393442974" Language="SFX">
+							<ShortName>M16_Sweetener_02.wav</ShortName>
+							<Path>SFX\M16_Sweetener_02_10C4C929.wem</Path>
+						</File>
+						<File Id="399487878" Language="SFX">
+							<ShortName>M16_Sweetener_03.wav</ShortName>
+							<Path>SFX\M16_Sweetener_03_10C4C929.wem</Path>
+						</File>
+						<File Id="429321937" Language="SFX">
+							<ShortName>M16_Sweetener_04.wav</ShortName>
+							<Path>SFX\M16_Sweetener_04_10C4C929.wem</Path>
+						</File>
+						<File Id="448183986" Language="SFX">
+							<ShortName>M16_DIstant_05.wav</ShortName>
+							<Path>SFX\M16_DIstant_05_10C4C929.wem</Path>
+						</File>
+						<File Id="466010562" Language="SFX">
+							<ShortName>M16_Mech_04.wav</ShortName>
+							<Path>SFX\M16_Mech_04_10C4C929.wem</Path>
+						</File>
+						<File Id="483241474" Language="SFX">
+							<ShortName>M16_Mech_05.wav</ShortName>
+							<Path>SFX\M16_Mech_05_10C4C929.wem</Path>
+						</File>
+						<File Id="490655731" Language="SFX">
+							<ShortName>M16_Medium_01.wav</ShortName>
+							<Path>SFX\M16_Medium_01_FA53581B.wem</Path>
+						</File>
+						<File Id="511144705" Language="SFX">
+							<ShortName>M16_DIstant_04.wav</ShortName>
+							<Path>SFX\M16_DIstant_04_10C4C929.wem</Path>
+						</File>
+						<File Id="511261075" Language="SFX">
+							<ShortName>M16_Medium_04.wav</ShortName>
+							<Path>SFX\M16_Medium_04_CB8A5670.wem</Path>
+						</File>
+						<File Id="551612770" Language="SFX">
+							<ShortName>M16_Sweetener_05.wav</ShortName>
+							<Path>SFX\M16_Sweetener_05_10C4C929.wem</Path>
+						</File>
+						<File Id="566087486" Language="SFX">
+							<ShortName>M16_Tail_05.wav</ShortName>
+							<Path>SFX\M16_Tail_05_E0B2333D.wem</Path>
+						</File>
+						<File Id="575725556" Language="SFX">
+							<ShortName>M16_Tail_02.wav</ShortName>
+							<Path>SFX\M16_Tail_02_112DEC61.wem</Path>
+						</File>
+						<File Id="580190170" Language="SFX">
+							<ShortName>UMP45_shot_thump-2.wav</ShortName>
+							<Path>SFX\UMP45_shot_thump-2_10C4C929.wem</Path>
+						</File>
+						<File Id="593333862" Language="SFX">
+							<ShortName>M16_Attach_04.wav</ShortName>
+							<Path>SFX\M16_Attach_04_10C4C929.wem</Path>
+						</File>
+						<File Id="594070029" Language="SFX">
+							<ShortName>M16_Mech_03.wav</ShortName>
+							<Path>SFX\M16_Mech_03_10C4C929.wem</Path>
+						</File>
+						<File Id="636732758" Language="SFX">
+							<ShortName>M16_Sweetener_06.wav</ShortName>
+							<Path>SFX\M16_Sweetener_06_10C4C929.wem</Path>
+						</File>
+						<File Id="682552912" Language="SFX">
+							<ShortName>M16_Mech_01.wav</ShortName>
+							<Path>SFX\M16_Mech_01_10C4C929.wem</Path>
+						</File>
+						<File Id="720232100" Language="SFX">
+							<ShortName>M16_Medium_02.wav</ShortName>
+							<Path>SFX\M16_Medium_02_EB17D4AB.wem</Path>
+						</File>
+						<File Id="735941702" Language="SFX">
+							<ShortName>M16_Attach_02.wav</ShortName>
+							<Path>SFX\M16_Attach_02_10C4C929.wem</Path>
+						</File>
+						<File Id="770238686" Language="SFX">
+							<ShortName>M16_Close_02.wav</ShortName>
+							<Path>SFX\M16_Close_02_10C4C929.wem</Path>
+						</File>
+						<File Id="827659356" Language="SFX">
+							<ShortName>M16_Attach_06.wav</ShortName>
+							<Path>SFX\M16_Attach_06_10C4C929.wem</Path>
+						</File>
+						<File Id="846605389" Language="SFX">
+							<ShortName>M16_Tail_04.wav</ShortName>
+							<Path>SFX\M16_Tail_04_5A5F2F36.wem</Path>
+						</File>
+						<File Id="867020835" Language="SFX">
+							<ShortName>M16_Close_04.wav</ShortName>
+							<Path>SFX\M16_Close_04_10C4C929.wem</Path>
+						</File>
+						<File Id="877204810" Language="SFX">
+							<ShortName>M16_DIstant_01.wav</ShortName>
+							<Path>SFX\M16_DIstant_01_10C4C929.wem</Path>
+						</File>
+						<File Id="926487239" Language="SFX">
+							<ShortName>M16_Medium_05.wav</ShortName>
+							<Path>SFX\M16_Medium_05_E3A5A37C.wem</Path>
+						</File>
+						<File Id="985096519" Language="SFX">
+							<ShortName>M16_DIstant_02.wav</ShortName>
+							<Path>SFX\M16_DIstant_02_10C4C929.wem</Path>
+						</File>
+						<File Id="995181543" Language="SFX">
+							<ShortName>M16_Tail_03.wav</ShortName>
+							<Path>SFX\M16_Tail_03_4645679C.wem</Path>
+						</File>
+						<File Id="1012171492" Language="SFX">
+							<ShortName>M16_Attach_03.wav</ShortName>
+							<Path>SFX\M16_Attach_03_10C4C929.wem</Path>
+						</File>
+						<File Id="1014458569" Language="SFX">
+							<ShortName>M16_Close_06.wav</ShortName>
+							<Path>SFX\M16_Close_06_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1459939965" Name="Male_soldier" ObjectPath="\Events\Default Work Unit\AI\Male_soldier" MaxAttenuation="20." DurationType="OneShot" DurationMin="2.220408" DurationMax="2.220408">
+					<IncludedMemoryFiles>
+						<File Id="142036629" Language="SFX">
+							<ShortName>Male-Soldier-ElevenLabs.wav</ShortName>
+							<Path>SFX\Male-Soldier-ElevenLabs_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Default Work Unit\Music\Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="45826935" Language="SFX">
+							<ShortName>ToIntense.wav</ShortName>
+							<Path>SFX\ToIntense_9EDFC787.wem</Path>
+						</File>
+						<File Id="262689832" Language="SFX">
+							<ShortName>Intense.wav</ShortName>
+							<Path>SFX\Intense_9EDFC787.wem</Path>
+						</File>
+						<File Id="532716385" Language="SFX">
+							<ShortName>ToExploration.wav</ShortName>
+							<Path>SFX\ToExploration_9EDFC787.wem</Path>
+						</File>
+						<File Id="885805417" Language="SFX">
+							<ShortName>Exploration.wav</ShortName>
+							<Path>SFX\Exploration_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{6BDB1A34-98A1-4F6A-8F03-590464A21E9B}">
+							<Media>
+								<File Id="885805417"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{838D7EA7-CF7E-4E93-8DC8-DB7196F83F05}">
+							<Media>
+								<File Id="262689832"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3163785253" Name="Run_AI" ObjectPath="\Events\Default Work Unit\Character\Run_AI" MaxAttenuation="20." DurationType="OneShot" DurationMin="0.14522" DurationMax="0.325983">
+					<IncludedMemoryFiles>
+						<File Id="9543102" Language="SFX">
+							<ShortName>run_asphalt_07.wav</ShortName>
+							<Path>SFX\run_asphalt_07_3F75BDB9.wem</Path>
+						</File>
+						<File Id="21655705" Language="SFX">
+							<ShortName>run_sand_02.wav</ShortName>
+							<Path>SFX\run_sand_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="22002508" Language="SFX">
+							<ShortName>run_tile_06.wav</ShortName>
+							<Path>SFX\run_tile_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="39800321" Language="SFX">
+							<ShortName>run_asphalt_03.wav</ShortName>
+							<Path>SFX\run_asphalt_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="91933631" Language="SFX">
+							<ShortName>run_stairs_03.wav</ShortName>
+							<Path>SFX\run_stairs_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="109718874" Language="SFX">
+							<ShortName>run_concrete_04.wav</ShortName>
+							<Path>SFX\run_concrete_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="110057127" Language="SFX">
+							<ShortName>run_water_04.wav</ShortName>
+							<Path>SFX\run_water_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="147459680" Language="SFX">
+							<ShortName>run_sand_08.wav</ShortName>
+							<Path>SFX\run_sand_08_3F75BDB9.wem</Path>
+						</File>
+						<File Id="153228227" Language="SFX">
+							<ShortName>run_metal_08.wav</ShortName>
+							<Path>SFX\run_metal_08_3F75BDB9.wem</Path>
+						</File>
+						<File Id="154019227" Language="SFX">
+							<ShortName>run_water_07.wav</ShortName>
+							<Path>SFX\run_water_07_3F75BDB9.wem</Path>
+						</File>
+						<File Id="166345206" Language="SFX">
+							<ShortName>run_metal_03.wav</ShortName>
+							<Path>SFX\run_metal_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="173890858" Language="SFX">
+							<ShortName>run_asphalt_02.wav</ShortName>
+							<Path>SFX\run_asphalt_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="227600004" Language="SFX">
+							<ShortName>run_dirt_03.wav</ShortName>
+							<Path>SFX\run_dirt_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="240086961" Language="SFX">
+							<ShortName>run_dirt_05.wav</ShortName>
+							<Path>SFX\run_dirt_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="245714904" Language="SFX">
+							<ShortName>run_asphalt_06.wav</ShortName>
+							<Path>SFX\run_asphalt_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="255326782" Language="SFX">
+							<ShortName>run_stairs_04.wav</ShortName>
+							<Path>SFX\run_stairs_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="270082199" Language="SFX">
+							<ShortName>run_stairs_07.wav</ShortName>
+							<Path>SFX\run_stairs_07_3F75BDB9.wem</Path>
+						</File>
+						<File Id="335230750" Language="SFX">
+							<ShortName>run_sand_06.wav</ShortName>
+							<Path>SFX\run_sand_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="357045909" Language="SFX">
+							<ShortName>run_tile_05.wav</ShortName>
+							<Path>SFX\run_tile_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="402649577" Language="SFX">
+							<ShortName>run_concrete_07.wav</ShortName>
+							<Path>SFX\run_concrete_07_3F75BDB9.wem</Path>
+						</File>
+						<File Id="423206644" Language="SFX">
+							<ShortName>run_metal_02.wav</ShortName>
+							<Path>SFX\run_metal_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="453636867" Language="SFX">
+							<ShortName>run_dirt_08.wav</ShortName>
+							<Path>SFX\run_dirt_08_3F75BDB9.wem</Path>
+						</File>
+						<File Id="461770661" Language="SFX">
+							<ShortName>run_metal_05.wav</ShortName>
+							<Path>SFX\run_metal_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="494762954" Language="SFX">
+							<ShortName>run_dirt_06.wav</ShortName>
+							<Path>SFX\run_dirt_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="505702308" Language="SFX">
+							<ShortName>run_water_06.wav</ShortName>
+							<Path>SFX\run_water_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="513366313" Language="SFX">
+							<ShortName>run_water_02.wav</ShortName>
+							<Path>SFX\run_water_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="530196515" Language="SFX">
+							<ShortName>run_metal_07.wav</ShortName>
+							<Path>SFX\run_metal_07_3F75BDB9.wem</Path>
+						</File>
+						<File Id="535544816" Language="SFX">
+							<ShortName>run_concrete_01.wav</ShortName>
+							<Path>SFX\run_concrete_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="561269215" Language="SFX">
+							<ShortName>run_sand_03.wav</ShortName>
+							<Path>SFX\run_sand_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="569061588" Language="SFX">
+							<ShortName>run_tile_04.wav</ShortName>
+							<Path>SFX\run_tile_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="574474662" Language="SFX">
+							<ShortName>run_stairs_01.wav</ShortName>
+							<Path>SFX\run_stairs_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="594858545" Language="SFX">
+							<ShortName>run_water_05.wav</ShortName>
+							<Path>SFX\run_water_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="614504368" Language="SFX">
+							<ShortName>run_metal_06.wav</ShortName>
+							<Path>SFX\run_metal_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="647728206" Language="SFX">
+							<ShortName>run_water_03.wav</ShortName>
+							<Path>SFX\run_water_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="648062257" Language="SFX">
+							<ShortName>run_metal_04.wav</ShortName>
+							<Path>SFX\run_metal_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="663520627" Language="SFX">
+							<ShortName>run_asphalt_08.wav</ShortName>
+							<Path>SFX\run_asphalt_08_3F75BDB9.wem</Path>
+						</File>
+						<File Id="676644296" Language="SFX">
+							<ShortName>run_tile_03.wav</ShortName>
+							<Path>SFX\run_tile_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="698372416" Language="SFX">
+							<ShortName>run_sand_04.wav</ShortName>
+							<Path>SFX\run_sand_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="708621088" Language="SFX">
+							<ShortName>run_concrete_05.wav</ShortName>
+							<Path>SFX\run_concrete_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="732646798" Language="SFX">
+							<ShortName>run_sand_07.wav</ShortName>
+							<Path>SFX\run_sand_07_3F75BDB9.wem</Path>
+						</File>
+						<File Id="766335675" Language="SFX">
+							<ShortName>run_water_01.wav</ShortName>
+							<Path>SFX\run_water_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="781412925" Language="SFX">
+							<ShortName>run_sand_05.wav</ShortName>
+							<Path>SFX\run_sand_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="786110312" Language="SFX">
+							<ShortName>run_asphalt_01.wav</ShortName>
+							<Path>SFX\run_asphalt_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="791616893" Language="SFX">
+							<ShortName>run_dirt_07.wav</ShortName>
+							<Path>SFX\run_dirt_07_3F75BDB9.wem</Path>
+						</File>
+						<File Id="804326711" Language="SFX">
+							<ShortName>run_sand_01.wav</ShortName>
+							<Path>SFX\run_sand_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="806595770" Language="SFX">
+							<ShortName>run_concrete_03.wav</ShortName>
+							<Path>SFX\run_concrete_03_3F75BDB9.wem</Path>
+						</File>
+						<File Id="807276564" Language="SFX">
+							<ShortName>run_asphalt_05.wav</ShortName>
+							<Path>SFX\run_asphalt_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="815849921" Language="SFX">
+							<ShortName>run_tile_02.wav</ShortName>
+							<Path>SFX\run_tile_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="816822530" Language="SFX">
+							<ShortName>run_water_08.wav</ShortName>
+							<Path>SFX\run_water_08_3F75BDB9.wem</Path>
+						</File>
+						<File Id="818073608" Language="SFX">
+							<ShortName>run_concrete_06.wav</ShortName>
+							<Path>SFX\run_concrete_06_3F75BDB9.wem</Path>
+						</File>
+						<File Id="818496557" Language="SFX">
+							<ShortName>run_stairs_02.wav</ShortName>
+							<Path>SFX\run_stairs_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="829045770" Language="SFX">
+							<ShortName>run_dirt_02.wav</ShortName>
+							<Path>SFX\run_dirt_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="858257993" Language="SFX">
+							<ShortName>run_metal_01.wav</ShortName>
+							<Path>SFX\run_metal_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="863211622" Language="SFX">
+							<ShortName>run_tile_08.wav</ShortName>
+							<Path>SFX\run_tile_08_3F75BDB9.wem</Path>
+						</File>
+						<File Id="868729774" Language="SFX">
+							<ShortName>run_tile_07.wav</ShortName>
+							<Path>SFX\run_tile_07_3F75BDB9.wem</Path>
+						</File>
+						<File Id="879845306" Language="SFX">
+							<ShortName>run_stairs_05.wav</ShortName>
+							<Path>SFX\run_stairs_05_3F75BDB9.wem</Path>
+						</File>
+						<File Id="899998273" Language="SFX">
+							<ShortName>run_tile_01.wav</ShortName>
+							<Path>SFX\run_tile_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="904825094" Language="SFX">
+							<ShortName>run_dirt_01.wav</ShortName>
+							<Path>SFX\run_dirt_01_3F75BDB9.wem</Path>
+						</File>
+						<File Id="924476219" Language="SFX">
+							<ShortName>run_dirt_04.wav</ShortName>
+							<Path>SFX\run_dirt_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="976635026" Language="SFX">
+							<ShortName>run_concrete_02.wav</ShortName>
+							<Path>SFX\run_concrete_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="982948301" Language="SFX">
+							<ShortName>run_stairs_08.wav</ShortName>
+							<Path>SFX\run_stairs_08_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1006054301" Language="SFX">
+							<ShortName>run_asphalt_04.wav</ShortName>
+							<Path>SFX\run_asphalt_04_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1043113213" Language="SFX">
+							<ShortName>run_concrete_08.wav</ShortName>
+							<Path>SFX\run_concrete_08_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1070481845" Language="SFX">
+							<ShortName>run_stairs_06.wav</ShortName>
+							<Path>SFX\run_stairs_06_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{30A86263-03E4-412D-99AF-8145171783AA}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{2F577849-B1CA-4494-A688-7282F5635AA9}">
+							<Media>
+								<File Id="227600004"/>
+								<File Id="240086961"/>
+								<File Id="453636867"/>
+								<File Id="494762954"/>
+								<File Id="791616893"/>
+								<File Id="829045770"/>
+								<File Id="904825094"/>
+								<File Id="924476219"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{7BEC284F-8642-4453-B2D8-17011BE75F13}">
+							<Media>
+								<File Id="9543102"/>
+								<File Id="39800321"/>
+								<File Id="173890858"/>
+								<File Id="245714904"/>
+								<File Id="663520627"/>
+								<File Id="786110312"/>
+								<File Id="807276564"/>
+								<File Id="1006054301"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{30A86263-03E4-412D-99AF-8145171783AA}">
+							<Media>
+								<File Id="21655705"/>
+								<File Id="147459680"/>
+								<File Id="335230750"/>
+								<File Id="561269215"/>
+								<File Id="698372416"/>
+								<File Id="732646798"/>
+								<File Id="781412925"/>
+								<File Id="804326711"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{7177126F-F1CE-4AC5-AEBB-C685A99A6FA0}">
+							<Media>
+								<File Id="91933631"/>
+								<File Id="255326782"/>
+								<File Id="270082199"/>
+								<File Id="574474662"/>
+								<File Id="818496557"/>
+								<File Id="879845306"/>
+								<File Id="982948301"/>
+								<File Id="1070481845"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{DFFFA081-D2BF-4355-BEC8-3A9A94ED3446}">
+							<Media>
+								<File Id="109718874"/>
+								<File Id="402649577"/>
+								<File Id="535544816"/>
+								<File Id="708621088"/>
+								<File Id="806595770"/>
+								<File Id="818073608"/>
+								<File Id="976635026"/>
+								<File Id="1043113213"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A0F1EFAB-272F-4A21-9E68-7E16EBD4974E}">
+							<Media>
+								<File Id="110057127"/>
+								<File Id="154019227"/>
+								<File Id="505702308"/>
+								<File Id="513366313"/>
+								<File Id="594858545"/>
+								<File Id="647728206"/>
+								<File Id="766335675"/>
+								<File Id="816822530"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{9BDC7FB0-8124-4278-BDB8-EA0351663A07}">
+							<Media>
+								<File Id="22002508"/>
+								<File Id="357045909"/>
+								<File Id="569061588"/>
+								<File Id="676644296"/>
+								<File Id="815849921"/>
+								<File Id="863211622"/>
+								<File Id="868729774"/>
+								<File Id="899998273"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{56F22BF3-89A1-4E78-9A88-E18179E31739}">
+							<Media>
+								<File Id="153228227"/>
+								<File Id="166345206"/>
+								<File Id="423206644"/>
+								<File Id="461770661"/>
+								<File Id="530196515"/>
+								<File Id="614504368"/>
+								<File Id="648062257"/>
+								<File Id="858257993"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="965656869" Name="RTPC_Doppler" ObjectPath="\Game Parameters\Default Work Unit\RTPC_Doppler"/>
+				<GameParameter Id="1193280819" Name="RTPC_load" ObjectPath="\Game Parameters\Default Work Unit\Car\RTPC_load"/>
+				<GameParameter Id="2978654722" Name="RTPC_power" ObjectPath="\Game Parameters\Default Work Unit\Car\RTPC_power"/>
+				<GameParameter Id="3173130817" Name="RTPC_ext_Azimuth" ObjectPath="\Game Parameters\Default Work Unit\RTPC_ext_Azimuth"/>
+				<GameParameter Id="3185992410" Name="RTPC_ext_Distance" ObjectPath="\Game Parameters\Default Work Unit\RTPC_ext_Distance"/>
+				<GameParameter Id="3642784784" Name="RTPC_ext_Elevation" ObjectPath="\Game Parameters\Default Work Unit\RTPC_ext_Elevation"/>
+				<GameParameter Id="3774151474" Name="RTPC_rpm" ObjectPath="\Game Parameters\Default Work Unit\Car\RTPC_rpm"/>
+				<GameParameter Id="3902547868" Name="inAccelSideChain" ObjectPath="\Game Parameters\Default Work Unit\Car\inAccelSideChain"/>
+				<GameParameter Id="4110517857" Name="RTPC_ext_Camera_High" ObjectPath="\Game Parameters\Default Work Unit\RTPC_ext_Camera_High"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="1021618141" Name="MusicState" ObjectPath="\States\Default Work Unit\MusicState" GUID="{EE95692F-2F7F-4138-A5BF-C7D9FD226F7D}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\MusicState\None" GUID="{D819BE8E-AFCD-4D1C-A791-395E63513EA9}"/>
+						<State Id="2582085496" Name="Exploration" ObjectPath="\States\Default Work Unit\MusicState\Exploration" GUID="{6BDB1A34-98A1-4F6A-8F03-590464A21E9B}"/>
+						<State Id="4223512837" Name="Intense" ObjectPath="\States\Default Work Unit\MusicState\Intense" GUID="{838D7EA7-CF7E-4E93-8DC8-DB7196F83F05}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="63790334" Name="SurfaceType" ObjectPath="\Switches\Default Work Unit\SurfaceType" GUID="{5D9F98F2-8316-43CE-BE43-CF3EC8393739}">
+					<Switches>
+						<Switch Id="841620460" Name="Concrete" ObjectPath="\Switches\Default Work Unit\SurfaceType\Concrete" GUID="{DFFFA081-D2BF-4355-BEC8-3A9A94ED3446}"/>
+						<Switch Id="4169408098" Name="Asphalt" ObjectPath="\Switches\Default Work Unit\SurfaceType\Asphalt" GUID="{7BEC284F-8642-4453-B2D8-17011BE75F13}"/>
+						<Switch Id="803837735" Name="Sand" ObjectPath="\Switches\Default Work Unit\SurfaceType\Sand" GUID="{30A86263-03E4-412D-99AF-8145171783AA}"/>
+						<Switch Id="2637588553" Name="Tile" ObjectPath="\Switches\Default Work Unit\SurfaceType\Tile" GUID="{9BDC7FB0-8124-4278-BDB8-EA0351663A07}"/>
+						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Default Work Unit\SurfaceType\Dirt" GUID="{2F577849-B1CA-4494-A688-7282F5635AA9}"/>
+						<Switch Id="2654748154" Name="Water" ObjectPath="\Switches\Default Work Unit\SurfaceType\Water" GUID="{A0F1EFAB-272F-4A21-9E68-7E16EBD4974E}"/>
+						<Switch Id="1289942167" Name="Stairs" ObjectPath="\Switches\Default Work Unit\SurfaceType\Stairs" GUID="{7177126F-F1CE-4AC5-AEBB-C685A99A6FA0}"/>
+						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\SurfaceType\Metal" GUID="{56F22BF3-89A1-4E78-9A88-E18179E31739}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="1820390588" Name="inAccel" ObjectPath="\Switches\Default Work Unit\inAccel" GUID="{CEC582A9-C349-42A2-9145-5720D7DB3113}">
+					<Switches>
+						<Switch Id="1651971902" Name="on" ObjectPath="\Switches\Default Work Unit\inAccel\on" GUID="{BD39FB8E-69F6-4D80-A8EA-0069F70BCB16}"/>
+						<Switch Id="930712164" Name="off" ObjectPath="\Switches\Default Work Unit\inAccel\off" GUID="{9FFCF771-825E-4107-BC95-66CDC6E64977}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3587484858" Name="LocomotionType" ObjectPath="\Switches\Default Work Unit\LocomotionType" GUID="{16072BD0-1080-4349-A736-27D58D3DAA6A}">
+					<Switches>
+						<Switch Id="3833651337" Name="Jump" ObjectPath="\Switches\Default Work Unit\LocomotionType\Jump" GUID="{2931C777-6C80-48CF-92C3-5054D5D1B492}"/>
+						<Switch Id="712161704" Name="Run" ObjectPath="\Switches\Default Work Unit\LocomotionType\Run" GUID="{879C8F42-43DD-4C6C-8980-767B65660D43}"/>
+						<Switch Id="2108779966" Name="Walk" ObjectPath="\Switches\Default Work Unit\LocomotionType\Walk" GUID="{171054FC-F81E-4FF9-BC68-F5E699E31E32}"/>
+						<Switch Id="2655407367" Name="Crouch" ObjectPath="\Switches\Default Work Unit\LocomotionType\Crouch" GUID="{5D2B587A-1A53-46CF-80EA-FD67A252EB3F}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

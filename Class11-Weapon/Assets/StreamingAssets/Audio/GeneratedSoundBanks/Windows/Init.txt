@@ -1,0 +1,51 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1820390588	inAccel			\Default Work Unit\inAccel	
+
+Switch	ID	Name	Switch Group			Notes
+	930712164	off	inAccel			
+	1651971902	on	inAccel			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1021618141	MusicState			\Default Work Unit\MusicState	
+	3385411612	HealthDamage			\Default Work Unit\HealthDamage	
+	4071417932	Player_State			\Default Work Unit\Player_State	
+
+State	ID	Name	State Group			Notes
+	748895195	None	MusicState			
+	2582085496	Exploration	MusicState			
+	4223512837	Intense	MusicState			
+	748895195	None	HealthDamage			
+	1160234136	Normal	HealthDamage			
+	1786804762	Damage	HealthDamage			
+	748895195	None	Player_State			
+	2655407367	Crouch	Player_State			
+	2689084685	Standing	Player_State			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	672591894	Crouch	Player_State	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambient		
+	793178917	Normal	HealthDamage	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\HeartBeat		
+	992965347	Damage	HealthDamage	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambient		
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	77978275	Ambient			\Default Work Unit\Master Audio Bus\Ambient	
+	436743010	Character			\Default Work Unit\Master Audio Bus\Character	
+	983016381	Car			\Default Work Unit\Master Audio Bus\Car	
+	1078688352	music_exploration			\Default Work Unit\Master Audio Bus\Music\music_exploration	
+	1734347146	amb_outdoor			\Default Work Unit\Master Audio Bus\Ambient\amb_outdoor	
+	2179486487	HeartBeat			\Default Work Unit\Master Audio Bus\HeartBeat	
+	3345200797	music_intense			\Default Work Unit\Master Audio Bus\Music\music_intense	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3893417221	Weapon			\Default Work Unit\Master Audio Bus\Weapon	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+	3997975935	amb_indoor			\Default Work Unit\Master Audio Bus\Ambient\amb_indoor	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	4176706795	MolitvaReverb			\Default Work Unit\Master Audio Bus\MolitvaReverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3164629247	Holy	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

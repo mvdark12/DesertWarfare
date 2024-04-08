@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BFC7AC34-4036-48D1-90AD-A7436EE1EC71}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{BFC7AC34-4036-48D1-90AD-A7436EE1EC71}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RTPC_Low_Ammo" ID="{35FA5E85-5160-4A09-821D-8155D7A4D678}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="30"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Distance" ID="{85B7E46F-912E-4FE5-8E7E-274C3E558768}">
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

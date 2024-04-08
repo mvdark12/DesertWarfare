@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D279A842-2FF2-4C81-BD36-08ED39C3F231}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{D279A842-2FF2-4C81-BD36-08ED39C3F231}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="State_Weapon" ID="{10503114-C0E8-4054-A939-3C2A8FB46FE7}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.2"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{D410BC42-F4F3-491E-9FC9-76CB6E0CFF2A}"/>
+						<State Name="Default" ID="{9EDC6152-4B8B-4CF7-8DE5-B0398B9E4A46}"/>
+						<State Name="Sniper" ID="{D0AFA0EA-730D-4A6E-9D36-AF704017766E}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

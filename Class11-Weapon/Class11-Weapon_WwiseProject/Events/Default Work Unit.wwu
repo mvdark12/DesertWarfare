@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2B43A5A4-EEB5-4606-91E6-3AC116B6F961}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{2B43A5A4-EEB5-4606-91E6-3AC116B6F961}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="famas_oneshot" ID="{1D857181-7DDD-4AF9-99D1-136EF44AA240}">
+					<ChildrenList>
+						<Action Name="" ID="{4C247BE2-79A7-49DE-83BA-C22D63A39FC1}" ShortID="606325188">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Famas_oneshot" ID="{47AF7F77-2325-4AE4-A586-E0B84E4A63BF}" WorkUnitID="{6AE16C56-1C89-4063-9954-94209FDA6CA6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D9551104-5244-4987-BDAC-FCAF841E354F}" ShortID="899957401">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="tails" ID="{8FB2E36A-051B-4417-986E-D7BBF9367A7B}" WorkUnitID="{6AE16C56-1C89-4063-9954-94209FDA6CA6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="famas_start" ID="{69F46832-A4A7-4EFA-82F5-F1E5A645A6AE}">
+					<ChildrenList>
+						<Action Name="" ID="{D7EB9FE6-9E99-44DC-B0FB-631595DA4166}" ShortID="622560626">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Famas_click" ID="{CBE56396-E3F5-4830-A730-D732C57A89B2}" WorkUnitID="{6AE16C56-1C89-4063-9954-94209FDA6CA6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{210A28D9-801D-47B2-A920-711CA8A3B918}" ShortID="882734032">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.011"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Famas_loop" ID="{165C4D73-FE92-421D-8DF7-4E4D9BAB3DFF}" WorkUnitID="{6AE16C56-1C89-4063-9954-94209FDA6CA6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="famas_stop" ID="{2E311437-7A56-45A6-8747-B01B28EDBBCC}">
+					<ChildrenList>
+						<Action Name="" ID="{3886EE31-A36C-4031-986A-44B7E721BF33}" ShortID="493825230">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.075"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Famas_loop" ID="{165C4D73-FE92-421D-8DF7-4E4D9BAB3DFF}" WorkUnitID="{6AE16C56-1C89-4063-9954-94209FDA6CA6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{61C0C6FA-4744-4DF4-90CF-E4182D9275C8}" ShortID="455871356">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="tails" ID="{8FB2E36A-051B-4417-986E-D7BBF9367A7B}" WorkUnitID="{6AE16C56-1C89-4063-9954-94209FDA6CA6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3319D67F-CF4E-4DE2-835B-0F58815E9CBD}" ShortID="421640540">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="add_rear" ID="{6FFCFBFB-DEA5-4A7C-9269-9B3F0F9A479D}" WorkUnitID="{6AE16C56-1C89-4063-9954-94209FDA6CA6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="M16_Start" ID="{6EE9F619-EBCC-47CB-9E13-79D22E7C6AF9}">
+					<ChildrenList>
+						<Action Name="" ID="{E132D966-2C00-4653-B09F-26AFD79DC99D}" ShortID="417377775">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="M16_Auto" ID="{29FD9062-48D1-452D-8178-DF30BA64FB5E}" WorkUnitID="{6AE16C56-1C89-4063-9954-94209FDA6CA6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="M16_Stop" ID="{9100CB99-D0FE-423F-A561-A36E05EF4ACB}">
+					<ChildrenList>
+						<Action Name="" ID="{6D62E0A5-7EB0-4C07-A013-895231C2CE83}" ShortID="615325588">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="0.05"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="M16_Auto" ID="{29FD9062-48D1-452D-8178-DF30BA64FB5E}" WorkUnitID="{6AE16C56-1C89-4063-9954-94209FDA6CA6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{62111DE5-E250-428D-B783-D07A4D0FD2D5}" ShortID="243855488">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="M16_Oneshot" ID="{CAA4EC6C-7DA5-4F71-AFEE-AC69BE0C9D42}" WorkUnitID="{6AE16C56-1C89-4063-9954-94209FDA6CA6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="M16_Oneshot" ID="{6E4BFAE1-FEDA-4706-B98B-B3D8E4BC30E5}">
+					<ChildrenList>
+						<Action Name="" ID="{DA955E9C-ECFC-4CAE-89BC-1F6FE5561D3F}" ShortID="178297025">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="M16_Oneshot" ID="{CAA4EC6C-7DA5-4F71-AFEE-AC69BE0C9D42}" WorkUnitID="{6AE16C56-1C89-4063-9954-94209FDA6CA6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="M16_Reload" ID="{129E5473-9274-406A-8249-391FC6DE4727}">
+					<ChildrenList>
+						<Action Name="" ID="{78ABCC29-46E8-4520-93FA-D20FB5A593B9}" ShortID="559630889">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="M16_Reload 4" ID="{847FADF8-C8E5-4F05-8F8A-5C8AEE272FB5}" WorkUnitID="{6AE16C56-1C89-4063-9954-94209FDA6CA6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ambience" ID="{75B80C5A-2AF4-4ABA-9BA8-9237479A76A6}">
+					<ChildrenList>
+						<Action Name="" ID="{DD85553F-6DA8-4BF4-B468-320C2D82BCEF}" ShortID="208708222">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience, Air, Underground Garage Interior SND77590" ID="{8616F2AD-7332-453B-9B3C-F4A032756C47}" WorkUnitID="{6AE16C56-1C89-4063-9954-94209FDA6CA6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pistol_Oneshot" ID="{4734543A-E646-424B-9F6C-4EDC1E5B75DF}">
+					<ChildrenList>
+						<Action Name="" ID="{7381D177-1CA0-4103-8598-9629B6B0B631}" ShortID="1065677784">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pistol_Oneshot" ID="{6F639284-9255-411F-9F37-EF5DBECEEE76}" WorkUnitID="{6AE16C56-1C89-4063-9954-94209FDA6CA6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pistol_Reload" ID="{2722692E-0005-45C8-9BF7-C7A771DAA875}">
+					<ChildrenList>
+						<Action Name="" ID="{0AD4E6D7-0C74-436A-A254-C838B666B4A9}" ShortID="851089430">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pistol_Reload" ID="{55AFD1B6-1BF3-4CA7-9CE7-F6371ACFB695}" WorkUnitID="{6AE16C56-1C89-4063-9954-94209FDA6CA6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="M16_Distance" ID="{E3127F88-8AEA-4720-8B57-BD737CBF5001}">
+					<ChildrenList>
+						<Action Name="" ID="{3C9DA3E8-3CF2-4744-B5DE-7505BDF92056}" ShortID="213228344">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="M16_Distance" ID="{D02DCC0A-0132-42D9-9561-4F53BFCD4E7E}" WorkUnitID="{6AE16C56-1C89-4063-9954-94209FDA6CA6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

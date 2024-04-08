@@ -1,0 +1,101 @@
+Event	ID	Name			Wwise Object Path	Notes
+	85412153	Ambience			\Default Work Unit\Ambience	
+	138649341	M16_Reload			\Default Work Unit\M16_Reload	
+	665452126	M16_Start			\Default Work Unit\M16_Start	
+	706157102	famas_oneshot			\Default Work Unit\famas_oneshot	
+	711808627	M16_Distance			\Default Work Unit\M16_Distance	
+	1068215004	Pistol_Reload			\Default Work Unit\Pistol_Reload	
+	3305641214	M16_Stop			\Default Work Unit\M16_Stop	
+	3350934198	M16_Oneshot			\Default Work Unit\M16_Oneshot	
+	3770368349	Pistol_Oneshot			\Default Work Unit\Pistol_Oneshot	
+	3789831254	famas_stop			\Default Work Unit\famas_stop	
+	3999464790	famas_start			\Default Work Unit\famas_start	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3198222243	State_Weapon			\Default Work Unit\State_Weapon	
+
+State	ID	Name	State Group			Notes
+	748895195	None	State_Weapon			
+	782826392	Default	State_Weapon			
+	2550763292	Sniper	State_Weapon			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	203586035	Sniper	State_Weapon	\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Punch		
+	410125472	Sniper	State_Weapon	\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Tail		
+	760384895	Sniper	State_Weapon	\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Attach		
+	901924664	Sniper	State_Weapon	\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Sweetener		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	262290038	RTPC_Distance			\Default Work Unit\RTPC_Distance	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1021136	M16_Attach_02	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Attach_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Attach\M16_Attach_02		70520
+	3356785	M16_Medium_06	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Medium_06_A33F95CD.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Medium\M16_Medium_06		132428
+	48970429	M16_Medium_04	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Medium_04_C6275201.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Medium\M16_Medium_04		140060
+	58063456	M16_Close_04	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Close_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Close\M16_Close_04		99352
+	73194035	M16_Attach_05	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Attach_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Attach\M16_Attach_05		117164
+	81264629	Famas_add-1	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\Famas_add-1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Famas\Famas_loop\Famas_oneshot\add\Famas_add-1		63404
+	98720899	M16_DIstant_04	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_DIstant_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_DIstant\M16_DIstant_04		79000
+	117994736	Famas_attack-2	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\Famas_attack-2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Famas\Famas_loop\Famas_oneshot\attack\Famas_attack-2		24046
+	137649581	M16_Tail_05	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Tail_05_ECD55FEB.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Tail\M16_Tail_05		523392
+	145173722	M16_Attach_04	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Attach_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Attach\M16_Attach_04		58644
+	172022112	M16_Tail_01	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Tail_01_E0943201.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Tail\M16_Tail_01		715904
+	175649977	M16_Mech_05	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Mech_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Mech\M16_Mech_05		279144
+	179150240	Pistol_04	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\AWDS PI AK 47 Draco Pistol Close Single 3_1AA29410.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pistol_Oneshot\Pistol_04		489840
+	191983660	Famas_attack-3	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\Famas_attack-3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Famas\Famas_loop\Famas_oneshot\attack\Famas_attack-3		22114
+	202996288	Famas_add-2	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\Famas_add-2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Famas\Famas_loop\Famas_oneshot\add\Famas_add-2		77952
+	243958753	M16_Mech_04	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Mech_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Mech\M16_Mech_04		425016
+	256159188	M16_DIstant_01	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_DIstant_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_DIstant\M16_DIstant_01		84936
+	268936036	M16_Sweetener_01	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Sweetener_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Sweetener\M16_Sweetener_01		125644
+	269839152	Famas_body-3	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\Famas_body-3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Famas\Famas_loop\Famas_oneshot\body\Famas_body-3		76896
+	277432508	Famas_attack-1	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\Famas_attack-1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Famas\Famas_loop\Famas_oneshot\attack\Famas_attack-1		17980
+	291722050	UMP45_shot_thump-1	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\UMP45_shot_thump-1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Famas\Famas_loop\Famas_oneshot\thump\UMP45_shot_thump-1		36684
+	377576564	GUN SRCE Handgun 9MM 2 Med Close Rear Side 6x MKH8040ST 2	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\GUN SRCE Handgun 9MM 2 Med Close Rear Side 6x MKH8040ST 2_AD637320.wem		\Actor-Mixer Hierarchy\Default Work Unit\Famas\Famas_loop\Famas_oneshot\add_rear\GUN SRCE Handgun 9MM 2 Med Close Rear Side 6x MKH8040ST 2		237520
+	393332345	GUN SRCE Rifle Assault LAR15 1 Med Close Mid Rear 5x MKH8040ST 1	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\GUN SRCE Rifle Assault LAR15 1 Med Close Mid Rear 5x MKH8040ST 1_8F60986F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Famas\tails\2ndtail\GUN SRCE Rifle Assault LAR15 1 Med Close Mid Rear 5x MKH8040ST 1		397400
+	413538543	Pistol_Reload	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\Guns, Handle, Reload, Pistol Foley SND50600_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pistol_Reload		321048
+	422445694	M16_Tail_02	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Tail_02_79222311.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Tail\M16_Tail_02		763396
+	428408804	GUN SRCE Handgun 9MM 2 Med Close Rear Side 6x MKH8040ST	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\GUN SRCE Handgun 9MM 2 Med Close Rear Side 6x MKH8040ST_5147231D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Famas\Famas_loop\Famas_oneshot\add_rear\GUN SRCE Handgun 9MM 2 Med Close Rear Side 6x MKH8040ST		169696
+	433518980	Pistol_01	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\AWDS PI AK 47 Draco Pistol Close Single_F5C81F32.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pistol_Oneshot\Pistol_01		512284
+	440537833	M16_Close_03	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Close_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Close\M16_Close_03		122252
+	458739031	M16_Medium_05	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Medium_05_06B5232E.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Medium\M16_Medium_05		136668
+	486270434	Famas_body-1	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\Famas_body-1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Famas\Famas_loop\Famas_oneshot\body\Famas_body-1		76696
+	489843739	M16_Mech_01	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Mech_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Mech\M16_Mech_01		471660
+	492217258	M16_DIstant_03	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_DIstant_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_DIstant\M16_DIstant_03		83240
+	497991030	UMP45_shot_thump-2	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\UMP45_shot_thump-2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Famas\Famas_loop\Famas_oneshot\thump\UMP45_shot_thump-2		35952
+	510817244	M16_Sweetener_02	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Sweetener_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Sweetener\M16_Sweetener_02		91720
+	519667154	M16_DIstant_05	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_DIstant_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_DIstant\M16_DIstant_05		95960
+	550437364	GUN SRCE Handgun 9MM 2 Med Close Rear Side 6x MKH8040ST 3	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\GUN SRCE Handgun 9MM 2 Med Close Rear Side 6x MKH8040ST 3_9D09DF9D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Famas\Famas_loop\Famas_oneshot\add_rear\GUN SRCE Handgun 9MM 2 Med Close Rear Side 6x MKH8040ST 3		231136
+	559176123	Famas_click	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\Famas_click_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Famas\Famas_click		11090
+	591657610	M16_Medium_03	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Medium_03_8C94C970.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Medium\M16_Medium_03		145148
+	592096810	M16_Medium_02	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Medium_02_5F8F853C.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Medium\M16_Medium_02		132428
+	595252501	Ambience, Air, Underground Garage Interior SND77590	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\Ambience, Air, Underground Garage Interior SND77590_8E8A9542.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience, Air, Underground Garage Interior SND77590		7363328
+	615698845	M16_Close_01	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Close_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Close\M16_Close_01		84936
+	621181877	M16_Tail_06	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Tail_06_28E93957.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Tail\M16_Tail_06		518304
+	628929571	M16_Sweetener_05	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Sweetener_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Sweetener\M16_Sweetener_05		74760
+	638900480	M16_Sweetener_04	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Sweetener_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Sweetener\M16_Sweetener_04		99352
+	660038350	M16_Attach_01	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Attach_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Attach\M16_Attach_01		64580
+	664323468	Pistol_03	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\AWDS PI AK 47 Draco Pistol Close Single 2_F881B536.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pistol_Oneshot\Pistol_03		498284
+	697130329	M16_DIstant_06	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_DIstant_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_DIstant\M16_DIstant_06		90872
+	717988536	GUN SRCE Handgun 9MM 2 Med Close Rear Side 6x MKH8040ST 1	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\GUN SRCE Handgun 9MM 2 Med Close Rear Side 6x MKH8040ST 1_8396F820.wem		\Actor-Mixer Hierarchy\Default Work Unit\Famas\Famas_loop\Famas_oneshot\add_rear\GUN SRCE Handgun 9MM 2 Med Close Rear Side 6x MKH8040ST 1		214428
+	764864737	M16_Mech_03	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Mech_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Mech\M16_Mech_03		348688
+	783391246	M16_Tail_03	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Tail_03_D23C20AD.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Tail\M16_Tail_03		714208
+	787304945	M16_Medium_01	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Medium_01_A26FBD36.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Medium\M16_Medium_01		125644
+	788788353	Famas_tail-2	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\Famas_tail-2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Famas\tails\tail\Famas_tail-2		286716
+	789019507	M16_Attach_06	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Attach_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Attach\M16_Attach_06		90872
+	805193849	Famas_tail-1	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\Famas_tail-1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Famas\tails\tail\Famas_tail-1		267792
+	821546890	M16_Attach_03	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Attach_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Attach\M16_Attach_03		62884
+	859452220	M16_Sweetener_06	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Sweetener_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Sweetener\M16_Sweetener_06		69672
+	892748489	M16_Reload 4	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Reload 4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Reload 4		629400
+	913603232	Famas_body-2	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\Famas_body-2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Famas\Famas_loop\Famas_oneshot\body\Famas_body-2		67252
+	984330360	M16_Close_06	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Close_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Close\M16_Close_06		90872
+	985291588	M16_Punch	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Punch_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Punch		64580
+	990529867	GUN SRCE Rifle Assault LAR15 1 Med Close Mid Rear 5x MKH8040ST	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\GUN SRCE Rifle Assault LAR15 1 Med Close Mid Rear 5x MKH8040ST_91F7DF86.wem		\Actor-Mixer Hierarchy\Default Work Unit\Famas\tails\2ndtail\GUN SRCE Rifle Assault LAR15 1 Med Close Mid Rear 5x MKH8040ST		385492
+	1010514057	Pistol_02	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\AWDS PI AK 47 Draco Pistol Close Single 1_4D7445F2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pistol_Oneshot\Pistol_02		496964
+	1031864296	M16_Close_05	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Close_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Close\M16_Close_05		95960
+	1043917528	M16_Mech_02	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Mech_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Mech\M16_Mech_02		356320
+	1047038540	M16_Sweetener_03	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Sweetener_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Sweetener\M16_Sweetener_03		84088
+	1047231331	M16_Tail_04	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Tail_04_2AB21F05.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Tail\M16_Tail_04		628552
+	1047308248	M16_Close_02	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Close_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Close\M16_Close_02		91720
+	1063005880	M16_DIstant_02	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_DIstant_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_DIstant\M16_DIstant_02		91720
+	1068320529	M16_Mech_06	D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\SFX\M16_Mech_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\M16_Auto\M16\M16_Mech\M16_Mech_06		252856
+

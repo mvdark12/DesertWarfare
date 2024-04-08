@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\XSSR Academy\Занятие 11\class11-weapon-main\Class11-Weapon\Class11-Weapon_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2785750248">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="4056684167" Language="SFX" Hash="1087591315">
+			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
+			<ShortName>Master</ShortName>
+			<Path>Master.bnk</Path>
+			<IncludedEvents>
+				<Event Id="85412153" Name="Ambience" ObjectPath="\Events\Default Work Unit\Ambience" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="595252501" Language="SFX">
+							<ShortName>Ambience, Air, Underground Garage Interior SND77590.wav</ShortName>
+							<Path>SFX\Ambience, Air, Underground Garage Interior SND77590_8E8A9542.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="706157102" Name="famas_oneshot" ObjectPath="\Events\Default Work Unit\famas_oneshot" DurationType="OneShot" DurationMin="2.257449" DurationMax="2.319468">
+					<IncludedMemoryFiles>
+						<File Id="81264629" Language="SFX">
+							<ShortName>Famas_add-1.wav</ShortName>
+							<Path>SFX\Famas_add-1_10C4C929.wem</Path>
+						</File>
+						<File Id="117994736" Language="SFX">
+							<ShortName>Famas_attack-2.wav</ShortName>
+							<Path>SFX\Famas_attack-2_10C4C929.wem</Path>
+						</File>
+						<File Id="191983660" Language="SFX">
+							<ShortName>Famas_attack-3.wav</ShortName>
+							<Path>SFX\Famas_attack-3_10C4C929.wem</Path>
+						</File>
+						<File Id="202996288" Language="SFX">
+							<ShortName>Famas_add-2.wav</ShortName>
+							<Path>SFX\Famas_add-2_10C4C929.wem</Path>
+						</File>
+						<File Id="269839152" Language="SFX">
+							<ShortName>Famas_body-3.wav</ShortName>
+							<Path>SFX\Famas_body-3_10C4C929.wem</Path>
+						</File>
+						<File Id="277432508" Language="SFX">
+							<ShortName>Famas_attack-1.wav</ShortName>
+							<Path>SFX\Famas_attack-1_10C4C929.wem</Path>
+						</File>
+						<File Id="291722050" Language="SFX">
+							<ShortName>UMP45_shot_thump-1.wav</ShortName>
+							<Path>SFX\UMP45_shot_thump-1_10C4C929.wem</Path>
+						</File>
+						<File Id="377576564" Language="SFX">
+							<ShortName>GUN SRCE Handgun 9MM 2 Med Close Rear Side 6x MKH8040ST 2.wav</ShortName>
+							<Path>SFX\GUN SRCE Handgun 9MM 2 Med Close Rear Side 6x MKH8040ST 2_AD637320.wem</Path>
+						</File>
+						<File Id="393332345" Language="SFX">
+							<ShortName>GUN SRCE Rifle Assault LAR15 1 Med Close Mid Rear 5x MKH8040ST 1.wav</ShortName>
+							<Path>SFX\GUN SRCE Rifle Assault LAR15 1 Med Close Mid Rear 5x MKH8040ST 1_8F60986F.wem</Path>
+						</File>
+						<File Id="428408804" Language="SFX">
+							<ShortName>GUN SRCE Handgun 9MM 2 Med Close Rear Side 6x MKH8040ST.wav</ShortName>
+							<Path>SFX\GUN SRCE Handgun 9MM 2 Med Close Rear Side 6x MKH8040ST_5147231D.wem</Path>
+						</File>
+						<File Id="486270434" Language="SFX">
+							<ShortName>Famas_body-1.wav</ShortName>
+							<Path>SFX\Famas_body-1_10C4C929.wem</Path>
+						</File>
+						<File Id="497991030" Language="SFX">
+							<ShortName>UMP45_shot_thump-2.wav</ShortName>
+							<Path>SFX\UMP45_shot_thump-2_10C4C929.wem</Path>
+						</File>
+						<File Id="550437364" Language="SFX">
+							<ShortName>GUN SRCE Handgun 9MM 2 Med Close Rear Side 6x MKH8040ST 3.wav</ShortName>
+							<Path>SFX\GUN SRCE Handgun 9MM 2 Med Close Rear Side 6x MKH8040ST 3_9D09DF9D.wem</Path>
+						</File>
+						<File Id="717988536" Language="SFX">
+							<ShortName>GUN SRCE Handgun 9MM 2 Med Close Rear Side 6x MKH8040ST 1.wav</ShortName>
+							<Path>SFX\GUN SRCE Handgun 9MM 2 Med Close Rear Side 6x MKH8040ST 1_8396F820.wem</Path>
+						</File>
+						<File Id="788788353" Language="SFX">
+							<ShortName>Famas_tail-2.wav</ShortName>
+							<Path>SFX\Famas_tail-2_10C4C929.wem</Path>
+						</File>
+						<File Id="805193849" Language="SFX">
+							<ShortName>Famas_tail-1.wav</ShortName>
+							<Path>SFX\Famas_tail-1_10C4C929.wem</Path>
+						</File>
+						<File Id="913603232" Language="SFX">
+							<ShortName>Famas_body-2.wav</ShortName>
+							<Path>SFX\Famas_body-2_10C4C929.wem</Path>
+						</File>
+						<File Id="990529867" Language="SFX">
+							<ShortName>GUN SRCE Rifle Assault LAR15 1 Med Close Mid Rear 5x MKH8040ST.wav</ShortName>
+							<Path>SFX\GUN SRCE Rifle Assault LAR15 1 Med Close Mid Rear 5x MKH8040ST_91F7DF86.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3999464790" Name="famas_start" ObjectPath="\Events\Default Work Unit\famas_start" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="81264629" Language="SFX">
+							<ShortName>Famas_add-1.wav</ShortName>
+							<Path>SFX\Famas_add-1_10C4C929.wem</Path>
+						</File>
+						<File Id="117994736" Language="SFX">
+							<ShortName>Famas_attack-2.wav</ShortName>
+							<Path>SFX\Famas_attack-2_10C4C929.wem</Path>
+						</File>
+						<File Id="191983660" Language="SFX">
+							<ShortName>Famas_attack-3.wav</ShortName>
+							<Path>SFX\Famas_attack-3_10C4C929.wem</Path>
+						</File>
+						<File Id="202996288" Language="SFX">
+							<ShortName>Famas_add-2.wav</ShortName>
+							<Path>SFX\Famas_add-2_10C4C929.wem</Path>
+						</File>
+						<File Id="269839152" Language="SFX">
+							<ShortName>Famas_body-3.wav</ShortName>
+							<Path>SFX\Famas_body-3_10C4C929.wem</Path>
+						</File>
+						<File Id="277432508" Language="SFX">
+							<ShortName>Famas_attack-1.wav</ShortName>
+							<Path>SFX\Famas_attack-1_10C4C929.wem</Path>
+						</File>
+						<File Id="291722050" Language="SFX">
+							<ShortName>UMP45_shot_thump-1.wav</ShortName>
+							<Path>SFX\UMP45_shot_thump-1_10C4C929.wem</Path>
+						</File>
+						<File Id="377576564" Language="SFX">
+							<ShortName>GUN SRCE Handgun 9MM 2 Med Close Rear Side 6x MKH8040ST 2.wav</ShortName>
+							<Path>SFX\GUN SRCE Handgun 9MM 2 Med Close Rear Side 6x MKH8040ST 2_AD637320.wem</Path>
+						</File>
+						<File Id="428408804" Language="SFX">
+							<ShortName>GUN SRCE Handgun 9MM 2 Med Close Rear Side 6x MKH8040ST.wav</ShortName>
+							<Path>SFX\GUN SRCE Handgun 9MM 2 Med Close Rear Side 6x MKH8040ST_5147231D.wem</Path>
+						</File>
+						<File Id="486270434" Language="SFX">
+							<ShortName>Famas_body-1.wav</ShortName>
+							<Path>SFX\Famas_body-1_10C4C929.wem</Path>
+						</File>
+						<File Id="497991030" Language="SFX">
+							<ShortName>UMP45_shot_thump-2.wav</ShortName>
+							<Path>SFX\UMP45_shot_thump-2_10C4C929.wem</Path>
+						</File>
+						<File Id="550437364" Language="SFX">
+							<ShortName>GUN SRCE Handgun 9MM 2 Med Close Rear Side 6x MKH8040ST 3.wav</ShortName>
+							<Path>SFX\GUN SRCE Handgun 9MM 2 Med Close Rear Side 6x MKH8040ST 3_9D09DF9D.wem</Path>
+						</File>
+						<File Id="559176123" Language="SFX">
+							<ShortName>Famas_click.wav</ShortName>
+							<Path>SFX\Famas_click_10C4C929.wem</Path>
+						</File>
+						<File Id="717988536" Language="SFX">
+							<ShortName>GUN SRCE Handgun 9MM 2 Med Close Rear Side 6x MKH8040ST 1.wav</ShortName>
+							<Path>SFX\GUN SRCE Handgun 9MM 2 Med Close Rear Side 6x MKH8040ST 1_8396F820.wem</Path>
+						</File>
+						<File Id="913603232" Language="SFX">
+							<ShortName>Famas_body-2.wav</ShortName>
+							<Path>SFX\Famas_body-2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3789831254" Name="famas_stop" ObjectPath="\Events\Default Work Unit\famas_stop" DurationType="OneShot" DurationMin="2.257449" DurationMax="2.319468">
+					<IncludedMemoryFiles>
+						<File Id="377576564" Language="SFX">
+							<ShortName>GUN SRCE Handgun 9MM 2 Med Close Rear Side 6x MKH8040ST 2.wav</ShortName>
+							<Path>SFX\GUN SRCE Handgun 9MM 2 Med Close Rear Side 6x MKH8040ST 2_AD637320.wem</Path>
+						</File>
+						<File Id="393332345" Language="SFX">
+							<ShortName>GUN SRCE Rifle Assault LAR15 1 Med Close Mid Rear 5x MKH8040ST 1.wav</ShortName>
+							<Path>SFX\GUN SRCE Rifle Assault LAR15 1 Med Close Mid Rear 5x MKH8040ST 1_8F60986F.wem</Path>
+						</File>
+						<File Id="428408804" Language="SFX">
+							<ShortName>GUN SRCE Handgun 9MM 2 Med Close Rear Side 6x MKH8040ST.wav</ShortName>
+							<Path>SFX\GUN SRCE Handgun 9MM 2 Med Close Rear Side 6x MKH8040ST_5147231D.wem</Path>
+						</File>
+						<File Id="550437364" Language="SFX">
+							<ShortName>GUN SRCE Handgun 9MM 2 Med Close Rear Side 6x MKH8040ST 3.wav</ShortName>
+							<Path>SFX\GUN SRCE Handgun 9MM 2 Med Close Rear Side 6x MKH8040ST 3_9D09DF9D.wem</Path>
+						</File>
+						<File Id="717988536" Language="SFX">
+							<ShortName>GUN SRCE Handgun 9MM 2 Med Close Rear Side 6x MKH8040ST 1.wav</ShortName>
+							<Path>SFX\GUN SRCE Handgun 9MM 2 Med Close Rear Side 6x MKH8040ST 1_8396F820.wem</Path>
+						</File>
+						<File Id="788788353" Language="SFX">
+							<ShortName>Famas_tail-2.wav</ShortName>
+							<Path>SFX\Famas_tail-2_10C4C929.wem</Path>
+						</File>
+						<File Id="805193849" Language="SFX">
+							<ShortName>Famas_tail-1.wav</ShortName>
+							<Path>SFX\Famas_tail-1_10C4C929.wem</Path>
+						</File>
+						<File Id="990529867" Language="SFX">
+							<ShortName>GUN SRCE Rifle Assault LAR15 1 Med Close Mid Rear 5x MKH8040ST.wav</ShortName>
+							<Path>SFX\GUN SRCE Rifle Assault LAR15 1 Med Close Mid Rear 5x MKH8040ST_91F7DF86.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="711808627" Name="M16_Distance" ObjectPath="\Events\Default Work Unit\M16_Distance" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="1021136" Language="SFX">
+							<ShortName>M16_Attach_02.wav</ShortName>
+							<Path>SFX\M16_Attach_02_10C4C929.wem</Path>
+						</File>
+						<File Id="3356785" Language="SFX">
+							<ShortName>M16_Medium_06.wav</ShortName>
+							<Path>SFX\M16_Medium_06_A33F95CD.wem</Path>
+						</File>
+						<File Id="48970429" Language="SFX">
+							<ShortName>M16_Medium_04.wav</ShortName>
+							<Path>SFX\M16_Medium_04_C6275201.wem</Path>
+						</File>
+						<File Id="58063456" Language="SFX">
+							<ShortName>M16_Close_04.wav</ShortName>
+							<Path>SFX\M16_Close_04_10C4C929.wem</Path>
+						</File>
+						<File Id="73194035" Language="SFX">
+							<ShortName>M16_Attach_05.wav</ShortName>
+							<Path>SFX\M16_Attach_05_10C4C929.wem</Path>
+						</File>
+						<File Id="98720899" Language="SFX">
+							<ShortName>M16_DIstant_04.wav</ShortName>
+							<Path>SFX\M16_DIstant_04_10C4C929.wem</Path>
+						</File>
+						<File Id="137649581" Language="SFX">
+							<ShortName>M16_Tail_05.wav</ShortName>
+							<Path>SFX\M16_Tail_05_ECD55FEB.wem</Path>
+						</File>
+						<File Id="145173722" Language="SFX">
+							<ShortName>M16_Attach_04.wav</ShortName>
+							<Path>SFX\M16_Attach_04_10C4C929.wem</Path>
+						</File>
+						<File Id="172022112" Language="SFX">
+							<ShortName>M16_Tail_01.wav</ShortName>
+							<Path>SFX\M16_Tail_01_E0943201.wem</Path>
+						</File>
+						<File Id="175649977" Language="SFX">
+							<ShortName>M16_Mech_05.wav</ShortName>
+							<Path>SFX\M16_Mech_05_10C4C929.wem</Path>
+						</File>
+						<File Id="243958753" Language="SFX">
+							<ShortName>M16_Mech_04.wav</ShortName>
+							<Path>SFX\M16_Mech_04_10C4C929.wem</Path>
+						</File>
+						<File Id="256159188" Language="SFX">
+							<ShortName>M16_DIstant_01.wav</ShortName>
+							<Path>SFX\M16_DIstant_01_10C4C929.wem</Path>
+						</File>
+						<File Id="268936036" Language="SFX">
+							<ShortName>M16_Sweetener_01.wav</ShortName>
+							<Path>SFX\M16_Sweetener_01_10C4C929.wem</Path>
+						</File>
+						<File Id="422445694" Language="SFX">
+							<ShortName>M16_Tail_02.wav</ShortName>
+							<Path>SFX\M16_Tail_02_79222311.wem</Path>
+						</File>
+						<File Id="440537833" Language="SFX">
+							<ShortName>M16_Close_03.wav</ShortName>
+							<Path>SFX\M16_Close_03_10C4C929.wem</Path>
+						</File>
+						<File Id="458739031" Language="SFX">
+							<ShortName>M16_Medium_05.wav</ShortName>
+							<Path>SFX\M16_Medium_05_06B5232E.wem</Path>
+						</File>
+						<File Id="489843739" Language="SFX">
+							<ShortName>M16_Mech_01.wav</ShortName>
+							<Path>SFX\M16_Mech_01_10C4C929.wem</Path>
+						</File>
+						<File Id="492217258" Language="SFX">
+							<ShortName>M16_DIstant_03.wav</ShortName>
+							<Path>SFX\M16_DIstant_03_10C4C929.wem</Path>
+						</File>
+						<File Id="510817244" Language="SFX">
+							<ShortName>M16_Sweetener_02.wav</ShortName>
+							<Path>SFX\M16_Sweetener_02_10C4C929.wem</Path>
+						</File>
+						<File Id="519667154" Language="SFX">
+							<ShortName>M16_DIstant_05.wav</ShortName>
+							<Path>SFX\M16_DIstant_05_10C4C929.wem</Path>
+						</File>
+						<File Id="591657610" Language="SFX">
+							<ShortName>M16_Medium_03.wav</ShortName>
+							<Path>SFX\M16_Medium_03_8C94C970.wem</Path>
+						</File>
+						<File Id="592096810" Language="SFX">
+							<ShortName>M16_Medium_02.wav</ShortName>
+							<Path>SFX\M16_Medium_02_5F8F853C.wem</Path>
+						</File>
+						<File Id="615698845" Language="SFX">
+							<ShortName>M16_Close_01.wav</ShortName>
+							<Path>SFX\M16_Close_01_10C4C929.wem</Path>
+						</File>
+						<File Id="621181877" Language="SFX">
+							<ShortName>M16_Tail_06.wav</ShortName>
+							<Path>SFX\M16_Tail_06_28E93957.wem</Path>
+						</File>
+						<File Id="628929571" Language="SFX">
+							<ShortName>M16_Sweetener_05.wav</ShortName>
+							<Path>SFX\M16_Sweetener_05_10C4C929.wem</Path>
+						</File>
+						<File Id="638900480" Language="SFX">
+							<ShortName>M16_Sweetener_04.wav</ShortName>
+							<Path>SFX\M16_Sweetener_04_10C4C929.wem</Path>
+						</File>
+						<File Id="660038350" Language="SFX">
+							<ShortName>M16_Attach_01.wav</ShortName>
+							<Path>SFX\M16_Attach_01_10C4C929.wem</Path>
+						</File>
+						<File Id="697130329" Language="SFX">
+							<ShortName>M16_DIstant_06.wav</ShortName>
+							<Path>SFX\M16_DIstant_06_10C4C929.wem</Path>
+						</File>
+						<File Id="764864737" Language="SFX">
+							<ShortName>M16_Mech_03.wav</ShortName>
+							<Path>SFX\M16_Mech_03_10C4C929.wem</Path>
+						</File>
+						<File Id="783391246" Language="SFX">
+							<ShortName>M16_Tail_03.wav</ShortName>
+							<Path>SFX\M16_Tail_03_D23C20AD.wem</Path>
+						</File>
+						<File Id="787304945" Language="SFX">
+							<ShortName>M16_Medium_01.wav</ShortName>
+							<Path>SFX\M16_Medium_01_A26FBD36.wem</Path>
+						</File>
+						<File Id="789019507" Language="SFX">
+							<ShortName>M16_Attach_06.wav</ShortName>
+							<Path>SFX\M16_Attach_06_10C4C929.wem</Path>
+						</File>
+						<File Id="821546890" Language="SFX">
+							<ShortName>M16_Attach_03.wav</ShortName>
+							<Path>SFX\M16_Attach_03_10C4C929.wem</Path>
+						</File>
+						<File Id="859452220" Language="SFX">
+							<ShortName>M16_Sweetener_06.wav</ShortName>
+							<Path>SFX\M16_Sweetener_06_10C4C929.wem</Path>
+						</File>
+						<File Id="984330360" Language="SFX">
+							<ShortName>M16_Close_06.wav</ShortName>
+							<Path>SFX\M16_Close_06_10C4C929.wem</Path>
+						</File>
+						<File Id="985291588" Language="SFX">
+							<ShortName>M16_Punch.wav</ShortName>
+							<Path>SFX\M16_Punch_10C4C929.wem</Path>
+						</File>
+						<File Id="1031864296" Language="SFX">
+							<ShortName>M16_Close_05.wav</ShortName>
+							<Path>SFX\M16_Close_05_10C4C929.wem</Path>
+						</File>
+						<File Id="1043917528" Language="SFX">
+							<ShortName>M16_Mech_02.wav</ShortName>
+							<Path>SFX\M16_Mech_02_10C4C929.wem</Path>
+						</File>
+						<File Id="1047038540" Language="SFX">
+							<ShortName>M16_Sweetener_03.wav</ShortName>
+							<Path>SFX\M16_Sweetener_03_10C4C929.wem</Path>
+						</File>
+						<File Id="1047231331" Language="SFX">
+							<ShortName>M16_Tail_04.wav</ShortName>
+							<Path>SFX\M16_Tail_04_2AB21F05.wem</Path>
+						</File>
+						<File Id="1047308248" Language="SFX">
+							<ShortName>M16_Close_02.wav</ShortName>
+							<Path>SFX\M16_Close_02_10C4C929.wem</Path>
+						</File>
+						<File Id="1063005880" Language="SFX">
+							<ShortName>M16_DIstant_02.wav</ShortName>
+							<Path>SFX\M16_DIstant_02_10C4C929.wem</Path>
+						</File>
+						<File Id="1068320529" Language="SFX">
+							<ShortName>M16_Mech_06.wav</ShortName>
+							<Path>SFX\M16_Mech_06_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3350934198" Name="M16_Oneshot" ObjectPath="\Events\Default Work Unit\M16_Oneshot" DurationType="OneShot" DurationMin="2.772636" DurationMax="4.584208">
+					<IncludedMemoryFiles>
+						<File Id="1021136" Language="SFX">
+							<ShortName>M16_Attach_02.wav</ShortName>
+							<Path>SFX\M16_Attach_02_10C4C929.wem</Path>
+						</File>
+						<File Id="3356785" Language="SFX">
+							<ShortName>M16_Medium_06.wav</ShortName>
+							<Path>SFX\M16_Medium_06_A33F95CD.wem</Path>
+						</File>
+						<File Id="48970429" Language="SFX">
+							<ShortName>M16_Medium_04.wav</ShortName>
+							<Path>SFX\M16_Medium_04_C6275201.wem</Path>
+						</File>
+						<File Id="58063456" Language="SFX">
+							<ShortName>M16_Close_04.wav</ShortName>
+							<Path>SFX\M16_Close_04_10C4C929.wem</Path>
+						</File>
+						<File Id="73194035" Language="SFX">
+							<ShortName>M16_Attach_05.wav</ShortName>
+							<Path>SFX\M16_Attach_05_10C4C929.wem</Path>
+						</File>
+						<File Id="98720899" Language="SFX">
+							<ShortName>M16_DIstant_04.wav</ShortName>
+							<Path>SFX\M16_DIstant_04_10C4C929.wem</Path>
+						</File>
+						<File Id="137649581" Language="SFX">
+							<ShortName>M16_Tail_05.wav</ShortName>
+							<Path>SFX\M16_Tail_05_ECD55FEB.wem</Path>
+						</File>
+						<File Id="145173722" Language="SFX">
+							<ShortName>M16_Attach_04.wav</ShortName>
+							<Path>SFX\M16_Attach_04_10C4C929.wem</Path>
+						</File>
+						<File Id="172022112" Language="SFX">
+							<ShortName>M16_Tail_01.wav</ShortName>
+							<Path>SFX\M16_Tail_01_E0943201.wem</Path>
+						</File>
+						<File Id="175649977" Language="SFX">
+							<ShortName>M16_Mech_05.wav</ShortName>
+							<Path>SFX\M16_Mech_05_10C4C929.wem</Path>
+						</File>
+						<File Id="243958753" Language="SFX">
+							<ShortName>M16_Mech_04.wav</ShortName>
+							<Path>SFX\M16_Mech_04_10C4C929.wem</Path>
+						</File>
+						<File Id="256159188" Language="SFX">
+							<ShortName>M16_DIstant_01.wav</ShortName>
+							<Path>SFX\M16_DIstant_01_10C4C929.wem</Path>
+						</File>
+						<File Id="268936036" Language="SFX">
+							<ShortName>M16_Sweetener_01.wav</ShortName>
+							<Path>SFX\M16_Sweetener_01_10C4C929.wem</Path>
+						</File>
+						<File Id="422445694" Language="SFX">
+							<ShortName>M16_Tail_02.wav</ShortName>
+							<Path>SFX\M16_Tail_02_79222311.wem</Path>
+						</File>
+						<File Id="440537833" Language="SFX">
+							<ShortName>M16_Close_03.wav</ShortName>
+							<Path>SFX\M16_Close_03_10C4C929.wem</Path>
+						</File>
+						<File Id="458739031" Language="SFX">
+							<ShortName>M16_Medium_05.wav</ShortName>
+							<Path>SFX\M16_Medium_05_06B5232E.wem</Path>
+						</File>
+						<File Id="489843739" Language="SFX">
+							<ShortName>M16_Mech_01.wav</ShortName>
+							<Path>SFX\M16_Mech_01_10C4C929.wem</Path>
+						</File>
+						<File Id="492217258" Language="SFX">
+							<ShortName>M16_DIstant_03.wav</ShortName>
+							<Path>SFX\M16_DIstant_03_10C4C929.wem</Path>
+						</File>
+						<File Id="510817244" Language="SFX">
+							<ShortName>M16_Sweetener_02.wav</ShortName>
+							<Path>SFX\M16_Sweetener_02_10C4C929.wem</Path>
+						</File>
+						<File Id="519667154" Language="SFX">
+							<ShortName>M16_DIstant_05.wav</ShortName>
+							<Path>SFX\M16_DIstant_05_10C4C929.wem</Path>
+						</File>
+						<File Id="591657610" Language="SFX">
+							<ShortName>M16_Medium_03.wav</ShortName>
+							<Path>SFX\M16_Medium_03_8C94C970.wem</Path>
+						</File>
+						<File Id="592096810" Language="SFX">
+							<ShortName>M16_Medium_02.wav</ShortName>
+							<Path>SFX\M16_Medium_02_5F8F853C.wem</Path>
+						</File>
+						<File Id="615698845" Language="SFX">
+							<ShortName>M16_Close_01.wav</ShortName>
+							<Path>SFX\M16_Close_01_10C4C929.wem</Path>
+						</File>
+						<File Id="621181877" Language="SFX">
+							<ShortName>M16_Tail_06.wav</ShortName>
+							<Path>SFX\M16_Tail_06_28E93957.wem</Path>
+						</File>
+						<File Id="628929571" Language="SFX">
+							<ShortName>M16_Sweetener_05.wav</ShortName>
+							<Path>SFX\M16_Sweetener_05_10C4C929.wem</Path>
+						</File>
+						<File Id="638900480" Language="SFX">
+							<ShortName>M16_Sweetener_04.wav</ShortName>
+							<Path>SFX\M16_Sweetener_04_10C4C929.wem</Path>
+						</File>
+						<File Id="660038350" Language="SFX">
+							<ShortName>M16_Attach_01.wav</ShortName>
+							<Path>SFX\M16_Attach_01_10C4C929.wem</Path>
+						</File>
+						<File Id="697130329" Language="SFX">
+							<ShortName>M16_DIstant_06.wav</ShortName>
+							<Path>SFX\M16_DIstant_06_10C4C929.wem</Path>
+						</File>
+						<File Id="764864737" Language="SFX">
+							<ShortName>M16_Mech_03.wav</ShortName>
+							<Path>SFX\M16_Mech_03_10C4C929.wem</Path>
+						</File>
+						<File Id="783391246" Language="SFX">
+							<ShortName>M16_Tail_03.wav</ShortName>
+							<Path>SFX\M16_Tail_03_D23C20AD.wem</Path>
+						</File>
+						<File Id="787304945" Language="SFX">
+							<ShortName>M16_Medium_01.wav</ShortName>
+							<Path>SFX\M16_Medium_01_A26FBD36.wem</Path>
+						</File>
+						<File Id="789019507" Language="SFX">
+							<ShortName>M16_Attach_06.wav</ShortName>
+							<Path>SFX\M16_Attach_06_10C4C929.wem</Path>
+						</File>
+						<File Id="821546890" Language="SFX">
+							<ShortName>M16_Attach_03.wav</ShortName>
+							<Path>SFX\M16_Attach_03_10C4C929.wem</Path>
+						</File>
+						<File Id="859452220" Language="SFX">
+							<ShortName>M16_Sweetener_06.wav</ShortName>
+							<Path>SFX\M16_Sweetener_06_10C4C929.wem</Path>
+						</File>
+						<File Id="984330360" Language="SFX">
+							<ShortName>M16_Close_06.wav</ShortName>
+							<Path>SFX\M16_Close_06_10C4C929.wem</Path>
+						</File>
+						<File Id="985291588" Language="SFX">
+							<ShortName>M16_Punch.wav</ShortName>
+							<Path>SFX\M16_Punch_10C4C929.wem</Path>
+						</File>
+						<File Id="1031864296" Language="SFX">
+							<ShortName>M16_Close_05.wav</ShortName>
+							<Path>SFX\M16_Close_05_10C4C929.wem</Path>
+						</File>
+						<File Id="1043917528" Language="SFX">
+							<ShortName>M16_Mech_02.wav</ShortName>
+							<Path>SFX\M16_Mech_02_10C4C929.wem</Path>
+						</File>
+						<File Id="1047038540" Language="SFX">
+							<ShortName>M16_Sweetener_03.wav</ShortName>
+							<Path>SFX\M16_Sweetener_03_10C4C929.wem</Path>
+						</File>
+						<File Id="1047231331" Language="SFX">
+							<ShortName>M16_Tail_04.wav</ShortName>
+							<Path>SFX\M16_Tail_04_2AB21F05.wem</Path>
+						</File>
+						<File Id="1047308248" Language="SFX">
+							<ShortName>M16_Close_02.wav</ShortName>
+							<Path>SFX\M16_Close_02_10C4C929.wem</Path>
+						</File>
+						<File Id="1063005880" Language="SFX">
+							<ShortName>M16_DIstant_02.wav</ShortName>
+							<Path>SFX\M16_DIstant_02_10C4C929.wem</Path>
+						</File>
+						<File Id="1068320529" Language="SFX">
+							<ShortName>M16_Mech_06.wav</ShortName>
+							<Path>SFX\M16_Mech_06_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="138649341" Name="M16_Reload" ObjectPath="\Events\Default Work Unit\M16_Reload" DurationType="OneShot" DurationMin="3.567302" DurationMax="3.567302">
+					<IncludedMemoryFiles>
+						<File Id="892748489" Language="SFX">
+							<ShortName>M16_Reload 4.wav</ShortName>
+							<Path>SFX\M16_Reload 4_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="665452126" Name="M16_Start" ObjectPath="\Events\Default Work Unit\M16_Start" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="1021136" Language="SFX">
+							<ShortName>M16_Attach_02.wav</ShortName>
+							<Path>SFX\M16_Attach_02_10C4C929.wem</Path>
+						</File>
+						<File Id="3356785" Language="SFX">
+							<ShortName>M16_Medium_06.wav</ShortName>
+							<Path>SFX\M16_Medium_06_A33F95CD.wem</Path>
+						</File>
+						<File Id="48970429" Language="SFX">
+							<ShortName>M16_Medium_04.wav</ShortName>
+							<Path>SFX\M16_Medium_04_C6275201.wem</Path>
+						</File>
+						<File Id="58063456" Language="SFX">
+							<ShortName>M16_Close_04.wav</ShortName>
+							<Path>SFX\M16_Close_04_10C4C929.wem</Path>
+						</File>
+						<File Id="73194035" Language="SFX">
+							<ShortName>M16_Attach_05.wav</ShortName>
+							<Path>SFX\M16_Attach_05_10C4C929.wem</Path>
+						</File>
+						<File Id="98720899" Language="SFX">
+							<ShortName>M16_DIstant_04.wav</ShortName>
+							<Path>SFX\M16_DIstant_04_10C4C929.wem</Path>
+						</File>
+						<File Id="137649581" Language="SFX">
+							<ShortName>M16_Tail_05.wav</ShortName>
+							<Path>SFX\M16_Tail_05_ECD55FEB.wem</Path>
+						</File>
+						<File Id="145173722" Language="SFX">
+							<ShortName>M16_Attach_04.wav</ShortName>
+							<Path>SFX\M16_Attach_04_10C4C929.wem</Path>
+						</File>
+						<File Id="172022112" Language="SFX">
+							<ShortName>M16_Tail_01.wav</ShortName>
+							<Path>SFX\M16_Tail_01_E0943201.wem</Path>
+						</File>
+						<File Id="175649977" Language="SFX">
+							<ShortName>M16_Mech_05.wav</ShortName>
+							<Path>SFX\M16_Mech_05_10C4C929.wem</Path>
+						</File>
+						<File Id="243958753" Language="SFX">
+							<ShortName>M16_Mech_04.wav</ShortName>
+							<Path>SFX\M16_Mech_04_10C4C929.wem</Path>
+						</File>
+						<File Id="256159188" Language="SFX">
+							<ShortName>M16_DIstant_01.wav</ShortName>
+							<Path>SFX\M16_DIstant_01_10C4C929.wem</Path>
+						</File>
+						<File Id="268936036" Language="SFX">
+							<ShortName>M16_Sweetener_01.wav</ShortName>
+							<Path>SFX\M16_Sweetener_01_10C4C929.wem</Path>
+						</File>
+						<File Id="422445694" Language="SFX">
+							<ShortName>M16_Tail_02.wav</ShortName>
+							<Path>SFX\M16_Tail_02_79222311.wem</Path>
+						</File>
+						<File Id="440537833" Language="SFX">
+							<ShortName>M16_Close_03.wav</ShortName>
+							<Path>SFX\M16_Close_03_10C4C929.wem</Path>
+						</File>
+						<File Id="458739031" Language="SFX">
+							<ShortName>M16_Medium_05.wav</ShortName>
+							<Path>SFX\M16_Medium_05_06B5232E.wem</Path>
+						</File>
+						<File Id="489843739" Language="SFX">
+							<ShortName>M16_Mech_01.wav</ShortName>
+							<Path>SFX\M16_Mech_01_10C4C929.wem</Path>
+						</File>
+						<File Id="492217258" Language="SFX">
+							<ShortName>M16_DIstant_03.wav</ShortName>
+							<Path>SFX\M16_DIstant_03_10C4C929.wem</Path>
+						</File>
+						<File Id="510817244" Language="SFX">
+							<ShortName>M16_Sweetener_02.wav</ShortName>
+							<Path>SFX\M16_Sweetener_02_10C4C929.wem</Path>
+						</File>
+						<File Id="519667154" Language="SFX">
+							<ShortName>M16_DIstant_05.wav</ShortName>
+							<Path>SFX\M16_DIstant_05_10C4C929.wem</Path>
+						</File>
+						<File Id="591657610" Language="SFX">
+							<ShortName>M16_Medium_03.wav</ShortName>
+							<Path>SFX\M16_Medium_03_8C94C970.wem</Path>
+						</File>
+						<File Id="592096810" Language="SFX">
+							<ShortName>M16_Medium_02.wav</ShortName>
+							<Path>SFX\M16_Medium_02_5F8F853C.wem</Path>
+						</File>
+						<File Id="615698845" Language="SFX">
+							<ShortName>M16_Close_01.wav</ShortName>
+							<Path>SFX\M16_Close_01_10C4C929.wem</Path>
+						</File>
+						<File Id="621181877" Language="SFX">
+							<ShortName>M16_Tail_06.wav</ShortName>
+							<Path>SFX\M16_Tail_06_28E93957.wem</Path>
+						</File>
+						<File Id="628929571" Language="SFX">
+							<ShortName>M16_Sweetener_05.wav</ShortName>
+							<Path>SFX\M16_Sweetener_05_10C4C929.wem</Path>
+						</File>
+						<File Id="638900480" Language="SFX">
+							<ShortName>M16_Sweetener_04.wav</ShortName>
+							<Path>SFX\M16_Sweetener_04_10C4C929.wem</Path>
+						</File>
+						<File Id="660038350" Language="SFX">
+							<ShortName>M16_Attach_01.wav</ShortName>
+							<Path>SFX\M16_Attach_01_10C4C929.wem</Path>
+						</File>
+						<File Id="697130329" Language="SFX">
+							<ShortName>M16_DIstant_06.wav</ShortName>
+							<Path>SFX\M16_DIstant_06_10C4C929.wem</Path>
+						</File>
+						<File Id="764864737" Language="SFX">
+							<ShortName>M16_Mech_03.wav</ShortName>
+							<Path>SFX\M16_Mech_03_10C4C929.wem</Path>
+						</File>
+						<File Id="783391246" Language="SFX">
+							<ShortName>M16_Tail_03.wav</ShortName>
+							<Path>SFX\M16_Tail_03_D23C20AD.wem</Path>
+						</File>
+						<File Id="787304945" Language="SFX">
+							<ShortName>M16_Medium_01.wav</ShortName>
+							<Path>SFX\M16_Medium_01_A26FBD36.wem</Path>
+						</File>
+						<File Id="789019507" Language="SFX">
+							<ShortName>M16_Attach_06.wav</ShortName>
+							<Path>SFX\M16_Attach_06_10C4C929.wem</Path>
+						</File>
+						<File Id="821546890" Language="SFX">
+							<ShortName>M16_Attach_03.wav</ShortName>
+							<Path>SFX\M16_Attach_03_10C4C929.wem</Path>
+						</File>
+						<File Id="859452220" Language="SFX">
+							<ShortName>M16_Sweetener_06.wav</ShortName>
+							<Path>SFX\M16_Sweetener_06_10C4C929.wem</Path>
+						</File>
+						<File Id="984330360" Language="SFX">
+							<ShortName>M16_Close_06.wav</ShortName>
+							<Path>SFX\M16_Close_06_10C4C929.wem</Path>
+						</File>
+						<File Id="985291588" Language="SFX">
+							<ShortName>M16_Punch.wav</ShortName>
+							<Path>SFX\M16_Punch_10C4C929.wem</Path>
+						</File>
+						<File Id="1031864296" Language="SFX">
+							<ShortName>M16_Close_05.wav</ShortName>
+							<Path>SFX\M16_Close_05_10C4C929.wem</Path>
+						</File>
+						<File Id="1043917528" Language="SFX">
+							<ShortName>M16_Mech_02.wav</ShortName>
+							<Path>SFX\M16_Mech_02_10C4C929.wem</Path>
+						</File>
+						<File Id="1047038540" Language="SFX">
+							<ShortName>M16_Sweetener_03.wav</ShortName>
+							<Path>SFX\M16_Sweetener_03_10C4C929.wem</Path>
+						</File>
+						<File Id="1047231331" Language="SFX">
+							<ShortName>M16_Tail_04.wav</ShortName>
+							<Path>SFX\M16_Tail_04_2AB21F05.wem</Path>
+						</File>
+						<File Id="1047308248" Language="SFX">
+							<ShortName>M16_Close_02.wav</ShortName>
+							<Path>SFX\M16_Close_02_10C4C929.wem</Path>
+						</File>
+						<File Id="1063005880" Language="SFX">
+							<ShortName>M16_DIstant_02.wav</ShortName>
+							<Path>SFX\M16_DIstant_02_10C4C929.wem</Path>
+						</File>
+						<File Id="1068320529" Language="SFX">
+							<ShortName>M16_Mech_06.wav</ShortName>
+							<Path>SFX\M16_Mech_06_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3305641214" Name="M16_Stop" ObjectPath="\Events\Default Work Unit\M16_Stop" DurationType="OneShot" DurationMin="2.772636" DurationMax="4.584208">
+					<IncludedMemoryFiles>
+						<File Id="1021136" Language="SFX">
+							<ShortName>M16_Attach_02.wav</ShortName>
+							<Path>SFX\M16_Attach_02_10C4C929.wem</Path>
+						</File>
+						<File Id="3356785" Language="SFX">
+							<ShortName>M16_Medium_06.wav</ShortName>
+							<Path>SFX\M16_Medium_06_A33F95CD.wem</Path>
+						</File>
+						<File Id="48970429" Language="SFX">
+							<ShortName>M16_Medium_04.wav</ShortName>
+							<Path>SFX\M16_Medium_04_C6275201.wem</Path>
+						</File>
+						<File Id="58063456" Language="SFX">
+							<ShortName>M16_Close_04.wav</ShortName>
+							<Path>SFX\M16_Close_04_10C4C929.wem</Path>
+						</File>
+						<File Id="73194035" Language="SFX">
+							<ShortName>M16_Attach_05.wav</ShortName>
+							<Path>SFX\M16_Attach_05_10C4C929.wem</Path>
+						</File>
+						<File Id="98720899" Language="SFX">
+							<ShortName>M16_DIstant_04.wav</ShortName>
+							<Path>SFX\M16_DIstant_04_10C4C929.wem</Path>
+						</File>
+						<File Id="137649581" Language="SFX">
+							<ShortName>M16_Tail_05.wav</ShortName>
+							<Path>SFX\M16_Tail_05_ECD55FEB.wem</Path>
+						</File>
+						<File Id="145173722" Language="SFX">
+							<ShortName>M16_Attach_04.wav</ShortName>
+							<Path>SFX\M16_Attach_04_10C4C929.wem</Path>
+						</File>
+						<File Id="172022112" Language="SFX">
+							<ShortName>M16_Tail_01.wav</ShortName>
+							<Path>SFX\M16_Tail_01_E0943201.wem</Path>
+						</File>
+						<File Id="175649977" Language="SFX">
+							<ShortName>M16_Mech_05.wav</ShortName>
+							<Path>SFX\M16_Mech_05_10C4C929.wem</Path>
+						</File>
+						<File Id="243958753" Language="SFX">
+							<ShortName>M16_Mech_04.wav</ShortName>
+							<Path>SFX\M16_Mech_04_10C4C929.wem</Path>
+						</File>
+						<File Id="256159188" Language="SFX">
+							<ShortName>M16_DIstant_01.wav</ShortName>
+							<Path>SFX\M16_DIstant_01_10C4C929.wem</Path>
+						</File>
+						<File Id="268936036" Language="SFX">
+							<ShortName>M16_Sweetener_01.wav</ShortName>
+							<Path>SFX\M16_Sweetener_01_10C4C929.wem</Path>
+						</File>
+						<File Id="422445694" Language="SFX">
+							<ShortName>M16_Tail_02.wav</ShortName>
+							<Path>SFX\M16_Tail_02_79222311.wem</Path>
+						</File>
+						<File Id="440537833" Language="SFX">
+							<ShortName>M16_Close_03.wav</ShortName>
+							<Path>SFX\M16_Close_03_10C4C929.wem</Path>
+						</File>
+						<File Id="458739031" Language="SFX">
+							<ShortName>M16_Medium_05.wav</ShortName>
+							<Path>SFX\M16_Medium_05_06B5232E.wem</Path>
+						</File>
+						<File Id="489843739" Language="SFX">
+							<ShortName>M16_Mech_01.wav</ShortName>
+							<Path>SFX\M16_Mech_01_10C4C929.wem</Path>
+						</File>
+						<File Id="492217258" Language="SFX">
+							<ShortName>M16_DIstant_03.wav</ShortName>
+							<Path>SFX\M16_DIstant_03_10C4C929.wem</Path>
+						</File>
+						<File Id="510817244" Language="SFX">
+							<ShortName>M16_Sweetener_02.wav</ShortName>
+							<Path>SFX\M16_Sweetener_02_10C4C929.wem</Path>
+						</File>
+						<File Id="519667154" Language="SFX">
+							<ShortName>M16_DIstant_05.wav</ShortName>
+							<Path>SFX\M16_DIstant_05_10C4C929.wem</Path>
+						</File>
+						<File Id="591657610" Language="SFX">
+							<ShortName>M16_Medium_03.wav</ShortName>
+							<Path>SFX\M16_Medium_03_8C94C970.wem</Path>
+						</File>
+						<File Id="592096810" Language="SFX">
+							<ShortName>M16_Medium_02.wav</ShortName>
+							<Path>SFX\M16_Medium_02_5F8F853C.wem</Path>
+						</File>
+						<File Id="615698845" Language="SFX">
+							<ShortName>M16_Close_01.wav</ShortName>
+							<Path>SFX\M16_Close_01_10C4C929.wem</Path>
+						</File>
+						<File Id="621181877" Language="SFX">
+							<ShortName>M16_Tail_06.wav</ShortName>
+							<Path>SFX\M16_Tail_06_28E93957.wem</Path>
+						</File>
+						<File Id="628929571" Language="SFX">
+							<ShortName>M16_Sweetener_05.wav</ShortName>
+							<Path>SFX\M16_Sweetener_05_10C4C929.wem</Path>
+						</File>
+						<File Id="638900480" Language="SFX">
+							<ShortName>M16_Sweetener_04.wav</ShortName>
+							<Path>SFX\M16_Sweetener_04_10C4C929.wem</Path>
+						</File>
+						<File Id="660038350" Language="SFX">
+							<ShortName>M16_Attach_01.wav</ShortName>
+							<Path>SFX\M16_Attach_01_10C4C929.wem</Path>
+						</File>
+						<File Id="697130329" Language="SFX">
+							<ShortName>M16_DIstant_06.wav</ShortName>
+							<Path>SFX\M16_DIstant_06_10C4C929.wem</Path>
+						</File>
+						<File Id="764864737" Language="SFX">
+							<ShortName>M16_Mech_03.wav</ShortName>
+							<Path>SFX\M16_Mech_03_10C4C929.wem</Path>
+						</File>
+						<File Id="783391246" Language="SFX">
+							<ShortName>M16_Tail_03.wav</ShortName>
+							<Path>SFX\M16_Tail_03_D23C20AD.wem</Path>
+						</File>
+						<File Id="787304945" Language="SFX">
+							<ShortName>M16_Medium_01.wav</ShortName>
+							<Path>SFX\M16_Medium_01_A26FBD36.wem</Path>
+						</File>
+						<File Id="789019507" Language="SFX">
+							<ShortName>M16_Attach_06.wav</ShortName>
+							<Path>SFX\M16_Attach_06_10C4C929.wem</Path>
+						</File>
+						<File Id="821546890" Language="SFX">
+							<ShortName>M16_Attach_03.wav</ShortName>
+							<Path>SFX\M16_Attach_03_10C4C929.wem</Path>
+						</File>
+						<File Id="859452220" Language="SFX">
+							<ShortName>M16_Sweetener_06.wav</ShortName>
+							<Path>SFX\M16_Sweetener_06_10C4C929.wem</Path>
+						</File>
+						<File Id="984330360" Language="SFX">
+							<ShortName>M16_Close_06.wav</ShortName>
+							<Path>SFX\M16_Close_06_10C4C929.wem</Path>
+						</File>
+						<File Id="985291588" Language="SFX">
+							<ShortName>M16_Punch.wav</ShortName>
+							<Path>SFX\M16_Punch_10C4C929.wem</Path>
+						</File>
+						<File Id="1031864296" Language="SFX">
+							<ShortName>M16_Close_05.wav</ShortName>
+							<Path>SFX\M16_Close_05_10C4C929.wem</Path>
+						</File>
+						<File Id="1043917528" Language="SFX">
+							<ShortName>M16_Mech_02.wav</ShortName>
+							<Path>SFX\M16_Mech_02_10C4C929.wem</Path>
+						</File>
+						<File Id="1047038540" Language="SFX">
+							<ShortName>M16_Sweetener_03.wav</ShortName>
+							<Path>SFX\M16_Sweetener_03_10C4C929.wem</Path>
+						</File>
+						<File Id="1047231331" Language="SFX">
+							<ShortName>M16_Tail_04.wav</ShortName>
+							<Path>SFX\M16_Tail_04_2AB21F05.wem</Path>
+						</File>
+						<File Id="1047308248" Language="SFX">
+							<ShortName>M16_Close_02.wav</ShortName>
+							<Path>SFX\M16_Close_02_10C4C929.wem</Path>
+						</File>
+						<File Id="1063005880" Language="SFX">
+							<ShortName>M16_DIstant_02.wav</ShortName>
+							<Path>SFX\M16_DIstant_02_10C4C929.wem</Path>
+						</File>
+						<File Id="1068320529" Language="SFX">
+							<ShortName>M16_Mech_06.wav</ShortName>
+							<Path>SFX\M16_Mech_06_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3770368349" Name="Pistol_Oneshot" ObjectPath="\Events\Default Work Unit\Pistol_Oneshot" DurationType="OneShot" DurationMin="2.407744" DurationMax="2.826462">
+					<IncludedMemoryFiles>
+						<File Id="179150240" Language="SFX">
+							<ShortName>AWDS PI AK 47 Draco Pistol Close Single 3.wav</ShortName>
+							<Path>SFX\AWDS PI AK 47 Draco Pistol Close Single 3_1AA29410.wem</Path>
+						</File>
+						<File Id="433518980" Language="SFX">
+							<ShortName>AWDS PI AK 47 Draco Pistol Close Single.wav</ShortName>
+							<Path>SFX\AWDS PI AK 47 Draco Pistol Close Single_F5C81F32.wem</Path>
+						</File>
+						<File Id="664323468" Language="SFX">
+							<ShortName>AWDS PI AK 47 Draco Pistol Close Single 2.wav</ShortName>
+							<Path>SFX\AWDS PI AK 47 Draco Pistol Close Single 2_F881B536.wem</Path>
+						</File>
+						<File Id="1010514057" Language="SFX">
+							<ShortName>AWDS PI AK 47 Draco Pistol Close Single 1.wav</ShortName>
+							<Path>SFX\AWDS PI AK 47 Draco Pistol Close Single 1_4D7445F2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1068215004" Name="Pistol_Reload" ObjectPath="\Events\Default Work Unit\Pistol_Reload" DurationType="OneShot" DurationMin="2.171792" DurationMax="2.171792">
+					<IncludedMemoryFiles>
+						<File Id="413538543" Language="SFX">
+							<ShortName>Guns, Handle, Reload, Pistol Foley SND50600.wav</ShortName>
+							<Path>SFX\Guns, Handle, Reload, Pistol Foley SND50600_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="262290038" Name="RTPC_Distance" ObjectPath="\Game Parameters\Default Work Unit\RTPC_Distance"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
